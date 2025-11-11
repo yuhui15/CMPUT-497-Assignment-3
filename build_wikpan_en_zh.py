@@ -187,9 +187,6 @@ def build_dictionary():
         for en_word in sorted(en2zh.keys()):
             wr.writerow([en_word, " ".join(sorted(en2zh[en_word]))])
 
-    with open(CACHE_JSON, "w", encoding="utf-8") as f:
-        json.dump(cache, f, ensure_ascii=False, indent=2)
-
     print(f"[OK] Dictionary generated → {OUT_TSV}")
 
 # ========= Run ==========
