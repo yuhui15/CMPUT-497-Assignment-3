@@ -8,4 +8,5 @@ python -m spacy download ro_core_news_lg
 python -m spacy download zh_core_web_lg
 python -m spacy download xx_ent_wiki_sm
 pip install pandarallel
+pip install simalign
 ```
