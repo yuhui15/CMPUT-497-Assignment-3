@@ -6,15 +6,14 @@ from pathlib import Path
 # =======================
 # CONFIG: EDIT AS NEEDED
 # =======================
-
 CONFIG = {
     # Path to the ExpandNet repo (contains expandnet_step*.py & eval_release.py)
     "REPO_DIR": "ExpandNet",
 
     # Data files (defaults mirror the examples you provided)
-    "SRC_XML": "xlwsd_se13.xml",       # Step1 input XML
-    "SRC_GOLD": "se13.key.txt",        # Step3 source gold (english BabelNet keys)
-    "DICT_TSV": "ExpandNet/res/dicts/wikpan-en-es.tsv",   # DBAlign dictionary (change to your target)
+    "SRC_XML": "res/data/xlwsd_se13.xml",       # Step1 input XML
+    "SRC_GOLD": "res/data/se13.key.txt",        # Step3 source gold (english BabelNet keys)
+    "DICT_TSV": "res/dicts/wikpan-en-es.tsv",   # DBAlign dictionary (change to your target)
     "EVAL_GOLD": None,                          # Optional: target-language gold, e.g., res/data/se_gold_es.tsv
 
     # Language codes
