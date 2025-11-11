@@ -18,7 +18,7 @@ CONFIG = {
 
     # Language codes
     "LANG_SRC": "en",
-    "LANG_TGT": "es",                           # change to your target language (e.g., "zh", "fr", "ro")
+    "LANG_TGT": "zh",                           # change to your target language (e.g., "zh", "fr", "ro")
 
     # Aligner: "dbalign" or "simalign"
     "ALIGNER": "dbalign",
@@ -30,7 +30,7 @@ CONFIG = {
     "PY_EXE": sys.executable,
 
     # If you already have a translation TSV, set this path to skip Step1; else keep as None
-    "TRANSLATION_TSV": None,  # e.g., "work_es/expandnet_step1_translate.out.tsv"
+    "TRANSLATION_TSV": None, 
 }
 
 # ============== helpers ==============
