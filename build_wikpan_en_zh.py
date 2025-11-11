@@ -20,7 +20,7 @@ CACHE_JSON  = "wikpan_cache.json"       # caching
 LOCAL_MODEL_ID = os.getenv("LOCAL_MISTRAL_ID", "mistralai/Mistral-7B-Instruct-v0.2")
 
 # Generation defaults: keep short to bias the model to output a single token/word
-MAX_NEW_TOKENS = 3
+MAX_NEW_TOKENS = 5
 TEMPERATURE    = 0.0
 TOP_P          = 1.0
 REPETITION_PEN = 1.05  # light penalty helps avoid echoing prompt text
@@ -50,6 +50,29 @@ CEDICT_LINE_RE = re.compile(r"""
       /(?P<defs>.+)/\s*$
 """, re.X)
 
+def clean_token(raw: str) -> str:
+    """
+    Keep only allowed chars [a-z0-9-_].
+    Truncate at the first disallowed character.
+    Lowercase everything.
+    """
+    if not raw:
+        return ""
+
+    raw = raw.lower().strip()
+
+    allowed = set("abcdefghijklmnopqrstuvwxyz0123456789-_")
+
+    out = []
+    for ch in raw:
+        if ch in allowed:
+            out.append(ch)
+        else:
+            break  # stop at first disallowed character
+
+    return "".join(out)
+
+
 def parse_cedict(path: str) -> Dict[str, List[str]]:
     """
     Parse CC-CEDICT into dict: zh_simplified -> list of English glosses.
@@ -72,19 +95,7 @@ def parse_cedict(path: str) -> Dict[str, List[str]]:
 
 # ========= Normalization ==========
 def normalize_en_word(text: str) -> str:
-    """
-    Convert model output into one valid lowercase English lemma:
-      - lowercase
-      - strip non [a-z] to spaces
-      - take the first resulting token
-    """
-    if not text:
-        return ""
-    t = text.lower()
-    t = re.sub(r"[^a-z]+", " ", t).strip()
-    if not t:
-        return ""
-    return t.split()[0]
+    return clean_token(text)
 
 def normalize_zh(text: str) -> str:
     """
