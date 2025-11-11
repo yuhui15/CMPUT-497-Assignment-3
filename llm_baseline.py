@@ -12,7 +12,7 @@ import nltk
 # ============== User-configurable paths ==============
 PATH_BN   = "se13.key.txt"                     # d000.s000.t000 <TAB> bn:00041942n
 PATH_WN   = "semeval2013.key.WNversion.txt"   # d000.s000.t000 <TAB> group%1:03:00::
-OUT_TSV   = "LLM_zh_BN.tsv"                   # BN-evaluable baseline file (line-by-line)
+OUT_TSV   = "LLM_zh.tsv"                   # BN-evaluable baseline file (line-by-line)
 CACHE_JSON = "llm_cache.json"                 # {wn_synset_name: chinese_lemma}
 TARGET_LANGUAGE = "simplified Chinese"
 
@@ -232,13 +232,6 @@ def main():
             print(f"{bn_id}\t{zh_lemma}", flush=True)
 
             done += 1
-
-    # Save cache
-    try:
-        with open(CACHE_JSON, "w", encoding="utf-8") as f:
-            json.dump(cache, f, ensure_ascii=False, indent=2)
-    except Exception:
-        pass
 
     print(f"✅ Done. Wrote BN-evaluable baseline (line-by-line) to: {OUT_TSV}")
 
