@@ -213,10 +213,10 @@ def build_dictionary():
                 top_p=TOP_P
             )
             cache[zh] = raw
-            print(raw)
 
         en_word = normalize_en_word(raw)
         zh_word = normalize_zh(zh)
+        print(en_word,zh_word)
 
         if not en_word:
             continue
