@@ -18,13 +18,13 @@ CACHE_JSON = "llm_cache.json"                 # {wn_synset_name: chinese_lemma}
 # ============== Mistral API config ==============
 API_KEY = os.getenv("MISTRAL_API_KEY", "AIVUFuS9Js7QkBJ3RufabHlrKgeNUR4a")  # set env var or replace
 MISTRAL_MODEL = "open-mistral-7b"             # try "mistral-small-latest" if needed
-SLEEP_EACH_SEC = 1.0                           # 1 req/sec
+SLEEP_EACH_SEC = 0.1                           # 1 req/sec
 
 # ============== LLM Prompt config ==============
 INSTRUCTION = (
     "You are a bilingual lexicon expert. Given an English WordNet gloss that "
     "defines a specific sense (synset), output EXACTLY ONE Chinese lemma that "
-    "best matches this definition. Output only a Chinese word without pinyin. "
+    "best matches this definition. Output only a simplified Chinese word. "
     "Do not output quotes, punctuation, examples, or explanations."
 )
 
@@ -164,6 +164,8 @@ def normalize_zh_lemma(text: str) -> str:
     text = text.strip(" \t\"'`[](){}，。；、：:,.")
     text = re.sub(r"\s+", " ", text)
     text = text.replace(" ", "_")
+    if "_" in text:
+        text = text.split("_", 1)[0]
     return text[:64]
 
 # ============== Main (line-by-line pairing) ==============
@@ -206,6 +208,7 @@ def main():
                 lemma = wn.lemma_from_key(wn_key)
                 wn_syn = lemma.synset().name()  # e.g., 'group.n.01'
                 gloss = lemma.synset().definition()
+                print(gloss)
             except Exception:
                 continue
 
@@ -229,8 +232,6 @@ def main():
             print(f"{bn_id}\t{zh_lemma}", flush=True)
 
             done += 1
-            if done % 50 == 0:
-                print(f"[{done}] inst={inst} wn={wn_syn} bn={bn_id} :: {zh_lemma}")
 
     # Save cache
     try:
