@@ -52,25 +52,26 @@ CEDICT_LINE_RE = re.compile(r"""
 
 def clean_token(raw: str) -> str:
     """
-    Keep only allowed chars [a-z0-9-_].
-    Truncate at the first disallowed character.
-    Lowercase everything.
+    Keep characters until the first illegal symbol.
+    Illegal symbol = any char NOT in [A-Za-z0-9-_].
+
+    If the first char is illegal -> return empty string.
     """
     if not raw:
         return ""
 
-    raw = raw.lower().strip()
+    raw = raw.strip().lower()
 
     allowed = set("abcdefghijklmnopqrstuvwxyz0123456789-_")
+    result = []
 
-    out = []
     for ch in raw:
         if ch in allowed:
-            out.append(ch)
+            result.append(ch)
         else:
-            break  # stop at first disallowed character
+            break  # stop at first invalid symbol
 
-    return "".join(out)
+    return "".join(result)
 
 
 def parse_cedict(path: str) -> Dict[str, List[str]]:
