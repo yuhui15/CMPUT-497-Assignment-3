@@ -20,7 +20,7 @@ CACHE_JSON  = "wikpan_cache.json"       # caching
 LOCAL_MODEL_ID = os.getenv("LOCAL_MISTRAL_ID", "mistralai/Mistral-7B-Instruct-v0.2")
 
 # Generation defaults: keep short to bias the model to output a single token/word
-MAX_NEW_TOKENS = 1
+MAX_NEW_TOKENS = 3
 TEMPERATURE    = 0.0
 TOP_P          = 1.0
 REPETITION_PEN = 1.05  # light penalty helps avoid echoing prompt text
