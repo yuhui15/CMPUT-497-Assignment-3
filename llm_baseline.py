@@ -14,6 +14,7 @@ PATH_BN   = "se13.key.txt"                     # d000.s000.t000 <TAB> bn:0004194
 PATH_WN   = "semeval2013.key.WNversion.txt"   # d000.s000.t000 <TAB> group%1:03:00::
 OUT_TSV   = "LLM_zh_BN.tsv"                   # BN-evaluable baseline file (line-by-line)
 CACHE_JSON = "llm_cache.json"                 # {wn_synset_name: chinese_lemma}
+TARGET_LANGUAGE = "simplified Chinese"
 
 # ============== Mistral API config ==============
 API_KEY = os.getenv("MISTRAL_API_KEY", "AIVUFuS9Js7QkBJ3RufabHlrKgeNUR4a")  # set env var or replace
@@ -22,10 +23,9 @@ SLEEP_EACH_SEC = 0.1                           # 1 req/sec
 
 # ============== LLM Prompt config ==============
 INSTRUCTION = (
-    "You are a bilingual lexicon expert. Given an English WordNet gloss that "
-    "defines a specific sense (synset), output EXACTLY ONE Chinese lemma that "
-    "best matches this definition. Output only a simplified Chinese word. "
-    "Do not output quotes, punctuation, examples, or explanations."
+"You are a bilingual lexicon expert."
+"Given a dictionary definition, produce the single word in {TARGET_LANGUAGE} that best matches this definition."
+"Provide only the {TARGET_LANGUAGE} word without explanations!"
 )
 
 USER_PROMPT_TEMPLATE = (
@@ -217,7 +217,7 @@ def main():
                 zh_lemma = cache[wn_syn]
             else:
                 prompt = build_full_prompt(gloss)
-                raw = api.generate(prompt, temperature=0.0, top_p=1.0, max_tokens=16)
+                raw = api.generate(prompt, temperature=0.0, top_p=1.0, max_tokens=10)
                 zh_lemma = normalize_zh_lemma(raw)
                 cache[wn_syn] = zh_lemma
                 time.sleep(SLEEP_EACH_SEC)
