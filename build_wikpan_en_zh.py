@@ -201,7 +201,7 @@ def build_dictionary():
                 top_p=TOP_P
             )
             cache[zh] = raw
-            time.sleep(SLEEP_EACH_SEC)
+            print(raw)
 
         en_word = normalize_en_word(raw)
         zh_word = normalize_zh(zh)
