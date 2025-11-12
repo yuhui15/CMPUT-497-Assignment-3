@@ -1,0 +1,27 @@
+Gold file: ExpandNet/res/data/se_gold_zh.tsv
+Eval file: expandnet_step3_project.out.tsv
+Core synsets: ExpandNet/dependencies/corebnout.txt
+
+Loading gold standard...
+Loading evaluation data...
+Loading core synsets...
+
+Source synsets to cover: 777
+Senses to evaluate:      382
+Synsets covered:         351
+
+
+SENSE   correct_senses:      283
+SENSE   num_senses_for_eval: 382
+SENSE   total_senses:        4695
+SENSE   PRECISION       74.1
+SENSE   RECALL  6.0
+SENSE   F1      11.1
+
+SYNSET  num_synsets_with_correct_sense: 265
+SYNSET  num_senses_covered:             351
+SYNSET  num_synsets_in_gold:            777
+SYNSET  PRECISION       75.5
+SYNSET  RECALL  34.1
+SYNSET  F1      47.0
+SYNSET  CORE COVERAGE   3.6
