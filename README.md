@@ -10,4 +10,5 @@ python -m spacy download xx_ent_wiki_sm
 pip install pandarallel
 pip install sacremoses
 pip install simalign
+python ExpandNet/eval_release.py ExpandNet/res/data/se_gold_zh.tsv  expandnet_step3_project.out.tsv
 ```
