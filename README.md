@@ -11,4 +11,5 @@ pip install pandarallel
 pip install sacremoses
 pip install simalign
 python ExpandNet/eval_release.py ExpandNet/res/data/se_gold_zh.tsv  expandnet_step3_project.out.tsv
+python ExpandNet/eval_release.py ExpandNet/res/data/se_gold_zh.tsv LLM_zh.tsv
 ```
