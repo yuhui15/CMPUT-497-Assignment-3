@@ -1,0 +1,43 @@
+sentence_id	type	lemma	pos	raw_text	instance_id	target_token	same_meaning	translation_equivalents
+semeval2013.d000.s000	wf	u.n.	NOUN	U.N.	None			
+semeval2013.d000.s000	instance	group	NOUN	group	semeval2013.d000.s000.t000	Grupo	1	
+semeval2013.d000.s000	wf	draft	NOUN	drafts	None			
+semeval2013.d000.s000	instance	plan	NOUN	plan	semeval2013.d000.s000.t001	plan	1	
+semeval2013.d000.s000	wf	to	PRT	to	None			
+semeval2013.d000.s000	wf	reduce	VERB	reduce	None			
+semeval2013.d000.s000	instance	emission	NOUN	emissions	semeval2013.d000.s000.t002	emisión	1	
+semeval2013.d000.s001	wf	the	DET	The	None			
+semeval2013.d000.s001	wf	u.n.-sponsored	ADJ	U.N.-sponsored	None			
+semeval2013.d000.s001	instance	climate	NOUN	climate	semeval2013.d000.s001.t000	clima	1	
+semeval2013.d000.s001	instance	conference	NOUN	conference	semeval2013.d000.s001.t001	conferencia	1	
+semeval2013.d000.s001	wf	--	.	--	None			
+semeval2013.d000.s001	wf	characterize	VERB	characterized	None			
+semeval2013.d000.s001	wf	so	ADV	so	None			
+semeval2013.d000.s001	wf	far	ADV	far	None			
+semeval2013.d000.s001	wf	by	ADP	by	None			
+semeval2013.d000.s001	wf	unruly	ADJ	unruly	None			
+semeval2013.d000.s001	instance	posturing	NOUN	posturing	semeval2013.d000.s001.t002	postura	1	
+semeval2013.d000.s001	wf	and	CONJ	and	None			
+semeval2013.d000.s001	wf	mutual	ADJ	mutual	None			
+semeval2013.d000.s001	instance	recrimination	NOUN	recriminations	semeval2013.d000.s001.t003	recriminación	1	
+semeval2013.d000.s001	wf	--	.	--	None			
+semeval2013.d000.s001	wf	gain	VERB	gained	None			
+semeval2013.d000.s001	wf	renew	VERB	renewed	None			
+semeval2013.d000.s001	instance	focus	NOUN	focus	semeval2013.d000.s001.t004	centrar	0	1
+semeval2013.d000.s001	instance	friday	NOUN	Friday	semeval2013.d000.s001.t005	viernes	1	
+semeval2013.d000.s001	wf	with	ADP	with	None			
+semeval2013.d000.s001	wf	the	DET	the	None			
+semeval2013.d000.s001	instance	release	NOUN	release	semeval2013.d000.s001.t006	publicación	1	0
+semeval2013.d000.s001	wf	of	ADP	of	None			
+semeval2013.d000.s001	wf	a	DET	a	None			
+semeval2013.d000.s001	instance	document	NOUN	document	semeval2013.d000.s001.t007	documento	1	
+semeval2013.d000.s001	wf	outline	VERB	outlining	None			
+semeval2013.d000.s001	wf	ambitious	ADJ	ambitious	None			
+semeval2013.d000.s001	wf	greenhouse-gas	ADJ	greenhouse-gas	None			
+semeval2013.d000.s001	instance	reduction	NOUN	reductions	semeval2013.d000.s001.t008			
+semeval2013.d000.s001	wf	over	ADP	over	None			
+semeval2013.d000.s001	wf	the	DET	the	None			
+semeval2013.d000.s001	wf	next	ADJ	next	None			
+semeval2013.d000.s001	wf	40	NUM	40	None			
+semeval2013.d000.s001	instance	year	NOUN	years	semeval2013.d000.s001.t009	próximo	0	0
+semeval2013.d000.s001	wf	,	.	,	None			
