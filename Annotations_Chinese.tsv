@@ -1,45 +1,45 @@
 sentence_id	type	lemma	pos	raw_text	instance_id	target_token	same_meaning	translation_equivalents
 semeval2013.d000.s000	wf	u.n.	NOUN	U.N.	None	
-semeval2013.d000.s000	instance	group	NOUN	group	semeval2013.d000.s000.t000	
+semeval2013.d000.s000	instance	group	NOUN	group	semeval2013.d000.s000.t000	集团	0	1
 semeval2013.d000.s000	wf	draft	NOUN	drafts	None	
-semeval2013.d000.s000	instance	plan	NOUN	plan	semeval2013.d000.s000.t001	
+semeval2013.d000.s000	instance	plan	NOUN	plan	semeval2013.d000.s000.t001	计划	1
 semeval2013.d000.s000	wf	to	PRT	to	None	
 semeval2013.d000.s000	wf	reduce	VERB	reduce	None	
 semeval2013.d000.s000	instance	emission	NOUN	emissions	semeval2013.d000.s000.t002	
 semeval2013.d000.s001	wf	the	DET	The	None	
 semeval2013.d000.s001	wf	u.n.-sponsored	ADJ	U.N.-sponsored	None	
-semeval2013.d000.s001	instance	climate	NOUN	climate	semeval2013.d000.s001.t000	
-semeval2013.d000.s001	instance	conference	NOUN	conference	semeval2013.d000.s001.t001	
+semeval2013.d000.s001	instance	climate	NOUN	climate	semeval2013.d000.s001.t000	气候	1
+semeval2013.d000.s001	instance	conference	NOUN	conference	semeval2013.d000.s001.t001	大会	0	1
 semeval2013.d000.s001	wf	--	.	--	None	
 semeval2013.d000.s001	wf	characterize	VERB	characterized	None	
 semeval2013.d000.s001	wf	so	ADV	so	None	
 semeval2013.d000.s001	wf	far	ADV	far	None	
 semeval2013.d000.s001	wf	by	ADP	by	None	
 semeval2013.d000.s001	wf	unruly	ADJ	unruly	None	
-semeval2013.d000.s001	instance	posturing	NOUN	posturing	semeval2013.d000.s001.t002	
+semeval2013.d000.s001	instance	posturing	NOUN	posturing	semeval2013.d000.s001.t002	姿态	0	1
 semeval2013.d000.s001	wf	and	CONJ	and	None	
 semeval2013.d000.s001	wf	mutual	ADJ	mutual	None	
-semeval2013.d000.s001	instance	recrimination	NOUN	recriminations	semeval2013.d000.s001.t003	
+semeval2013.d000.s001	instance	recrimination	NOUN	recriminations	semeval2013.d000.s001.t003	指责	0	0
 semeval2013.d000.s001	wf	--	.	--	None	
 semeval2013.d000.s001	wf	gain	VERB	gained	None	
 semeval2013.d000.s001	wf	renew	VERB	renewed	None	
-semeval2013.d000.s001	instance	focus	NOUN	focus	semeval2013.d000.s001.t004	
-semeval2013.d000.s001	instance	friday	NOUN	Friday	semeval2013.d000.s001.t005	
+semeval2013.d000.s001	instance	focus	NOUN	focus	semeval2013.d000.s001.t004	关注	0	1
+semeval2013.d000.s001	instance	friday	NOUN	Friday	semeval2013.d000.s001.t005	周五	1
 semeval2013.d000.s001	wf	with	ADP	with	None	
 semeval2013.d000.s001	wf	the	DET	the	None	
-semeval2013.d000.s001	instance	release	NOUN	release	semeval2013.d000.s001.t006	
+semeval2013.d000.s001	instance	release	NOUN	release	semeval2013.d000.s001.t006	发布	0	1
 semeval2013.d000.s001	wf	of	ADP	of	None	
 semeval2013.d000.s001	wf	a	DET	a	None	
-semeval2013.d000.s001	instance	document	NOUN	document	semeval2013.d000.s001.t007	
+semeval2013.d000.s001	instance	document	NOUN	document	semeval2013.d000.s001.t007	文件	1
 semeval2013.d000.s001	wf	outline	VERB	outlining	None	
 semeval2013.d000.s001	wf	ambitious	ADJ	ambitious	None	
 semeval2013.d000.s001	wf	greenhouse-gas	ADJ	greenhouse-gas	None	
-semeval2013.d000.s001	instance	reduction	NOUN	reductions	semeval2013.d000.s001.t008	
+semeval2013.d000.s001	instance	reduction	NOUN	reductions	semeval2013.d000.s001.t008	减排	0	0
 semeval2013.d000.s001	wf	over	ADP	over	None	
 semeval2013.d000.s001	wf	the	DET	the	None	
 semeval2013.d000.s001	wf	next	ADJ	next	None	
 semeval2013.d000.s001	wf	40	NUM	40	None	
-semeval2013.d000.s001	instance	year	NOUN	years	semeval2013.d000.s001.t009	
+semeval2013.d000.s001	instance	year	NOUN	years	semeval2013.d000.s001.t009	40年	0	0
 semeval2013.d000.s001	wf	","	.	","	None	
 semeval2013.d000.s001	wf	with	ADP	with	None	
 semeval2013.d000.s001	wf	industrialize	VERB	industrialized	None	
@@ -48,20 +48,20 @@ semeval2013.d000.s001	wf	shoulder	VERB	shouldering	None
 semeval2013.d000.s001	wf	most	ADJ	most	None	
 semeval2013.d000.s001	wf	of	ADP	of	None	
 semeval2013.d000.s001	wf	the	DET	the	None	
-semeval2013.d000.s001	instance	burden	NOUN	burden	semeval2013.d000.s001.t010	
+semeval2013.d000.s001	instance	burden	NOUN	burden	semeval2013.d000.s001.t010	负担	1
 semeval2013.d000.s001	wf	in	ADP	in	None	
 semeval2013.d000.s001	wf	the	DET	the	None	
 semeval2013.d000.s001	wf	near	ADJ	near	None	
 semeval2013.d000.s001	instance	term	NOUN	term	semeval2013.d000.s001.t011	
 semeval2013.d000.s001	wf	.	.	.	None	
 semeval2013.d000.s002	wf	the	DET	The	None	
-semeval2013.d000.s002	instance	text	NOUN	text	semeval2013.d000.s002.t000	
+semeval2013.d000.s002	instance	text	NOUN	text	semeval2013.d000.s002.t000
 semeval2013.d000.s002	wf	","	.	","	None	
 semeval2013.d000.s002	wf	which	DET	which	None	
 semeval2013.d000.s002	wf	could	VERB	could	None	
 semeval2013.d000.s002	wf	provide	VERB	provide	None	
 semeval2013.d000.s002	wf	the	DET	the	None	
-semeval2013.d000.s002	instance	basis	NOUN	basis	semeval2013.d000.s002.t001	
+semeval2013.d000.s002	instance	basis	NOUN	basis	semeval2013.d000.s002.t001
 semeval2013.d000.s002	wf	for	ADP	for	None	
 semeval2013.d000.s002	wf	a	DET	a	None	
 semeval2013.d000.s002	wf	final	ADJ	final	None	
@@ -119,18 +119,18 @@ semeval2013.d000.s004	wf	by	ADP	by	None
 semeval2013.d000.s004	wf	a	DET	a	None	
 semeval2013.d000.s004	wf	u.n.	NOUN	U.N.	None	
 semeval2013.d000.s004	wf	ad-hoc	ADJ	ad-hoc	None	
-semeval2013.d000.s004	instance	working_group	NOUN	working group	semeval2013.d000.s004.t000	
+semeval2013.d000.s004	instance	working_group	NOUN	working group	semeval2013.d000.s004.t000	工作组	1
 semeval2013.d000.s004	wf	","	.	","	None	
 semeval2013.d000.s004	wf	the	DET	the	None	
-semeval2013.d000.s004	instance	text	NOUN	text	semeval2013.d000.s004.t001	
+semeval2013.d000.s004	instance	text	NOUN	text	semeval2013.d000.s004.t001	文本	1
 semeval2013.d000.s004	wf	be	VERB	is	None	
 semeval2013.d000.s004	wf	silent	ADJ	silent	None	
 semeval2013.d000.s004	wf	on	ADP	on	None	
 semeval2013.d000.s004	wf	how	ADV	how	None	
 semeval2013.d000.s004	wf	much	ADJ	much	None	
-semeval2013.d000.s004	instance	money	NOUN	money	semeval2013.d000.s004.t002	
+semeval2013.d000.s004	instance	money	NOUN	money	semeval2013.d000.s004.t002	钱	1
 semeval2013.d000.s004	wf	rich	ADJ	rich	None	
-semeval2013.d000.s004	instance	country	NOUN	countries	semeval2013.d000.s004.t003	
+semeval2013.d000.s004	instance	country	NOUN	countries	semeval2013.d000.s004.t003	国家	1
 semeval2013.d000.s004	wf	would	VERB	would	None	
 semeval2013.d000.s004	wf	give	VERB	give	None	
 semeval2013.d000.s004	wf	poor	ADJ	poor	None	
@@ -138,13 +138,13 @@ semeval2013.d000.s004	instance	one	NOUN	ones	semeval2013.d000.s004.t004
 semeval2013.d000.s004	wf	to	PRT	to	None	
 semeval2013.d000.s004	wf	cope	VERB	cope	None	
 semeval2013.d000.s004	wf	with	ADP	with	None	
-semeval2013.d000.s004	instance	global_warming	NOUN	global warming	semeval2013.d000.s004.t005	
+semeval2013.d000.s004	instance	global_warming	NOUN	global warming	semeval2013.d000.s004.t005	变暖	0	0
 semeval2013.d000.s004	wf	over	ADP	over	None	
 semeval2013.d000.s004	wf	the	DET	the	None	
 semeval2013.d000.s004	wf	short	ADJ	short	None	
 semeval2013.d000.s004	wf	and	CONJ	and	None	
 semeval2013.d000.s004	wf	long	ADJ	long	None	
-semeval2013.d000.s004	instance	term	NOUN	term	semeval2013.d000.s004.t006	
+semeval2013.d000.s004	instance	term	NOUN	term	semeval2013.d000.s004.t006	内	0	0
 semeval2013.d000.s004	wf	.	.	.	None	
 semeval2013.d000.s005	wf	and	CONJ	And	None	
 semeval2013.d000.s005	wf	it	PRON	it	None	
@@ -219,14 +219,14 @@ semeval2013.d000.s007	wf	who	PRON	who	None
 semeval2013.d000.s007	wf	draft	VERB	drafted	None	
 semeval2013.d000.s007	wf	the	DET	the	None	
 semeval2013.d000.s007	wf	six-page	ADJ	six-page	None	
-semeval2013.d000.s007	instance	document	NOUN	document	semeval2013.d000.s007.t000	
+semeval2013.d000.s007	instance	document	NOUN	document	semeval2013.d000.s007.t000	文件	1
 semeval2013.d000.s007	wf	","	.	","	None	
 semeval2013.d000.s007	wf	boil	VERB	boiled	None	
 semeval2013.d000.s007	wf	down	PRT	down	None	
 semeval2013.d000.s007	wf	a	DET	a	None	
 semeval2013.d000.s007	wf	180-page	ADJ	180-page	None	
-semeval2013.d000.s007	instance	negotiation	NOUN	negotiation	semeval2013.d000.s007.t001	
-semeval2013.d000.s007	instance	text	NOUN	text	semeval2013.d000.s007.t002	
+semeval2013.d000.s007	instance	negotiation	NOUN	negotiation	semeval2013.d000.s007.t001	谈判	1
+semeval2013.d000.s007	instance	text	NOUN	text	semeval2013.d000.s007.t002	文本	1
 semeval2013.d000.s007	wf	to	PRT	to	None	
 semeval2013.d000.s007	wf	focus	VERB	focus	None	
 semeval2013.d000.s007	wf	on	ADP	on	None	
@@ -235,8 +235,8 @@ semeval2013.d000.s007	wf	the	DET	the	None
 semeval2013.d000.s007	wf	u.n.	NOUN	U.N.	None	
 semeval2013.d000.s007	wf	s	PRT	s	None	
 semeval2013.d000.s007	wf	top	ADJ	top	None	
-semeval2013.d000.s007	instance	climate	NOUN	climate	semeval2013.d000.s007.t003	
-semeval2013.d000.s007	instance	official	NOUN	official	semeval2013.d000.s007.t004	
+semeval2013.d000.s007	instance	climate	NOUN	climate	semeval2013.d000.s007.t003	气候	1
+semeval2013.d000.s007	instance	official	NOUN	official	semeval2013.d000.s007.t004	官员	1
 semeval2013.d000.s007	wf	","	.	","	None	
 semeval2013.d000.s007	wf	yvo	NOUN	Yvo	None	
 semeval2013.d000.s007	wf	de	ADP	de	None	
@@ -359,7 +359,7 @@ semeval2013.d000.s010	instance	deforestation	NOUN	deforestation	semeval2013.d000
 semeval2013.d000.s010	wf	.	.	.	None	
 semeval2013.d000.s011	wf	still	ADV	Still	None	
 semeval2013.d000.s011	wf	","	.	","	None	
-semeval2013.d000.s011	instance	friday	NOUN	Friday	semeval2013.d000.s011.t000	
+semeval2013.d000.s011	instance	friday	NOUN	Friday	semeval2013.d000.s011.t000	周五	1
 semeval2013.d000.s011	wf	feature	VERB	featured	None	
 semeval2013.d000.s011	wf	the	DET	the	None	
 semeval2013.d000.s011	wf	same	ADJ	same	None	
@@ -371,26 +371,26 @@ semeval2013.d000.s011	wf	that	DET	that	None
 semeval2013.d000.s011	wf	have	VERB	have	None	
 semeval2013.d000.s011	wf	dominate	VERB	dominated	None	
 semeval2013.d000.s011	wf	the	DET	the	None	
-semeval2013.d000.s011	instance	talk	NOUN	talks	semeval2013.d000.s011.t002	
+semeval2013.d000.s011	instance	talk	NOUN	talks	semeval2013.d000.s011.t002	谈判	0	1
 semeval2013.d000.s011	wf	for	ADP	for	None	
 semeval2013.d000.s011	wf	the	DET	the	None	
 semeval2013.d000.s011	wf	past	ADJ	past	None	
-semeval2013.d000.s011	instance	week	NOUN	week	semeval2013.d000.s011.t003	
+semeval2013.d000.s011	instance	week	NOUN	week	semeval2013.d000.s011.t003	周	1
 semeval2013.d000.s011	wf	.	.	.	None	
-semeval2013.d000.s012	instance	u.s.	NOUN	U.S.	semeval2013.d000.s012.t000	
+semeval2013.d000.s012	instance	u.s.	NOUN	U.S.	semeval2013.d000.s012.t000	美国	1
 semeval2013.d000.s012	wf	special	ADJ	special	None	
-semeval2013.d000.s012	instance	climate	NOUN	climate	semeval2013.d000.s012.t001	
+semeval2013.d000.s012	instance	climate	NOUN	climate	semeval2013.d000.s012.t001	气候	1
 semeval2013.d000.s012	instance	envoy	NOUN	envoy	semeval2013.d000.s012.t002	
 semeval2013.d000.s012	wf	todd	NOUN	Todd	None	
 semeval2013.d000.s012	wf	stern	NOUN	Stern	None	
 semeval2013.d000.s012	wf	reject	VERB	rejected	None	
-semeval2013.d000.s012	instance	language	NOUN	language	semeval2013.d000.s012.t003	
+semeval2013.d000.s012	instance	language	NOUN	language	semeval2013.d000.s012.t003	Stern	0	0
 semeval2013.d000.s012	wf	require	VERB	requiring	None	
 semeval2013.d000.s012	wf	binding	NOUN	binding	None	
 semeval2013.d000.s012	instance	cut	NOUN	cuts	semeval2013.d000.s012.t004	
 semeval2013.d000.s012	wf	of	ADP	of	None	
 semeval2013.d000.s012	wf	greenhouse-gas	ADJ	greenhouse-gas	None	
-semeval2013.d000.s012	instance	emission	NOUN	emissions	semeval2013.d000.s012.t005	
+semeval2013.d000.s012	instance	emission	NOUN	emissions	semeval2013.d000.s012.t005	排放	0	1
 semeval2013.d000.s012	wf	for	ADP	for	None	
 semeval2013.d000.s012	wf	industrialized	ADJ	industrialized	None	
 semeval2013.d000.s012	wf	country	NOUN	countries	None	
@@ -442,16 +442,16 @@ semeval2013.d000.s014	wf	go	VERB	going	None
 semeval2013.d000.s014	wf	to	PRT	to	None	
 semeval2013.d000.s014	wf	do	VERB	do	None	
 semeval2013.d000.s014	wf	a	DET	a	None	
-semeval2013.d000.s014	instance	deal	NOUN	deal	semeval2013.d000.s014.t001	
+semeval2013.d000.s014	instance	deal	NOUN	deal	semeval2013.d000.s014.t001	协议	0	1
 semeval2013.d000.s014	wf	without	ADP	without	None	
 semeval2013.d000.s014	wf	the	DET	the	None	
 semeval2013.d000.s014	wf	major	ADJ	major	None	
-semeval2013.d000.s014	instance	developing_country	NOUN	developing countries	semeval2013.d000.s014.t002	
+semeval2013.d000.s014	instance	developing_country	NOUN	developing countries	semeval2013.d000.s014.t002	美国	0	0
 semeval2013.d000.s014	wf	step	VERB	stepping	None	
 semeval2013.d000.s014	wf	up	PRT	up	None	
 semeval2013.d000.s014	wf	and	CONJ	and	None	
 semeval2013.d000.s014	wf	take	VERB	taking	None	
-semeval2013.d000.s014	instance	action	NOUN	action	semeval2013.d000.s014.t003	
+semeval2013.d000.s014	instance	action	NOUN	action	semeval2013.d000.s014.t003	行动	1
 semeval2013.d000.s014	wf	","	.	","	None	
 semeval2013.d000.s014	wf	say	VERB	said	None	
 semeval2013.d000.s014	wf	stern	NOUN	Stern	None	
@@ -461,7 +461,7 @@ semeval2013.d000.s014	wf	also	ADV	also	None
 semeval2013.d000.s014	wf	complain	VERB	complained	None	
 semeval2013.d000.s014	wf	that	ADP	that	None	
 semeval2013.d000.s014	wf	the	DET	the	None	
-semeval2013.d000.s014	instance	text	NOUN	text	semeval2013.d000.s014.t004	
+semeval2013.d000.s014	instance	text	NOUN	text	semeval2013.d000.s014.t004	案文	0	1
 semeval2013.d000.s014	wf	do	VERB	did	None	
 semeval2013.d000.s014	wf	not	ADV	not	None	
 semeval2013.d000.s014	wf	do	VERB	do	None	
@@ -476,7 +476,7 @@ semeval2013.d000.s014	wf	be	VERB	be	None
 semeval2013.d000.s014	wf	verify	VERB	verified	None	
 semeval2013.d000.s014	wf	by	ADP	by	None	
 semeval2013.d000.s014	wf	outside	ADJ	outside	None	
-semeval2013.d000.s014	instance	observer	NOUN	observers	semeval2013.d000.s014.t006	
+semeval2013.d000.s014	instance	observer	NOUN	observers	semeval2013.d000.s014.t006	观察员	0	1
 semeval2013.d000.s014	wf	.	.	.	None	
 semeval2013.d000.s015	wf	stern	NOUN	Stern	None	
 semeval2013.d000.s015	wf	make	VERB	made	None	
@@ -559,49 +559,49 @@ semeval2013.d000.s016	wf	economy	NOUN	economies	None
 semeval2013.d000.s016	wf	.	.	.	None	
 semeval2013.d000.s017	wf	the	DET	The	None	
 semeval2013.d000.s017	wf	current	ADJ	current	None	
-semeval2013.d000.s017	instance	battle	NOUN	battle	semeval2013.d000.s017.t000	
+semeval2013.d000.s017	instance	battle	NOUN	battle	semeval2013.d000.s017.t000	战斗	0	1
 semeval2013.d000.s017	wf	be	VERB	is	None	
 semeval2013.d000.s017	wf	as	ADV	as	None	
 semeval2013.d000.s017	wf	much	ADJ	much	None	
 semeval2013.d000.s017	wf	about	ADP	about	None	
 semeval2013.d000.s017	wf	save	VERB	saving	None	
 semeval2013.d000.s017	wf	individual	ADJ	individual	None	
-semeval2013.d000.s017	instance	economy	NOUN	economies	semeval2013.d000.s017.t001	
+semeval2013.d000.s017	instance	economy	NOUN	economies	semeval2013.d000.s017.t001	经济体	1
 semeval2013.d000.s017	wf	as	ADP	as	None	
 semeval2013.d000.s017	wf	save	VERB	saving	None	
 semeval2013.d000.s017	wf	the	DET	the	None	
 semeval2013.d000.s017	instance	planet	NOUN	planet	semeval2013.d000.s017.t002	
 semeval2013.d000.s017	wf	","	.	","	None	
 semeval2013.d000.s017	wf	with	ADP	with	None	
-semeval2013.d000.s017	instance	china	NOUN	China	semeval2013.d000.s017.t003	
+semeval2013.d000.s017	instance	china	NOUN	China	semeval2013.d000.s017.t003	中国	1
 semeval2013.d000.s017	wf	and	CONJ	and	None	
-semeval2013.d000.s017	instance	united_states	NOUN	United States	semeval2013.d000.s017.t004	
+semeval2013.d000.s017	instance	united_states	NOUN	United States	semeval2013.d000.s017.t004	经济体	0	0
 semeval2013.d000.s017	wf	feud	VERB	feuding	None	
 semeval2013.d000.s017	wf	over	ADP	over	None	
 semeval2013.d000.s017	wf	they	PRON	their	None	
 semeval2013.d000.s017	wf	respective	ADJ	respective	None	
-semeval2013.d000.s017	instance	obligation	NOUN	obligations	semeval2013.d000.s017.t005	
+semeval2013.d000.s017	instance	obligation	NOUN	obligations	semeval2013.d000.s017.t005	义务	1
 semeval2013.d000.s017	wf	while	ADP	while	None	
 semeval2013.d000.s017	wf	poorer	ADJ	poorer	None	
-semeval2013.d000.s017	instance	nation	NOUN	nations	semeval2013.d000.s017.t006	
+semeval2013.d000.s017	instance	nation	NOUN	nations	semeval2013.d000.s017.t006	国家	1
 semeval2013.d000.s017	wf	insist	VERB	insist	None	
 semeval2013.d000.s017	wf	that	ADP	that	None	
 semeval2013.d000.s017	wf	the	DET	the	None	
-semeval2013.d000.s017	instance	world	NOUN	world	semeval2013.d000.s017.t007	
+semeval2013.d000.s017	instance	world	NOUN	world	semeval2013.d000.s017.t007	世界	1
 semeval2013.d000.s017	wf	s	PRT	s	None	
-semeval2013.d000.s017	instance	two_dozen	NOUN	two dozen	semeval2013.d000.s017.t008	
+semeval2013.d000.s017	instance	two_dozen	NOUN	two dozen	semeval2013.d000.s017.t008
 semeval2013.d000.s017	wf	most	ADV	most	None	
 semeval2013.d000.s017	wf	influential	ADJ	influential	None	
-semeval2013.d000.s017	instance	country	NOUN	countries	semeval2013.d000.s017.t009	
+semeval2013.d000.s017	instance	country	NOUN	countries	semeval2013.d000.s017.t009	国家	1
 semeval2013.d000.s017	wf	be	VERB	are	None	
 semeval2013.d000.s017	wf	ignore	VERB	ignoring	None	
 semeval2013.d000.s017	wf	the	DET	the	None	
 semeval2013.d000.s017	wf	scientific	ADJ	scientific	None	
-semeval2013.d000.s017	instance	imperative	NOUN	imperative	semeval2013.d000.s017.t010	
+semeval2013.d000.s017	instance	imperative	NOUN	imperative	semeval2013.d000.s017.t010	必要性	0	0
 semeval2013.d000.s017	wf	to	PRT	to	None	
 semeval2013.d000.s017	wf	take	VERB	take	None	
 semeval2013.d000.s017	wf	bolder	ADJ	bolder	None	
-semeval2013.d000.s017	instance	action	NOUN	action	semeval2013.d000.s017.t011	
+semeval2013.d000.s017	instance	action	NOUN	action	semeval2013.d000.s017.t011	行动	1
 semeval2013.d000.s017	wf	.	.	.	None	
 semeval2013.d000.s018	wf	ricardo	NOUN	Ricardo	None	
 semeval2013.d000.s018	wf	ulate	NOUN	Ulate	None	
@@ -882,11 +882,11 @@ semeval2013.d000.s025	wf	sheer	ADJ	sheer	None
 semeval2013.d000.s025	wf	sprawl	NOUN	sprawl	None	
 semeval2013.d000.s025	wf	of	ADP	of	None	
 semeval2013.d000.s025	wf	the	DET	the	None	
-semeval2013.d000.s025	instance	gathering	NOUN	gathering	semeval2013.d000.s025.t000	
+semeval2013.d000.s025	instance	gathering	NOUN	gathering	semeval2013.d000.s025.t000	聚会	0	1
 semeval2013.d000.s025	wf	--	.	--	None	
 semeval2013.d000.s025	wf	where	ADV	where	None	
 semeval2013.d000.s025	wf	"13,000"	NUM	"13,000"	None	
-semeval2013.d000.s025	instance	people	NOUN	people	semeval2013.d000.s025.t001	
+semeval2013.d000.s025	instance	people	NOUN	people	semeval2013.d000.s025.t001	人	1
 semeval2013.d000.s025	wf	move	VERB	move	None	
 semeval2013.d000.s025	wf	in	ADP	in	None	
 semeval2013.d000.s025	wf	and	CONJ	and	None	
@@ -896,17 +896,17 @@ semeval2013.d000.s025	wf	the	DET	the	None
 semeval2013.d000.s025	wf	convention	NOUN	convention	None	
 semeval2013.d000.s025	wf	center	NOUN	center	None	
 semeval2013.d000.s025	wf	each	DET	each	None	
-semeval2013.d000.s025	instance	day	NOUN	day	semeval2013.d000.s025.t002	
+semeval2013.d000.s025	instance	day	NOUN	day	semeval2013.d000.s025.t002	每天	0	0
 semeval2013.d000.s025	wf	","	.	","	None	
 semeval2013.d000.s025	wf	guitar-playing	ADJ	guitar-playing	None	
-semeval2013.d000.s025	instance	activist	NOUN	activists	semeval2013.d000.s025.t003	
+semeval2013.d000.s025	instance	activist	NOUN	activists	semeval2013.d000.s025.t003	人士	0	0
 semeval2013.d000.s025	wf	put	VERB	put	None	
 semeval2013.d000.s025	wf	on	ADP	on	None	
 semeval2013.d000.s025	wf	nightly	ADJ	nightly	None	
 semeval2013.d000.s025	instance	show	NOUN	shows	semeval2013.d000.s025.t004	
 semeval2013.d000.s025	wf	mock	VERB	mocking	None	
 semeval2013.d000.s025	wf	the	DET	the	None	
-semeval2013.d000.s025	instance	country	NOUN	countries	semeval2013.d000.s025.t005	
+semeval2013.d000.s025	instance	country	NOUN	countries	semeval2013.d000.s025.t005	国家	1
 semeval2013.d000.s025	wf	they	PRON	they	None	
 semeval2013.d000.s025	wf	think	VERB	think	None	
 semeval2013.d000.s025	wf	be	VERB	are	None	
@@ -914,21 +914,21 @@ semeval2013.d000.s025	wf	sell	VERB	selling	None
 semeval2013.d000.s025	wf	out	PRT	out	None	
 semeval2013.d000.s025	wf	","	.	","	None	
 semeval2013.d000.s025	wf	and	CONJ	and	None	
-semeval2013.d000.s025	instance	draft	NOUN	draft	semeval2013.d000.s025.t006	
-semeval2013.d000.s025	instance	proposal	NOUN	proposals	semeval2013.d000.s025.t007	
+semeval2013.d000.s025	instance	draft	NOUN	draft	semeval2013.d000.s025.t006	草案	0	1
+semeval2013.d000.s025	instance	proposal	NOUN	proposals	semeval2013.d000.s025.t007	提案	0	1
 semeval2013.d000.s025	wf	be	VERB	are	None	
 semeval2013.d000.s025	wf	pass	VERB	passed	None	
 semeval2013.d000.s025	wf	hand-to-hand	ADJ	hand-to-hand	None	
 semeval2013.d000.s025	wf	on	ADP	on	None	
-semeval2013.d000.s025	instance	paper	NOUN	paper	semeval2013.d000.s025.t008	
+semeval2013.d000.s025	instance	paper	NOUN	paper	semeval2013.d000.s025.t008	纸上	0	0
 semeval2013.d000.s025	wf	rather	ADV	rather	None	
 semeval2013.d000.s025	wf	than	ADP	than	None	
 semeval2013.d000.s025	wf	via	ADP	via	None	
-semeval2013.d000.s025	instance	e-mail	NOUN	e-mail	semeval2013.d000.s025.t009	
+semeval2013.d000.s025	instance	e-mail	NOUN	e-mail	semeval2013.d000.s025.t009	邮件	0	0
 semeval2013.d000.s025	wf	--	.	--	None	
 semeval2013.d000.s025	wf	pose	VERB	poses	None	
 semeval2013.d000.s025	wf	a	DET	a	None	
-semeval2013.d000.s025	instance	challenge	NOUN	challenge	semeval2013.d000.s025.t010	
+semeval2013.d000.s025	instance	challenge	NOUN	challenge	semeval2013.d000.s025.t010	挑战	1
 semeval2013.d000.s025	wf	.	.	.	None	
 semeval2013.d000.s026	wf	the	DET	The	None	
 semeval2013.d000.s026	instance	intensity	NOUN	intensity	semeval2013.d000.s026.t000	
@@ -2607,9 +2607,9 @@ semeval2013.d004.s012	wf	have	VERB	had	None
 semeval2013.d004.s012	wf	already	ADV	already	None	
 semeval2013.d004.s012	wf	repay	VERB	repaid	None	
 semeval2013.d004.s012	wf	they	PRON	their	None	
-semeval2013.d004.s012	instance	support	NOUN	support	semeval2013.d004.s012.t000	
+semeval2013.d004.s012	instance	support	NOUN	support	semeval2013.d004.s012.t000	6月份	0	0
 semeval2013.d004.s012	wf	in	ADP	in	None	
-semeval2013.d004.s012	instance	june	NOUN	June	semeval2013.d004.s012.t001	
+semeval2013.d004.s012	instance	june	NOUN	June	semeval2013.d004.s012.t001	6月份	1
 semeval2013.d004.s012	wf	.	.	.	None	
 semeval2013.d005.s000	wf	cheshire	NOUN	Cheshire	None	
 semeval2013.d005.s000	instance	appeal	NOUN	Appeal	semeval2013.d005.s000.t000	
