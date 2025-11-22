@@ -10,22 +10,23 @@ from nltk.corpus import wordnet as wn
 import nltk
 
 # ============== User-configurable paths ==============
-PATH_BN   = "se13.key.txt"                     # d000.s000.t000 <TAB> bn:00041942n
-PATH_WN   = "semeval2013.key.WNversion.txt"   # d000.s000.t000 <TAB> group%1:03:00::
-OUT_TSV   = "LLM_zh.tsv"                   # BN-evaluable baseline file (line-by-line)
-CACHE_JSON = "llm_cache.json"                 # {wn_synset_name: chinese_lemma}
+PATH_BN     = "se13.key.txt"                     # d000.s000.t000 <TAB> bn:00041942n
+PATH_WN     = "semeval2013.key.WNversion.txt"   # d000.s000.t000 <TAB> group%1:03:00::
+PATH_GLOSS  = "se_gloss.tsv"                    # d000.s000.t000 <TAB> English gloss
+OUT_TSV     = "LLM_zh.tsv"                      # BN-evaluable baseline file (line-by-line)
+CACHE_JSON  = "llm_cache.json"                  # {wn_key: chinese_lemma}
 TARGET_LANGUAGE = "simplified Chinese"
 
 # ============== Mistral API config ==============
 API_KEY = os.getenv("MISTRAL_API_KEY", "AIVUFuS9Js7QkBJ3RufabHlrKgeNUR4a")  # set env var or replace
 MISTRAL_MODEL = "open-mistral-7b"             # try "mistral-small-latest" if needed
-SLEEP_EACH_SEC = 0.1                           # 1 req/sec
+SLEEP_EACH_SEC = 0.5                          # 1 req/sec
 
 # ============== LLM Prompt config ==============
 INSTRUCTION = (
-"You are a bilingual lexicon expert."
-"Given a dictionary definition, produce the single word in {TARGET_LANGUAGE} that best matches this definition."
-"Provide only the {TARGET_LANGUAGE} word without explanations!"
+    "You are a bilingual lexicon expert."
+    "Given a dictionary definition, produce the single word in {TARGET_LANGUAGE} that best matches this definition."
+    "Provide only the {TARGET_LANGUAGE} word without explanations!"
 )
 
 USER_PROMPT_TEMPLATE = (
@@ -39,7 +40,7 @@ def build_full_prompt(gloss: str) -> str:
 
 # ============== NLTK ensure ==============
 def ensure_nltk():
-    """Ensure WordNet corpora are available."""
+    """Ensure WordNet corpora are available (kept for compatibility, though WordNet gloss is no longer used)."""
     try:
         _ = wn.synsets("bank")
     except LookupError:
@@ -150,6 +151,22 @@ def read_wn_key_dict(path: str) -> Dict[str, str]:
                 mapping[inst] = key
     return mapping
 
+def read_gloss_dict(path: str) -> Dict[str, str]:
+    """
+    Read se_gloss.tsv into a dict: instance_id -> gloss.
+    Expected format per line:
+        d000.s000.t000<TAB>some English gloss...
+    """
+    gloss_map: Dict[str, str] = {}
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            inst, gloss = line.split("\t", 1)
+            gloss_map[inst] = gloss
+    return gloss_map
+
 # ============== text normalization ==============
 def normalize_zh_lemma(text: str) -> str:
     """
@@ -157,6 +174,7 @@ def normalize_zh_lemma(text: str) -> str:
     - keep only the first line
     - strip quotes / punctuation
     - spaces -> underscores (for MWEs)
+    - if there is an underscore, keep only the first token (single-word lemma)
     """
     if not text:
         return ""
@@ -170,18 +188,23 @@ def normalize_zh_lemma(text: str) -> str:
 
 # ============== Main (line-by-line pairing) ==============
 def main():
-    ensure_nltk()
+    # WordNet not strictly needed anymore, but keep the downloader for safety if other code reuses it.
+    # You can comment this out if you don't want NLTK dependency.
+    # ensure_nltk()
 
-    # Load BN lines (ordered) and WN dict (for lookup)
-    bn_rows = read_bn_key_lines(PATH_BN)         # List[(inst, bn)]
-    wn_dict = read_wn_key_dict(PATH_WN)          # inst -> sensekey
+    # Load BN lines (ordered), WN dict (for mapping to sensekeys), and glosses
+    bn_rows   = read_bn_key_lines(PATH_BN)       # List[(inst, bn)]
+    wn_dict   = read_wn_key_dict(PATH_WN)        # inst -> sensekey
+    gloss_dict = read_gloss_dict(PATH_GLOSS)     # inst -> gloss
 
     if not bn_rows:
         raise RuntimeError(f"No BN instances read from: {PATH_BN}")
     if not wn_dict:
         raise RuntimeError(f"No WN sensekeys read from: {PATH_WN}")
+    if not gloss_dict:
+        raise RuntimeError(f"No glosses read from: {PATH_GLOSS}")
 
-    # Optional cache to avoid repeated LLM calls for same WN synset
+    # Optional cache to avoid repeated LLM calls for same WN sensekey
     cache: Dict[str, str] = {}
     if os.path.exists(CACHE_JSON):
         try:
@@ -203,16 +226,19 @@ def main():
                 # No matching WN line for this instance_id
                 continue
 
-            # Convert sensekey -> synset name
-            try:
-                lemma = wn.lemma_from_key(wn_key)
-                wn_syn = lemma.synset().name()  # e.g., 'group.n.01'
-                gloss = lemma.synset().definition()
-                print(gloss)
-            except Exception:
+            # Get gloss from se_gloss.tsv instead of WordNet
+            gloss = gloss_dict.get(inst)
+            if not gloss:
+                # No gloss for this instance_id
                 continue
 
-            # Check cache per WN synset (optional but efficient)
+            # Use sensekey as cache key (all instances with same WN sense share one translation)
+            wn_syn = wn_key
+
+            # Debug: print gloss if you want to see it
+            print(gloss)
+
+            # Check cache per WN sensekey (optional but efficient)
             if wn_syn in cache and cache[wn_syn]:
                 zh_lemma = cache[wn_syn]
             else:
@@ -234,6 +260,9 @@ def main():
             done += 1
 
     print(f"✅ Done. Wrote BN-evaluable baseline (line-by-line) to: {OUT_TSV}")
+    # （可选）如果你想把 cache 写回 JSON，可以再加一段：
+    # with open(CACHE_JSON, "w", encoding="utf-8") as f:
+    #     json.dump(cache, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
     main()
