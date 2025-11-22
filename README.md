@@ -5,6 +5,7 @@ pip install pandarallel
 pip install sacremoses
 pip install simalign
 pip install spacy
+pip install sentencepiece
 python3 -m spacy download es_core_news_lg
 python3 -m spacy download fr_core_news_lg
 python3 -m spacy download it_core_news_lg
