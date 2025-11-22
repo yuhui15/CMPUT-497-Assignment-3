@@ -1,6 +1,10 @@
 # CMPUT-497-Assignment-3
 ```
 The command to build the environment:
+pip install pandarallel
+pip install sacremoses
+pip install simalign
+pip install spacy
 python3 -m spacy download es_core_news_lg
 python3 -m spacy download fr_core_news_lg
 python3 -m spacy download it_core_news_lg
@@ -8,9 +12,6 @@ python3 -m spacy download en_core_web_lg
 python3 -m spacy download ro_core_news_lg
 python3 -m spacy download zh_core_web_lg
 python3 -m spacy download xx_ent_wiki_sm
-pip install pandarallel
-pip install sacremoses
-pip install simalign
 
 The command to run:
 
