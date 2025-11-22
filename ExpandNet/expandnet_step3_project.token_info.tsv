@@ -1,6 +1,6 @@
 Token ID	Source Token	Source Lemma	Source POS	Translated Token	Translated Lemma	Synset ID	Link in Dictionary?
 wf	U.N.	u.n.	 	 	 	 
-d000.s000.s000	group	group	N	小组	小组	bn:00041942n	True
+d000.s000.s000	group	group	N	集团	集团	bn:00041942n	True
 wf	drafts	draft	 	 	 	 
 d000.s000.s001	plan	plan	N	计划	计划	bn:00062759n	True
 wf	to	to	 	 	 	 
@@ -8,7 +8,7 @@ wf	reduce	reduce
 wf	The	the	 	 	 	 
 wf	U.N.-sponsored	u.n.-sponsored	 	 	 	 
 d000.s001.s000	climate	climate	N	气候	气候	bn:00019780n	True
-d000.s001.s001	conference	conference	N	会议	会议	bn:00021721n	True
+d000.s001.s001	conference	conference	N	大会	大会	bn:00021721n	False
 wf	--	--	 	 	 	 
 wf	characterized	characterize	 	 	 	 
 wf	so	so	 	 	 	 
@@ -18,15 +18,15 @@ wf	unruly	unruly
 d000.s001.s002	posturing	posturing	N	姿态	姿态	bn:00063819n	False
 wf	and	and	 	 	 	 
 wf	mutual	mutual	 	 	 	 
-d000.s001.s003	recriminations	recrimination	N	规矩	规矩	bn:00066603n	False
+d000.s001.s003	recriminations	recrimination	N	指责	指责	bn:00066603n	False
 wf	--	--	 	 	 	 
 wf	gained	gain	 	 	 	 
 wf	renewed	renew	 	 	 	 
-d000.s001.s004	focus	focus	N	焦点	焦点	bn:00017153n	True
-d000.s001.s005	Friday	friday	N	星期五	星期五	bn:00036512n	True
+d000.s001.s004	focus	focus	N	关注	关注	bn:00017153n	False
+d000.s001.s005	Friday	friday	N	周五	周五	bn:00036512n	True
 wf	with	with	 	 	 	 
 wf	the	the	 	 	 	 
-d000.s001.s006	release	release	N	发表	发表	bn:00067024n	False
+d000.s001.s006	release	release	N	发布	发布	bn:00067024n	False
 wf	of	of	 	 	 	 
 wf	a	a	 	 	 	 
 d000.s001.s007	document	document	N	文件	文件	bn:00028015n	True
@@ -51,10 +51,9 @@ d000.s001.s010	burden	burden	N	负担	负担	bn:00013941n	True
 wf	in	in	 	 	 	 
 wf	the	the	 	 	 	 
 wf	near	near	 	 	 	 
-d000.s001.s011	term	term	N	内	内	bn:00076588n	False
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
-d000.s002.s000	text	text	N	案文	案文	bn:00076732n	True
+d000.s002.s000	text	text	N	文本	文本	bn:00076732n	True
 wf	,	,	 	 	 	 
 wf	which	which	 	 	 	 
 wf	could	could	 	 	 	 
@@ -111,16 +110,16 @@ wf	arriving	arrive
 wf	in	in	 	 	 	 
 d000.s003.s005	Copenhagen	copenhagen	N	哥本哈根	哥本哈根	bn:00022479n	True
 wf	next	next	 	 	 	 
-d000.s003.s006	week	week	N	周100多	周100多	bn:00014711n	False
 wf	.	.	 	 	 	 
 wf	Forged	forge	 	 	 	 
 wf	by	by	 	 	 	 
 wf	a	a	 	 	 	 
 wf	U.N.	u.n.	 	 	 	 
 wf	ad-hoc	ad-hoc	 	 	 	 
+d000.s004.s000	working group	working_group	N	工作组	工作组	bn:00081604n	False
 wf	,	,	 	 	 	 
 wf	the	the	 	 	 	 
-d000.s004.s001	text	text	N	案文	案文	bn:00076732n	True
+d000.s004.s001	text	text	N	文本	文本	bn:00076732n	True
 wf	is	be	 	 	 	 
 wf	silent	silent	 	 	 	 
 wf	on	on	 	 	 	 
@@ -141,13 +140,14 @@ wf	the	the
 wf	short	short	 	 	 	 
 wf	and	and	 	 	 	 
 wf	long	long	 	 	 	 
+d000.s004.s006	term	term	N	内	内	bn:00076588n	False
 wf	.	.	 	 	 	 
 wf	And	and	 	 	 	 
 wf	it	it	 	 	 	 
 wf	provides	provide	 	 	 	 
 wf	a	a	 	 	 	 
 wf	of	of	 	 	 	 
-d000.s005.s001	options	option	N	选项	选项	bn:00003132n	True
+d000.s005.s001	options	option	N	选择	选择	bn:00003132n	True
 wf	for	for	 	 	 	 
 wf	the	the	 	 	 	 
 wf	key	key	 	 	 	 
@@ -171,7 +171,7 @@ wf	what	what
 wf	would	would	 	 	 	 
 wf	be	be	 	 	 	 
 wf	the	the	 	 	 	 
-d000.s005.s003	upper limit	upper_limit	N	上限	上限	bn:00053933n	False
+d000.s005.s003	upper limit	upper_limit	N	经济体	经济体	bn:00053933n	False
 wf	of	of	 	 	 	 
 wf	global	global	 	 	 	 
 d000.s005.s004	temperature	temperature	N	气温	气温	bn:00076457n	False
@@ -186,9 +186,12 @@ wf	.	.
 wf	It	it	 	 	 	 
 wf	gives	give	 	 	 	 
 wf	a	a	 	 	 	 
+d000.s006.s000	lot	lot	N	很	很	bn:00008985n	False
 wf	of	of	 	 	 	 
+d000.s006.s001	flexibility	flexibility	N	灵活性	灵活性	bn:00035190n	True
 wf	to	to	 	 	 	 
 wf	the	the	 	 	 	 
+d000.s006.s002	process	process	N	过程	过程	bn:00064536n	True
 wf	,	,	 	 	 	 
 wf	said	say	 	 	 	 
 wf	John	john	 	 	 	 
@@ -217,7 +220,7 @@ wf	down	down
 wf	a	a	 	 	 	 
 wf	180-page	180-page	 	 	 	 
 d000.s007.s001	negotiation	negotiation	N	谈判	谈判	bn:00026838n	True
-d000.s007.s002	text	text	N	案文	案文	bn:00076732n	True
+d000.s007.s002	text	text	N	文本	文本	bn:00076732n	True
 wf	to	to	 	 	 	 
 wf	focus	focus	 	 	 	 
 wf	on	on	 	 	 	 
@@ -226,6 +229,8 @@ wf	the	the
 wf	U.N.	u.n.	 	 	 	 
 wf	's	's	 	 	 	 
 wf	top	top	 	 	 	 
+d000.s007.s003	climate	climate	N	气候	气候	bn:00019780n	True
+d000.s007.s004	official	official	N	官员	官员	bn:00036837n	True
 wf	,	,	 	 	 	 
 wf	Yvo	yvo	 	 	 	 
 wf	de	de	 	 	 	 
@@ -241,9 +246,11 @@ wf	''	''
 wf	It	it	 	 	 	 
 wf	shows	show	 	 	 	 
 wf	the	the	 	 	 	 
+d000.s008.s000	outlines	outline	N	大纲	大纲	bn:00059783n	True
 wf	for	for	 	 	 	 
 wf	a	a	 	 	 	 
 wf	possible	possible	 	 	 	 
+d000.s008.s001	deal	deal	N	协议	协议	bn:00008568n	False
 wf	,	,	 	 	 	 
 wf	in	in	 	 	 	 
 wf	which	which	 	 	 	 
@@ -278,7 +285,6 @@ wf	by	by
 wf	15	15	 	 	 	 
 wf	to	to	 	 	 	 
 wf	30	30	 	 	 	 
-d000.s008.s007	percent	percent	N	排放量	排放量	bn:00061135n	False
 wf	.	.	 	 	 	 
 wf	Together	together	 	 	 	 
 wf	,	,	 	 	 	 
@@ -295,7 +301,7 @@ wf	by	by
 wf	2050	2050	 	 	 	 
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
-d000.s010.s000	European Union	european_union	N	联盟	联盟	bn:00021127n	False
+d000.s010.s000	European Union	european_union	N	欧盟	欧盟	bn:00021127n	False
 wf	gave	give	 	 	 	 
 wf	the	the	 	 	 	 
 d000.s010.s001	talks	talk	N	会谈	会谈	bn:00075965n	False
@@ -304,7 +310,7 @@ d000.s010.s002	boost	boost	N	推动	推动	bn:00012159n	False
 wf	as	as	 	 	 	 
 wf	well	well	 	 	 	 
 wf	on	on	 	 	 	 
-d000.s010.s003	Friday	friday	N	星期五	星期五	bn:00036512n	True
+d000.s010.s003	Friday	friday	N	周五	周五	bn:00036512n	True
 wf	by	by	 	 	 	 
 wf	pledging	pledge	 	 	 	 
 wf	to	to	 	 	 	 
@@ -324,8 +330,9 @@ d000.s010.s006	countries	country	N	国家	国家	bn:00023236n	True
 wf	adapt	adapt	 	 	 	 
 wf	to	to	 	 	 	 
 wf	the	the	 	 	 	 
+d000.s010.s007	impact	impact	N	影响	影响	bn:00046065n	False
 wf	of	of	 	 	 	 
-d000.s010.s008	climate change	climate_change	N	变化	变化	bn:00019782n	False
+d000.s010.s008	climate change	climate_change	N	气候	气候	bn:00019782n	False
 wf	--	--	 	 	 	 
 wf	from	from	 	 	 	 
 wf	coping	cope	 	 	 	 
@@ -335,9 +342,11 @@ wf	and	and
 d000.s010.s010	drought	drought	N	干旱	干旱	bn:00028863n	True
 wf	to	to	 	 	 	 
 wf	avoiding	avoid	 	 	 	 
+d000.s010.s011	deforestation	deforestation	N	砍伐	砍伐	bn:00025949n	False
 wf	.	.	 	 	 	 
 wf	Still	still	 	 	 	 
 wf	,	,	 	 	 	 
+d000.s011.s000	Friday	friday	N	周五	周五	bn:00036512n	True
 wf	featured	feature	 	 	 	 
 wf	the	the	 	 	 	 
 wf	same	same	 	 	 	 
@@ -348,7 +357,7 @@ wf	that	that
 wf	have	have	 	 	 	 
 wf	dominated	dominate	 	 	 	 
 wf	the	the	 	 	 	 
-d000.s011.s002	talks	talk	N	会谈	会谈	bn:00075965n	False
+d000.s011.s002	talks	talk	N	谈判	谈判	bn:00075965n	False
 wf	for	for	 	 	 	 
 wf	the	the	 	 	 	 
 wf	past	past	 	 	 	 
@@ -360,9 +369,9 @@ d000.s012.s001	climate	climate	N	气候	气候	bn:00019780n	True
 wf	Todd	todd	 	 	 	 
 wf	Stern	stern	 	 	 	 
 wf	rejected	reject	 	 	 	 
+d000.s012.s003	language	language	N	Stern	Stern	bn:00049915n	False
 wf	requiring	require	 	 	 	 
 wf	binding	binding	 	 	 	 
-d000.s012.s004	cuts	cut	N	Stern)	Stern)	bn:00024615n	False
 wf	of	of	 	 	 	 
 wf	greenhouse-gas	greenhouse-gas	 	 	 	 
 d000.s012.s005	emissions	emission	N	排放	排放	bn:00027473n	False
@@ -406,18 +415,17 @@ wf	two	two
 wf	ago	ago	 	 	 	 
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
-d000.s014.s000	United States	united_states	N	美国	美国	bn:00078848n	False
 wf	is	be	 	 	 	 
 wf	not	not	 	 	 	 
 wf	going	go	 	 	 	 
 wf	to	to	 	 	 	 
 wf	do	do	 	 	 	 
 wf	a	a	 	 	 	 
-d000.s014.s001	deal	deal	N	交易	交易	bn:00008568n	True
+d000.s014.s001	deal	deal	N	协议	协议	bn:00008568n	False
 wf	without	without	 	 	 	 
 wf	the	the	 	 	 	 
 wf	major	major	 	 	 	 
-d000.s014.s002	developing countries	developing_country	N	发展中国家	发展中国家	bn:00026694n	False
+d000.s014.s002	developing countries	developing_country	N	美国	美国	bn:00026694n	False
 wf	stepping	step	 	 	 	 
 wf	up	up	 	 	 	 
 wf	and	and	 	 	 	 
@@ -446,16 +454,18 @@ wf	be	be
 wf	verified	verify	 	 	 	 
 wf	by	by	 	 	 	 
 wf	outside	outside	 	 	 	 
+d000.s014.s006	observers	observer	N	观察员	观察员	bn:00020980n	True
 wf	.	.	 	 	 	 
 wf	Stern	stern	 	 	 	 
 wf	made	make	 	 	 	 
 wf	his	he	 	 	 	 
+d000.s015.s000	comments	comment	N	言论	言论	bn:00020977n	False
 wf	an	a	 	 	 	 
-d000.s015.s001	hour	hour	N	早些时候	早些时候	bn:00044982n	False
+d000.s015.s001	hour	hour	N	小时	小时	bn:00044982n	True
 wf	after	after	 	 	 	 
 wf	Chinese	chinese	 	 	 	 
 wf	vice	vice	 	 	 	 
-d000.s015.s002	foreign minister	foreign_minister	N	副外长	副外长	bn:00035831n	False
+d000.s015.s002	foreign minister	foreign_minister	N	谈判	谈判	bn:00035831n	False
 wf	He	he	 	 	 	 
 wf	Yafei	yafeus	 	 	 	 
 wf	said	say	 	 	 	 
@@ -463,7 +473,7 @@ d000.s015.s003	America	america	N	美国	美国	bn:00003341n	False
 wf	's	's	 	 	 	 
 wf	top	top	 	 	 	 
 d000.s015.s004	climate	climate	N	气候	气候	bn:00019780n	True
-d000.s015.s005	negotiator	negotiator	N	谈判	谈判	bn:00057209n	False
+d000.s015.s005	negotiator	negotiator	N	代表	代表	bn:00057209n	False
 wf	was	be	 	 	 	 
 wf	either	either	 	 	 	 
 wf	lacking	lack	 	 	 	 
@@ -481,9 +491,10 @@ wf	saying	say
 wf	earlier	earlier	 	 	 	 
 wf	in	in	 	 	 	 
 wf	the	the	 	 	 	 
-d000.s015.s007	week	week	N	周	周	bn:00014711n	True
+d000.s015.s007	week	week	N	本周	本周	bn:00014711n	False
 wf	that	that	 	 	 	 
 wf	the	the	 	 	 	 
+d000.s015.s008	United States	united_states	N	美国	美国	bn:00078848n	False
 wf	would	would	 	 	 	 
 wf	not	not	 	 	 	 
 wf	help	help	 	 	 	 
@@ -526,13 +537,14 @@ wf	economies	economy
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
 wf	current	current	 	 	 	 
-d000.s017.s000	battle	battle	N	争吵不休	争吵不休	bn:00009080n	False
+d000.s017.s000	battle	battle	N	战斗	战斗	bn:00009080n	True
 wf	is	be	 	 	 	 
 wf	as	as	 	 	 	 
 wf	much	much	 	 	 	 
 wf	about	about	 	 	 	 
 wf	saving	save	 	 	 	 
 wf	individual	individual	 	 	 	 
+d000.s017.s001	economies	economy	N	经济体	经济体	bn:00029678n	False
 wf	as	as	 	 	 	 
 wf	saving	save	 	 	 	 
 wf	the	the	 	 	 	 
@@ -540,6 +552,7 @@ wf	,	,
 wf	with	with	 	 	 	 
 d000.s017.s003	China	china	N	中国	中国	bn:00016756n	True
 wf	and	and	 	 	 	 
+d000.s017.s004	United States	united_states	N	经济体	经济体	bn:00078848n	False
 wf	feuding	feud	 	 	 	 
 wf	over	over	 	 	 	 
 wf	their	they	 	 	 	 
@@ -581,7 +594,6 @@ wf	not	not
 wf	surprising	surprising	 	 	 	 
 wf	that	that	 	 	 	 
 wf	the	the	 	 	 	 
-d000.s018.s001	major powers	major_power	N	承担	承担	bn:00041585n	False
 wf	are	be	 	 	 	 
 wf	fighting	fight	 	 	 	 
 wf	over	over	 	 	 	 
@@ -589,7 +601,7 @@ wf	who	who
 wf	should	should	 	 	 	 
 wf	bear	bear	 	 	 	 
 wf	the	the	 	 	 	 
-d000.s018.s002	costs	cost	N	费用	费用	bn:00022995n	True
+d000.s018.s002	costs	cost	N	成本	成本	bn:00022995n	False
 wf	for	for	 	 	 	 
 wf	curbing	curb	 	 	 	 
 d000.s018.s003	greenhouse gases	greenhouse_gas	N	气体	气体	bn:00041712n	False
@@ -637,7 +649,11 @@ wf	serves	serve
 wf	as	as	 	 	 	 
 wf	the	the	 	 	 	 
 wf	regional	regional	 	 	 	 
+d000.s019.s002	Mexico	mexico	N	墨西哥	墨西哥	bn:00054693n	True
 wf	and	and	 	 	 	 
+d000.s019.s003	Central America	central_america	N	中美洲	中美洲	bn:00017172n	False
+d000.s019.s004	climate change	climate_change	N	气候	气候	bn:00019782n	False
+d000.s019.s005	adviser	adviser	N	顾问	顾问	bn:00001598n	True
 wf	for	for	 	 	 	 
 wf	Conservation	conservation	 	 	 	 
 wf	International	international	 	 	 	 
@@ -672,8 +688,10 @@ wf	most	most
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
 wf	major	major	 	 	 	 
+d000.s020.s005	participants	participant	N	与会者	与会者	bn:00060798n	False
 wf	say	say	 	 	 	 
 wf	the	the	 	 	 	 
+d000.s020.s006	talks	talk	N	谈判	谈判	bn:00075965n	False
 wf	will	will	 	 	 	 
 wf	produce	produce	 	 	 	 
 wf	a	a	 	 	 	 
@@ -700,8 +718,8 @@ d000.s021.s001	draft	draft	N	草案	草案	bn:00028548n	True
 d000.s021.s002	treaty	treaty	N	条约	条约	bn:00000728n	True
 d000.s021.s003	proposal	proposal	N	提案	提案	bn:00064776n	True
 wf	early	early	 	 	 	 
-d000.s021.s004	Friday	friday	N	星期五	星期五	bn:00036512n	True
-d000.s021.s005	morning	morning	N	上午	上午	bn:00035851n	True
+d000.s021.s004	Friday	friday	N	周五	周五	bn:00036512n	True
+d000.s021.s005	morning	morning	N	凌晨	凌晨	bn:00035851n	False
 wf	.	.	 	 	 	 
 wf	Artur	artur	 	 	 	 
 wf	Runge-Metzger	runge-metzger	 	 	 	 
@@ -766,6 +784,7 @@ d000.s023.s002	delegates	delegate	N	代表们	代表们	bn:00026025n	False
 wf	focused	focus	 	 	 	 
 wf	on	on	 	 	 	 
 wf	the	the	 	 	 	 
+d000.s023.s003	fact	fact	N	事实	事实	bn:00032654n	True
 wf	that	that	 	 	 	 
 wf	they	they	 	 	 	 
 wf	must	must	 	 	 	 
@@ -784,7 +803,7 @@ wf	arrive	arrive
 wf	to	to	 	 	 	 
 wf	strike	strike	 	 	 	 
 wf	a	a	 	 	 	 
-d000.s023.s005	deal	deal	N	协定	协定	bn:00008568n	False
+d000.s023.s005	deal	deal	N	协议	协议	bn:00008568n	False
 wf	.	.	 	 	 	 
 wf	High-level	high-level	 	 	 	 
 d000.s024.s000	officials	official	N	官员	官员	bn:00036837n	True
@@ -802,6 +821,7 @@ wf	vice	vice
 d000.s024.s001	minister	minister	N	副部长	副部长	bn:00041200n	False
 wf	stepped	step	 	 	 	 
 wf	off	off	 	 	 	 
+d000.s024.s002	planes	plane	N	飞机	飞机	bn:00001697n	False
 wf	and	and	 	 	 	 
 wf	raced	race	 	 	 	 
 wf	through	through	 	 	 	 
@@ -814,12 +834,13 @@ wf	to	to
 wf	closed-door	closed-door	 	 	 	 
 d000.s024.s004	meetings	meeting	N	会议	会议	bn:00041948n	True
 wf	and	and	 	 	 	 
-d000.s024.s005	news conferences	news_conference	N	记者	记者	bn:00057552n	False
+d000.s024.s005	news conferences	news_conference	N	新闻	新闻	bn:00057552n	False
 wf	so	so	 	 	 	 
 wf	they	they	 	 	 	 
 wf	could	could	 	 	 	 
 wf	stake	stake	 	 	 	 
 wf	out	out	 	 	 	 
+d000.s024.s006	claims	claim	N	索赔	索赔	bn:00019405n	True
 wf	that	that	 	 	 	 
 wf	will	will	 	 	 	 
 wf	be	be	 	 	 	 
@@ -833,7 +854,7 @@ wf	sheer	sheer
 wf	sprawl	sprawl	 	 	 	 
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
-d000.s025.s000	gathering	gathering	N	集会	集会	bn:00006479n	False
+d000.s025.s000	gathering	gathering	N	聚会	聚会	bn:00006479n	True
 wf	--	--	 	 	 	 
 wf	where	where	 	 	 	 
 wf	13,000	13,000	 	 	 	 
@@ -850,11 +871,10 @@ wf	each	each
 d000.s025.s002	day	day	N	每天	每天	bn:00000086n	False
 wf	,	,	 	 	 	 
 wf	guitar-playing	guitar-playing	 	 	 	 
-d000.s025.s003	activists	activist	N	活动家	活动家	bn:00001171n	True
+d000.s025.s003	activists	activist	N	人士	人士	bn:00001171n	False
 wf	put	put	 	 	 	 
 wf	on	on	 	 	 	 
 wf	nightly	nightly	 	 	 	 
-d000.s025.s004	shows	show	N	表演	表演	bn:00071315n	True
 wf	mocking	mock	 	 	 	 
 wf	the	the	 	 	 	 
 d000.s025.s005	countries	country	N	国家	国家	bn:00023236n	True
@@ -865,19 +885,24 @@ wf	selling	sell
 wf	out	out	 	 	 	 
 wf	,	,	 	 	 	 
 wf	and	and	 	 	 	 
+d000.s025.s006	draft	draft	N	草案	草案	bn:00028548n	True
+d000.s025.s007	proposals	proposal	N	提案	提案	bn:00064776n	True
 wf	are	be	 	 	 	 
 wf	passed	pass	 	 	 	 
 wf	hand-to-hand	hand-to-hand	 	 	 	 
 wf	on	on	 	 	 	 
+d000.s025.s008	paper	paper	N	纸上	纸上	bn:00060464n	False
 wf	rather	rather	 	 	 	 
 wf	than	than	 	 	 	 
 wf	via	via	 	 	 	 
+d000.s025.s009	e-mail	e-mail	N	邮件	邮件	bn:00029345n	False
 wf	--	--	 	 	 	 
 wf	poses	pose	 	 	 	 
 wf	a	a	 	 	 	 
+d000.s025.s010	challenge	challenge	N	挑战	挑战	bn:00017557n	True
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
-d000.s026.s000	intensity	intensity	N	程度	程度	bn:00047043n	False
+d000.s026.s000	intensity	intensity	N	强度	强度	bn:00047043n	True
 wf	is	be	 	 	 	 
 wf	only	only	 	 	 	 
 wf	building	build	 	 	 	 
@@ -896,7 +921,7 @@ wf	and	and
 wf	as	as	 	 	 	 
 wf	early	early	 	 	 	 
 wf	as	as	 	 	 	 
-d000.s026.s002	Wednesday	wednesday	N	星期三	星期三	bn:00054897n	True
+d000.s026.s002	Wednesday	wednesday	N	周三	周三	bn:00054897n	True
 wf	60	60	 	 	 	 
 wf	heads	head	 	 	 	 
 wf	of	of	 	 	 	 
@@ -911,6 +936,7 @@ wf	're	be
 wf	getting	get	 	 	 	 
 wf	into	into	 	 	 	 
 wf	the	the	 	 	 	 
+d000.s027.s000	big leagues	big_league	N	联盟	联盟	bn:00010317n	False
 wf	,	,	 	 	 	 
 wf	said	say	 	 	 	 
 wf	Carlos	carlo	 	 	 	 
@@ -955,7 +981,7 @@ wf	despite	despite
 wf	Dusko	dusko	 	 	 	 
 wf	Ivanovic	ivanovic	 	 	 	 
 wf	's	's	 	 	 	 
-d001.s001.s002	team	team	N	团队	团队	bn:00073699n	True
+d001.s001.s002	team	team	N	球队	球队	bn:00073699n	False
 wf	's	's	 	 	 	 
 wf	heavy	heavy	 	 	 	 
 d001.s001.s003	losses	loss	N	损失	损失	bn:00052052n	True
@@ -975,21 +1001,24 @@ wf	the	the
 wf	best	best	 	 	 	 
 wf	on	on	 	 	 	 
 wf	his	he	 	 	 	 
-d001.s001.s005	team	team	N	团队	团队	bn:00073699n	True
+d001.s001.s005	team	team	N	球员	球员	bn:00073699n	True
 wf	with	with	 	 	 	 
 wf	eight	eight	 	 	 	 
 wf	three-pointers	three-pointer	 	 	 	 
 wf	scored	score	 	 	 	 
 wf	(	(	 	 	 	 
 wf	29	29	 	 	 	 
+d001.s001.s006	points	point	N	29分	29分	bn:00063218n	False
 wf	)	)	 	 	 	 
 wf	,	,	 	 	 	 
 wf	they	they	 	 	 	 
 wf	now	now	 	 	 	 
 wf	at	at	 	 	 	 
 wf	the	the	 	 	 	 
+d001.s001.s007	top	top	N	名列前茅	名列前茅	bn:00000942n	False
 wf	of	of	 	 	 	 
 wf	their	they	 	 	 	 
+d001.s001.s008	group	group	N	小组	小组	bn:00041942n	True
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
 wf	Vitorian	vitorian	 	 	 	 
@@ -1001,6 +1030,7 @@ wf	up	up
 wf	for	for	 	 	 	 
 wf	the	the	 	 	 	 
 wf	significant	significant	 	 	 	 
+d001.s002.s001	absences	absence	N	缺席	缺席	bn:00000427n	False
 wf	of	of	 	 	 	 
 wf	Herrmann	herrmann	 	 	 	 
 wf	,	,	 	 	 	 
@@ -1014,7 +1044,9 @@ wf	a	a
 wf	big	big	 	 	 	 
 wf	dose	dose	 	 	 	 
 wf	of	of	 	 	 	 
+d001.s002.s002	involvement	involvement	N	参与	参与	bn:00030844n	False
 wf	and	and	 	 	 	 
+d001.s002.s003	teamwork	teamwork	N	合作	合作	bn:00076309n	False
 wf	,	,	 	 	 	 
 wf	even	even	 	 	 	 
 wf	though	though	 	 	 	 
@@ -1028,14 +1060,16 @@ wf	the	the
 wf	to	to	 	 	 	 
 wf	take	take	 	 	 	 
 wf	the	the	 	 	 	 
+d001.s002.s005	victory	victory	N	胜利	胜利	bn:00078365n	True
 wf	.	.	 	 	 	 
 wf	Additionally	additionally	 	 	 	 
 wf	,	,	 	 	 	 
 wf	their	they	 	 	 	 
 wf	huge	huge	 	 	 	 
-d001.s003.s000	success	success	N	胜利	胜利	bn:00075025n	False
+d001.s003.s000	success	success	N	成功	成功	bn:00075025n	True
 wf	from	from	 	 	 	 
 wf	the	the	 	 	 	 
+d001.s003.s001	sidelines	sideline	N	场边	场边	bn:00059751n	False
 wf	,	,	 	 	 	 
 wf	with	with	 	 	 	 
 wf	16	16	 	 	 	 
@@ -1050,13 +1084,14 @@ wf	do	do
 wf	with	with	 	 	 	 
 wf	the	the	 	 	 	 
 wf	final	final	 	 	 	 
+d001.s003.s003	triumph	triumph	N	胜利	胜利	bn:00078365n	False
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
 d001.s004.s000	game	game	N	比赛	比赛	bn:00037181n	False
 wf	started	start	 	 	 	 
 wf	out	out	 	 	 	 
 wf	in	in	 	 	 	 
-d001.s004.s001	favor	favor	N	支持	支持	bn:00033833n	False
+d001.s004.s001	favor	favor	N	有利于	有利于	bn:00033833n	False
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
 wf	Azulgranas	azulgrana	 	 	 	 
@@ -1094,7 +1129,7 @@ wf	jumped	jump
 wf	into	into	 	 	 	 
 wf	the	the	 	 	 	 
 wf	Israeli	israeli	 	 	 	 
-d001.s005.s003	net	net	N	网	网	bn:00057368n	True
+d001.s005.s003	net	net	N	网中	网中	bn:00057368n	False
 wf	with	with	 	 	 	 
 wf	hot	hot	 	 	 	 
 d001.s005.s004	wrists	wrist	N	手腕	手腕	bn:00006143n	True
@@ -1105,18 +1140,20 @@ wf	Teletovic	teletovic
 wf	were	be	 	 	 	 
 wf	the	the	 	 	 	 
 wf	main	main	 	 	 	 
-d001.s006.s000	scorers	scorer	N	分者	分者	bn:00069759n	False
+d001.s006.s000	scorers	scorer	N	得分手	得分手	bn:00069759n	False
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
 wf	18-20	18-20	 	 	 	 
 wf	at	at	 	 	 	 
 wf	the	the	 	 	 	 
+d001.s006.s001	end	end	N	结束	结束	bn:00030720n	False
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
-d001.s006.s002	first period	first_period	N	第一	第一	bn:00034792n	False
+d001.s006.s002	first period	first_period	N	阶段	阶段	bn:00034792n	False
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
 wf	second	second	 	 	 	 
+d001.s007.s000	quarter	quarter	N	节	节	bn:00065577n	False
 wf	was	be	 	 	 	 
 wf	more	more	 	 	 	 
 wf	of	of	 	 	 	 
@@ -1131,7 +1168,7 @@ wf	opted	opt
 wf	for	for	 	 	 	 
 wf	the	the	 	 	 	 
 wf	inside	inside	 	 	 	 
-d001.s007.s002	game	game	N	游戏	游戏	bn:00037181n	True
+d001.s007.s002	game	game	N	比赛	比赛	bn:00037181n	False
 wf	of	of	 	 	 	 
 wf	Barac	barac	 	 	 	 
 wf	and	and	 	 	 	 
@@ -1144,12 +1181,12 @@ wf	who	who
 wf	was	be	 	 	 	 
 wf	greeted	greet	 	 	 	 
 wf	with	with	 	 	 	 
+d001.s007.s004	whistles	whistle	N	哨声	哨声	bn:00081042n	False
 wf	and	and	 	 	 	 
 d001.s007.s005	applause	applause	N	掌声	掌声	bn:00005053n	True
 wf	at	at	 	 	 	 
 wf	his	he	 	 	 	 
 d001.s007.s006	return	return	N	回家	回家	bn:00044531n	False
-d001.s007.s007	home	home	N	回家	回家	bn:00044488n	False
 wf	,	,	 	 	 	 
 wf	to	to	 	 	 	 
 wf	continue	continue	 	 	 	 
@@ -1173,9 +1210,10 @@ wf	the	the
 wf	best	best	 	 	 	 
 wf	on	on	 	 	 	 
 wf	his	he	 	 	 	 
+d001.s008.s000	team	team	N	球队	球队	bn:00073699n	False
 wf	with	with	 	 	 	 
 wf	13	13	 	 	 	 
-d001.s008.s001	points	point	N	六分	六分	bn:00063218n	False
+d001.s008.s001	points	point	N	13分	13分	bn:00063218n	False
 wf	,	,	 	 	 	 
 wf	even	even	 	 	 	 
 wf	though	though	 	 	 	 
@@ -1185,6 +1223,7 @@ wf	``	``
 wf	six	six	 	 	 	 
 wf	fewer	fewer	 	 	 	 
 wf	''	''	 	 	 	 
+d001.s008.s002	points	point	N	6分	6分	bn:00063218n	False
 wf	already	already	 	 	 	 
 wf	signaled	signal	 	 	 	 
 wf	that	that	 	 	 	 
@@ -1209,7 +1248,7 @@ wf	despite	despite
 wf	being	be	 	 	 	 
 wf	headed	head	 	 	 	 
 wf	for	for	 	 	 	 
-d001.s009.s001	halftime	halftime	N	半场	半场	bn:00042647n	False
+d001.s009.s001	halftime	halftime	N	中场	中场	bn:00042647n	True
 wf	,	,	 	 	 	 
 wf	was	be	 	 	 	 
 wf	not	not	 	 	 	 
@@ -1235,11 +1274,13 @@ wf	and	and
 wf	with	with	 	 	 	 
 wf	the	the	 	 	 	 
 wf	`	`	 	 	 	 
+d001.s009.s002	hand	hand	N	手	手	bn:00042759n	True
 wf	of	of	 	 	 	 
 wf	Elias	elia	 	 	 	 
 wf	'	'	 	 	 	 
 wf	putting	put	 	 	 	 
 wf	the	the	 	 	 	 
+d001.s009.s003	pressure	pressure	N	压力	压力	bn:00064262n	True
 wf	on	on	 	 	 	 
 wf	,	,	 	 	 	 
 wf	they	they	 	 	 	 
@@ -1249,6 +1290,7 @@ wf	get	get
 wf	involved	involve	 	 	 	 
 wf	in	in	 	 	 	 
 wf	the	the	 	 	 	 
+d001.s009.s004	game	game	N	比赛	比赛	bn:00037181n	False
 wf	.	.	 	 	 	 
 wf	Eidson	eidson	 	 	 	 
 wf	and	and	 	 	 	 
@@ -1269,6 +1311,7 @@ wf	the	the
 d001.s010.s002	light	light	N	光明	光明	bn:00051117n	True
 wf	.	.	 	 	 	 
 wf	More	more	 	 	 	 
+d001.s011.s000	disadvantages	disadvantage	N	缺点	缺点	bn:00027415n	True
 wf	Ivanovic	ivanovic	 	 	 	 
 wf	's	's	 	 	 	 
 d001.s012.s000	players	player	N	球员	球员	bn:00060799n	True
@@ -1284,7 +1327,7 @@ wf	to	to
 wf	run	run	 	 	 	 
 wf	a	a	 	 	 	 
 wf	of	of	 	 	 	 
-d001.s012.s002	plays	play	N	戏	戏	bn:00062929n	True
+d001.s012.s002	plays	play	N	比赛	比赛	bn:00062929n	False
 wf	correctly	correctly	 	 	 	 
 wf	before	before	 	 	 	 
 wf	they	they	 	 	 	 
@@ -1309,6 +1352,7 @@ wf	consecutive	consecutive
 wf	three-pointers	three-pointer	 	 	 	 
 wf	and	and	 	 	 	 
 wf	the	the	 	 	 	 
+d001.s012.s003	help	help	N	帮助	帮助	bn:00002155n	False
 wf	of	of	 	 	 	 
 wf	English	english	 	 	 	 
 wf	and	and	 	 	 	 
@@ -1317,10 +1361,12 @@ wf	,	,
 wf	he	he	 	 	 	 
 wf	brought	bring	 	 	 	 
 wf	the	the	 	 	 	 
+d001.s012.s004	scoreboard	scoreboard	N	分牌	分牌	bn:00069757n	False
 wf	back	back	 	 	 	 
 wf	to	to	 	 	 	 
 wf	a	a	 	 	 	 
 wf	reassuring	reassuring	 	 	 	 
+d001.s012.s005	lead	lead	N	领先	领先	bn:00050340n	False
 wf	(	(	 	 	 	 
 wf	54-67	54-67	 	 	 	 
 wf	)	)	 	 	 	 
@@ -1328,15 +1374,18 @@ wf	,	,
 wf	which	which	 	 	 	 
 wf	the	the	 	 	 	 
 wf	home	home	 	 	 	 
+d001.s012.s006	team	team	N	主队	主队	bn:00073699n	False
 wf	managed	manage	 	 	 	 
 wf	to	to	 	 	 	 
 wf	narrow	narrow	 	 	 	 
 wf	down	down	 	 	 	 
 wf	at	at	 	 	 	 
 wf	the	the	 	 	 	 
+d001.s012.s007	end	end	N	结束	结束	bn:00030719n	False
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
 wf	third	third	 	 	 	 
+d001.s012.s008	quarter	quarter	N	节	节	bn:00065577n	False
 wf	(	(	 	 	 	 
 wf	57-67	57-67	 	 	 	 
 wf	)	)	 	 	 	 
@@ -1351,7 +1400,7 @@ wf	bone	bone
 wf	in	in	 	 	 	 
 wf	the	the	 	 	 	 
 wf	last	last	 	 	 	 
-d001.s013.s000	period	period	N	时期	时期	bn:00061606n	True
+d001.s013.s000	period	period	N	时间	时间	bn:00061606n	False
 wf	,	,	 	 	 	 
 wf	and	and	 	 	 	 
 wf	English	english	 	 	 	 
@@ -1396,7 +1445,7 @@ wf	the	the
 wf	best	best	 	 	 	 
 wf	on	on	 	 	 	 
 wf	their	they	 	 	 	 
-d001.s014.s000	team	team	N	团队	团队	bn:00073699n	True
+d001.s014.s000	team	team	N	队	队	bn:00073699n	True
 wf	,	,	 	 	 	 
 wf	did	do	 	 	 	 
 wf	not	not	 	 	 	 
@@ -1407,15 +1456,18 @@ wf	tried	try
 wf	to	to	 	 	 	 
 wf	keep	keep	 	 	 	 
 wf	their	they	 	 	 	 
+d001.s014.s001	team	team	N	球员	球员	bn:00073699n	True
 wf	alive	alive	 	 	 	 
 wf	from	from	 	 	 	 
 wf	the	the	 	 	 	 
 wf	three-point	three-point	 	 	 	 
+d001.s014.s002	line	line	N	三分线	三分线	bn:00051301n	False
 wf	(	(	 	 	 	 
 wf	70-77	70-77	 	 	 	 
 wf	)	)	 	 	 	 
 wf	.	.	 	 	 	 
 wf	In	in	 	 	 	 
+d001.s015.s000	spite	spite	N	如此	如此	bn:00053001n	False
 wf	of	of	 	 	 	 
 wf	this	this	 	 	 	 
 wf	,	,	 	 	 	 
@@ -1427,7 +1479,7 @@ wf	out	out
 wf	,	,	 	 	 	 
 wf	Ivonic	ivonic	 	 	 	 
 wf	's	's	 	 	 	 
-d001.s015.s001	team	team	N	以色列人	以色列人	bn:00073699n	False
+d001.s015.s001	team	team	N	球队	球队	bn:00073699n	False
 wf	did	do	 	 	 	 
 wf	n't	n't	 	 	 	 
 wf	rush	rush	 	 	 	 
@@ -1445,7 +1497,6 @@ wf	came	come
 wf	close	close	 	 	 	 
 wf	at	at	 	 	 	 
 wf	the	the	 	 	 	 
-d001.s015.s002	last minute	last_minute	N	一刻	一刻	bn:00030341n	False
 wf	,	,	 	 	 	 
 wf	the	the	 	 	 	 
 d001.s015.s003	game	game	N	比赛	比赛	bn:00037181n	False
@@ -1466,6 +1517,7 @@ d001.s015.s006	season	season	N	赛季	赛季	bn:00070056n	True
 wf	.	.	 	 	 	 
 wf	closes	close	 	 	 	 
 wf	without	without	 	 	 	 
+d002.s000.s001	momentum	momentum	N	无动力	无动力	bn:00046200n	False
 wf	,	,	 	 	 	 
 wf	slowed	slow	 	 	 	 
 wf	by	by	 	 	 	 
@@ -1478,7 +1530,7 @@ wf	closed	close
 wf	with	with	 	 	 	 
 wf	no	no	 	 	 	 
 wf	particular	particular	 	 	 	 
-d002.s001.s001	heading	heading	N	标题	标题	bn:00002181n	True
+d002.s001.s001	heading	heading	N	表态	表态	bn:00002181n	False
 wf	on	on	 	 	 	 
 d002.s001.s002	Friday	friday	N	周五	周五	bn:00036512n	True
 wf	,	,	 	 	 	 
@@ -1500,13 +1552,13 @@ wf	strengthening	strengthening
 d002.s001.s006	dollar	dollar	N	美元	美元	bn:00028114n	False
 wf	:	:	 	 	 	 
 wf	the	the	 	 	 	 
-d002.s001.s007	Dow Jones	dow_jones	N	Jones)	Jones)	bn:00028458n	False
+d002.s001.s007	Dow Jones	dow_jones	N	道琼斯	道琼斯	bn:00028458n	False
 wf	gained	gain	 	 	 	 
 wf	0.63	0.63	 	 	 	 
 wf	%	%	 	 	 	 
 wf	but	but	 	 	 	 
 wf	the	the	 	 	 	 
-d002.s001.s008	NASDAQ	nasdaq	N	SDA	SDA	bn:00056893n	False
+d002.s001.s008	NASDAQ	nasdaq	N	纳斯达克	纳斯达克	bn:00056893n	True
 wf	dropped	drop	 	 	 	 
 wf	0.03	0.03	 	 	 	 
 wf	%	%	 	 	 	 
@@ -1514,7 +1566,8 @@ wf	.	.
 wf	According	accord	 	 	 	 
 wf	to	to	 	 	 	 
 wf	final	final	 	 	 	 
-d002.s002.s001	figures	figure	N	数字	数字	bn:00034394n	True
+d002.s002.s000	closing	closing	N	收盘	收盘	bn:00019966n	False
+d002.s002.s001	figures	figure	N	数据	数据	bn:00034394n	False
 wf	,	,	 	 	 	 
 wf	the	the	 	 	 	 
 wf	Dow	dow	 	 	 	 
@@ -1525,15 +1578,15 @@ wf	has	have
 wf	risen	rise	 	 	 	 
 wf	by	by	 	 	 	 
 wf	65.67	65.67	 	 	 	 
-d002.s002.s002	points	point	N	百分点	百分点	bn:00025966n	False
+d002.s002.s002	points	point	N	67点	67点	bn:00025966n	False
 wf	to	to	 	 	 	 
 wf	10	10	 	 	 	 
 wf	471.50	471.50	 	 	 	 
-d002.s002.s003	points	point	N	190.31点	190.31点	bn:00025966n	False
+d002.s002.s003	points	point	N	471.50点	471.50点	bn:00025966n	False
 wf	,	,	 	 	 	 
 wf	whereas	whereas	 	 	 	 
 wf	the	the	 	 	 	 
-d002.s002.s004	NASDAQ	nasdaq	N	SDA	SDA	bn:00056893n	False
+d002.s002.s004	NASDAQ	nasdaq	N	纳斯达克	纳斯达克	bn:00056893n	True
 wf	,	,	 	 	 	 
 wf	with	with	 	 	 	 
 wf	a	a	 	 	 	 
@@ -1543,11 +1596,11 @@ wf	,	,
 wf	fell	fall	 	 	 	 
 wf	by	by	 	 	 	 
 wf	0.55	0.55	 	 	 	 
-d002.s002.s007	point	point	N	百分点	百分点	bn:00025966n	False
+d002.s002.s007	point	point	N	55点	55点	bn:00025966n	False
 wf	to	to	 	 	 	 
 wf	2	2	 	 	 	 
 wf	190.31	190.31	 	 	 	 
-d002.s002.s008	points	point	N	50点	50点	bn:00025966n	False
+d002.s002.s008	points	point	N	190.31点	190.31点	bn:00025966n	False
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
 wf	wider	wider	 	 	 	 
@@ -1564,17 +1617,17 @@ wf	0.37	0.37
 wf	%	%	 	 	 	 
 wf	(	(	 	 	 	 
 wf	4.06	4.06	 	 	 	 
-d002.s003.s000	points	point	N	06点)	06点)	bn:00025966n	False
+d002.s003.s000	points	point	N	06分	06分	bn:00025966n	False
 wf	)	)	 	 	 	 
 wf	to	to	 	 	 	 
 wf	1	1	 	 	 	 
 wf	106.41	106.41	 	 	 	 
-d002.s003.s001	points	point	N	点	点	bn:00025966n	True
+d002.s003.s001	points	point	N	106.41分	106.41分	bn:00025966n	False
 wf	.	.	 	 	 	 
 wf	Frankly	frankly	 	 	 	 
 wf	,	,	 	 	 	 
 wf	the	the	 	 	 	 
-d002.s004.s000	market	market	N	管理部	管理部	bn:00053460n	False
+d002.s004.s000	market	market	N	市场	市场	bn:00053460n	True
 wf	is	be	 	 	 	 
 wf	very	very	 	 	 	 
 wf	calm	calm	 	 	 	 
@@ -1591,9 +1644,10 @@ wf	It	it
 wf	remains	remain	 	 	 	 
 wf	within	within	 	 	 	 
 wf	a	a	 	 	 	 
+d002.s005.s000	narrow margin	narrow_margin	N	狭窄	狭窄	bn:00056870n	False
 wf	;	;	 	 	 	 
-d002.s005.s001	trading	trading	N	贸易量	贸易量	bn:00077880n	False
-d002.s005.s002	volumes	volume	N	贸易量	贸易量	bn:00013768n	False
+d002.s005.s001	trading	trading	N	交易量	交易量	bn:00077880n	False
+d002.s005.s002	volumes	volume	N	交易量	交易量	bn:00013768n	False
 wf	have	have	 	 	 	 
 wf	become	become	 	 	 	 
 wf	very	very	 	 	 	 
@@ -1618,7 +1672,7 @@ wf	was	be
 wf	supported	support	 	 	 	 
 wf	by	by	 	 	 	 
 wf	the	the	 	 	 	 
-d002.s006.s001	publication	publication	N	出版	出版	bn:00065107n	False
+d002.s006.s001	publication	publication	N	发布	发布	bn:00065107n	False
 wf	of	of	 	 	 	 
 wf	better	better	 	 	 	 
 wf	than	than	 	 	 	 
@@ -1633,7 +1687,7 @@ wf	contributed	contribute
 wf	to	to	 	 	 	 
 wf	improving	improve	 	 	 	 
 d002.s006.s003	market	market	N	市场	市场	bn:00053460n	True
-d002.s006.s004	opinion	opinion	N	看法	看法	bn:00059168n	True
+d002.s006.s004	opinion	opinion	N	观点	观点	bn:00059168n	False
 wf	in	in	 	 	 	 
 wf	to	to	 	 	 	 
 wf	the	the	 	 	 	 
@@ -1648,13 +1702,14 @@ wf	summarised	summarise
 wf	Charles	charle	 	 	 	 
 wf	Schwab	schwab	 	 	 	 
 wf	's	's	 	 	 	 
-d002.s006.s008	analysts	analyst	N	分析家	分析家	bn:00003802n	True
+d002.s006.s008	analysts	analyst	N	分析师	分析师	bn:00003802n	True
 wf	.	.	 	 	 	 
 wf	In	in	 	 	 	 
 wf	the	the	 	 	 	 
 d002.s007.s000	United States	united_states	N	美国	美国	bn:00003341n	False
 wf	,	,	 	 	 	 
 wf	retail	retail	 	 	 	 
+d002.s007.s001	sales	sale	N	销售额	销售额	bn:00068916n	False
 wf	have	have	 	 	 	 
 wf	increased	increase	 	 	 	 
 wf	by	by	 	 	 	 
@@ -1688,7 +1743,7 @@ wf	clearly	clearly
 wf	bounced	bounce	 	 	 	 
 wf	back	back	 	 	 	 
 wf	in	in	 	 	 	 
-d002.s008.s002	December	december	N	12月	12月	bn:00025645n	False
+d002.s008.s002	December	december	N	12月份	12月份	bn:00025645n	False
 wf	,	,	 	 	 	 
 wf	to	to	 	 	 	 
 wf	73.4	73.4	 	 	 	 
@@ -1719,7 +1774,7 @@ wf	slowed	slow
 wf	by	by	 	 	 	 
 wf	a	a	 	 	 	 
 wf	renewed	renew	 	 	 	 
-d002.s009.s001	rise	rise	N	上涨	上涨	bn:00067923n	False
+d002.s009.s001	rise	rise	N	欧文·菲茨	欧文·菲茨	bn:00067923n	False
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
 d002.s009.s002	dollar	dollar	N	美元	美元	bn:00028114n	False
@@ -1730,7 +1785,7 @@ wf	new	new
 wf	two-month	two-month	 	 	 	 
 wf	against	against	 	 	 	 
 wf	the	the	 	 	 	 
-d002.s009.s004	Euro	euro	N	欧元	欧元	bn:00031888n	True
+d002.s009.s004	Euro	euro	N	兑欧	兑欧	bn:00031888n	False
 wf	,	,	 	 	 	 
 wf	which	which	 	 	 	 
 wf	``	``	 	 	 	 
@@ -1739,7 +1794,7 @@ wf	downward	downward
 d002.s009.s005	pressure	pressure	N	压力	压力	bn:00064262n	True
 wf	on	on	 	 	 	 
 wf	the	the	 	 	 	 
-d002.s009.s006	sectors	sector	N	部门	部门	bn:00070206n	False
+d002.s009.s006	sectors	sector	N	行业	行业	bn:00070206n	False
 wf	that	that	 	 	 	 
 wf	are	be	 	 	 	 
 wf	sensitive	sensitive	 	 	 	 
@@ -1762,7 +1817,7 @@ wf	have	have
 wf	thereby	thereby	 	 	 	 
 wf	lost	lose	 	 	 	 
 wf	some	some	 	 	 	 
-d002.s010.s002	ground	ground	N	依据	依据	bn:00008870n	False
+d002.s010.s002	ground	ground	N	优势	优势	bn:00008870n	False
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
 wf	bond	bond	 	 	 	 
@@ -1770,7 +1825,7 @@ wf	market	market
 wf	has	have	 	 	 	 
 wf	fallen	fall	 	 	 	 
 wf	.	.	 	 	 	 
-d002.s012.s000	Treasury	treasury	N	财政	财政	bn:00026339n	False
+d002.s012.s000	Treasury	treasury	N	美国	美国	bn:00026339n	False
 wf	10-year	10-year	 	 	 	 
 d002.s012.s001	bond	bond	N	债券	债券	bn:00011974n	True
 d002.s012.s002	yields	yield	N	收益率	收益率	bn:00047691n	False
@@ -1783,8 +1838,8 @@ wf	against	against
 wf	3.482	3.482	 	 	 	 
 wf	%	%	 	 	 	 
 wf	on	on	 	 	 	 
-d002.s012.s003	Tuesday	tuesday	N	星期二	星期二	bn:00078546n	True
-d002.s012.s004	evening	evening	N	晚间	晚间	bn:00031998n	True
+d002.s012.s003	Tuesday	tuesday	N	周二	周二	bn:00078546n	True
+d002.s012.s004	evening	evening	N	晚上	晚上	bn:00031998n	True
 wf	,	,	 	 	 	 
 wf	and	and	 	 	 	 
 wf	30-year	30-year	 	 	 	 
@@ -1799,22 +1854,24 @@ wf	4.492	4.492
 wf	%	%	 	 	 	 
 wf	the	the	 	 	 	 
 wf	previous	previous	 	 	 	 
-d002.s012.s007	evening	evening	N	晚间	晚间	bn:00031998n	True
+d002.s012.s007	evening	evening	N	晚上	晚上	bn:00031998n	True
 wf	.	.	 	 	 	 
 wf	Iraqi	iraqi	 	 	 	 
 wf	Oil	oil	 	 	 	 
 wf	Ministry	ministry	 	 	 	 
 wf	reaches	reach	 	 	 	 
-d003.s000.s000	deals	deal	N	交易	交易	bn:00008568n	True
+d003.s000.s000	deals	deal	N	协议	协议	bn:00008568n	False
 wf	with	with	 	 	 	 
 wf	10	10	 	 	 	 
 wf	foreign	foreign	 	 	 	 
 d003.s000.s001	oil companies	oil_company	N	公司	公司	bn:00058745n	False
 wf	Despite	despite	 	 	 	 
+d003.s001.s000	concerns	concern	N	担心	担心	bn:00021556n	False
 wf	about	about	 	 	 	 
-d003.s001.s001	violence	violence	N	困苦	困苦	bn:00080036n	False
+d003.s001.s001	violence	violence	N	暴力	暴力	bn:00080036n	True
 wf	and	and	 	 	 	 
 wf	political	political	 	 	 	 
+d003.s001.s002	instability	instability	N	稳定	稳定	bn:00046933n	False
 wf	,	,	 	 	 	 
 wf	the	the	 	 	 	 
 wf	Iraqi	iraqi	 	 	 	 
@@ -1823,7 +1880,7 @@ wf	managed	manage
 wf	to	to	 	 	 	 
 wf	attract	attract	 	 	 	 
 wf	major	major	 	 	 	 
-d003.s001.s004	oil companies	oil_company	N	公司	公司	bn:00058745n	False
+d003.s001.s004	oil companies	oil_company	N	石油	石油	bn:00058745n	False
 wf	to	to	 	 	 	 
 wf	rebuild	rebuild	 	 	 	 
 wf	its	its	 	 	 	 
@@ -1834,11 +1891,11 @@ wf	two	two
 d003.s001.s006	auctions	auction	N	拍卖	拍卖	bn:00007085n	True
 wf	that	that	 	 	 	 
 wf	concluded	conclude	 	 	 	 
-d003.s001.s007	Saturday	saturday	N	星期六	星期六	bn:00068696n	True
+d003.s001.s007	Saturday	saturday	N	周六	周六	bn:00068696n	True
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
 wf	10	10	 	 	 	 
-d003.s002.s000	deals	deal	N	交易	交易	bn:00008568n	True
+d003.s002.s000	deals	deal	N	协议	协议	bn:00008568n	False
 wf	the	the	 	 	 	 
 wf	Iraqi	iraqi	 	 	 	 
 wf	Oil	oil	 	 	 	 
@@ -1867,7 +1924,7 @@ wf	in	in
 wf	refurbishing	refurbish	 	 	 	 
 d003.s002.s007	Iraq	iraq	N	伊拉克	伊拉克	bn:00002362n	True
 wf	's	's	 	 	 	 
-d003.s002.s008	oil industry	oil_industry	N	石油	石油	bn:00058741n	False
+d003.s002.s008	oil industry	oil_industry	N	工业	工业	bn:00058741n	False
 wf	,	,	 	 	 	 
 wf	crippled	cripple	 	 	 	 
 wf	by	by	 	 	 	 
@@ -1877,9 +1934,11 @@ wf	and	and
 d003.s002.s011	sanctions	sanction	N	制裁	制裁	bn:00069122n	False
 wf	.	.	 	 	 	 
 wf	American	american	 	 	 	 
+d003.s003.s000	companies	company	N	公司	公司	bn:00021286n	True
 wf	walked	walk	 	 	 	 
 wf	away	away	 	 	 	 
 wf	with	with	 	 	 	 
+d003.s003.s001	stakes	stake	N	股份	股份	bn:00047081n	False
 wf	in	in	 	 	 	 
 wf	just	just	 	 	 	 
 wf	two	two	 	 	 	 
@@ -1887,7 +1946,7 @@ wf	of	of
 wf	the	the	 	 	 	 
 wf	10	10	 	 	 	 
 wf	auctioned	auction	 	 	 	 
-d003.s003.s002	fields	field	N	卖场	卖场	bn:00034265n	False
+d003.s003.s002	fields	field	N	油田	油田	bn:00034265n	False
 wf	.	.	 	 	 	 
 wf	Seven	seven	 	 	 	 
 wf	American	american	 	 	 	 
@@ -1903,7 +1962,7 @@ d003.s004.s001	auction	auction	N	拍卖	拍卖	bn:00007085n	True
 wf	,	,	 	 	 	 
 wf	which	which	 	 	 	 
 wf	began	begin	 	 	 	 
-d003.s004.s002	Friday	friday	N	星期五	星期五	bn:00036512n	True
+d003.s004.s002	Friday	friday	N	周五	周五	bn:00036512n	True
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
 wf	only	only	 	 	 	 
@@ -1911,6 +1970,7 @@ wf	one	one
 wf	that	that	 	 	 	 
 wf	submitted	submit	 	 	 	 
 wf	a	a	 	 	 	 
+d003.s005.s000	bid	bid	N	出价	出价	bn:00010262n	False
 wf	lost	lose	 	 	 	 
 wf	.	.	 	 	 	 
 wf	Two	two	 	 	 	 
@@ -1919,10 +1979,9 @@ d003.s006.s000	companies	company	N	公司	公司	bn:00021286n	True
 wf	reached	reach	 	 	 	 
 d003.s006.s001	deals	deal	N	交易	交易	bn:00014152n	True
 wf	for	for	 	 	 	 
-d003.s006.s002	fields	field	N	田地	田地	bn:00034265n	True
 wf	auctioned	auction	 	 	 	 
 wf	in	in	 	 	 	 
-d003.s006.s003	June	june	N	六月份	六月份	bn:00048592n	True
+d003.s006.s003	June	june	N	6月份	6月份	bn:00048592n	False
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
 wf	meager	meager	 	 	 	 
@@ -1930,14 +1989,14 @@ d003.s007.s000	representation	representation	N	代表	代表	bn:00067192n	False
 wf	of	of	 	 	 	 
 wf	American	american	 	 	 	 
 d003.s007.s001	oil	oil	N	石油	石油	bn:00024112n	True
-d003.s007.s002	giants	giant	N	开放	开放	bn:00040387n	False
+d003.s007.s002	giants	giant	N	巨头	巨头	bn:00040387n	False
 wf	in	in	 	 	 	 
 d003.s007.s003	Iraq	iraq	N	伊拉克	伊拉克	bn:00002362n	True
 wf	's	's	 	 	 	 
 wf	opening	open	 	 	 	 
 d003.s007.s004	oil industry	oil_industry	N	工业	工业	bn:00058741n	False
 wf	surprised	surprise	 	 	 	 
-d003.s007.s005	analysts	analyst	N	分析家	分析家	bn:00003802n	True
+d003.s007.s005	analysts	analyst	N	分析师	分析师	bn:00003802n	True
 wf	.	.	 	 	 	 
 d003.s008.s000	Iraq	iraq	N	伊拉克	伊拉克	bn:00002362n	True
 wf	finally	finally	 	 	 	 
@@ -1946,12 +2005,13 @@ wf	its	its
 d003.s008.s001	doors	door	N	大门	大门	bn:00028249n	True
 wf	after	after	 	 	 	 
 wf	six	six	 	 	 	 
+d003.s008.s002	years	year	N	年	年	bn:00078738n	True
 wf	of	of	 	 	 	 
+d003.s008.s003	war	war	N	战争	战争	bn:00080439n	True
 wf	,	,	 	 	 	 
 wf	and	and	 	 	 	 
 wf	instead	instead	 	 	 	 
 wf	of	of	 	 	 	 
-d003.s008.s004	U.S.	u.s.	N	美国	美国	bn:00003341n	False
 d003.s008.s005	companies	company	N	公司	公司	bn:00021286n	True
 wf	,	,	 	 	 	 
 wf	you	you	 	 	 	 
@@ -1961,7 +2021,6 @@ wf	and	and
 wf	Europeans	european	 	 	 	 
 wf	leading	lead	 	 	 	 
 wf	the	the	 	 	 	 
-d003.s008.s006	way	way	N	领路	领路	bn:00061005n	False
 wf	,	,	 	 	 	 
 wf	said	say	 	 	 	 
 wf	Ruba	ruba	 	 	 	 
@@ -1976,6 +2035,7 @@ wf	Forum	forum
 wf	,	,	 	 	 	 
 wf	an	a	 	 	 	 
 wf	online	online	 	 	 	 
+d003.s008.s008	news	news	N	美国	美国	bn:00057546n	False
 wf	.	.	 	 	 	 
 wf	It	it	 	 	 	 
 wf	will	will	 	 	 	 
@@ -1988,21 +2048,24 @@ wf	else	else
 wf	will	will	 	 	 	 
 wf	be	be	 	 	 	 
 wf	on	on	 	 	 	 
-d003.s009.s001	offer	offer	N	提出	提出	bn:00058679n	False
+d003.s009.s001	offer	offer	N	提供	提供	bn:00058679n	False
 wf	in	in	 	 	 	 
 d003.s009.s002	Iraq	iraq	N	伊拉克	伊拉克	bn:00002362n	True
 wf	.	.	 	 	 	 
+d003.s010.s000	Concerns	concern	N	担忧	担忧	bn:00021556n	False
 wf	over	over	 	 	 	 
+d003.s010.s001	security	security	N	安全	安全	bn:00070225n	True
 wf	,	,	 	 	 	 
 wf	underscored	underscore	 	 	 	 
 wf	by	by	 	 	 	 
 wf	massive	massive	 	 	 	 
 wf	coordinated	coordinate	 	 	 	 
-d003.s010.s002	bombings	bombing	N	撤出	撤出	bn:00011946n	False
+d003.s010.s002	bombings	bombing	N	轰炸	轰炸	bn:00011946n	False
+d003.s010.s003	Tuesday	tuesday	N	周二	周二	bn:00078546n	True
 wf	,	,	 	 	 	 
 wf	and	and	 	 	 	 
 wf	political	political	 	 	 	 
-d003.s010.s004	instability	instability	N	动荡	动荡	bn:00046933n	False
+d003.s010.s004	instability	instability	N	稳定	稳定	bn:00046933n	False
 wf	as	as	 	 	 	 
 wf	the	the	 	 	 	 
 d003.s010.s005	U.S.	u.s.	N	美国	美国	bn:00003341n	False
@@ -2012,7 +2075,7 @@ wf	,	,
 wf	likely	likely	 	 	 	 
 wf	kept	keep	 	 	 	 
 wf	American	american	 	 	 	 
-d003.s010.s007	oil companies	oil_company	N	公司	公司	bn:00058745n	False
+d003.s010.s007	oil companies	oil_company	N	石油	石油	bn:00058745n	False
 wf	from	from	 	 	 	 
 wf	venturing	venture	 	 	 	 
 wf	more	more	 	 	 	 
@@ -2028,9 +2091,9 @@ wf	's	's
 wf	third-largest	third-largest	 	 	 	 
 wf	proven	proven	 	 	 	 
 wf	crude	crude	 	 	 	 
-d003.s010.s010	reserves	reserve	N	储备	储备	bn:00007805n	False
+d003.s010.s010	reserves	reserve	N	储量	储量	bn:00007805n	False
 wf	,	,	 	 	 	 
-d003.s010.s011	analysts	analyst	N	分析家	分析家	bn:00003801n	True
+d003.s010.s011	analysts	analyst	N	分析师	分析师	bn:00003801n	True
 wf	said	say	 	 	 	 
 wf	.	.	 	 	 	 
 d003.s011.s000	U.S.	u.s.	N	美国	美国	bn:00003341n	False
@@ -2038,9 +2101,10 @@ d003.s011.s001	firms	firm	N	公司	公司	bn:00014160n	True
 wf	were	be	 	 	 	 
 wf	in	in	 	 	 	 
 wf	some	some	 	 	 	 
+d003.s011.s002	cases	case	N	情况	情况	bn:00016401n	False
 wf	at	at	 	 	 	 
 wf	a	a	 	 	 	 
-d003.s011.s003	disadvantage	disadvantage	N	地位	地位	bn:00027415n	False
+d003.s011.s003	disadvantage	disadvantage	N	劣势	劣势	bn:00027415n	False
 wf	because	because	 	 	 	 
 d003.s011.s004	rivals	rival	N	对手	对手	bn:00017562n	True
 wf	,	,	 	 	 	 
@@ -2065,12 +2129,14 @@ wf	more	more
 wf	prone	prone	 	 	 	 
 wf	to	to	 	 	 	 
 wf	take	take	 	 	 	 
+d003.s011.s008	risks	risk	N	风险	风险	bn:00030747n	True
 wf	because	because	 	 	 	 
 wf	they	they	 	 	 	 
 wf	do	do	 	 	 	 
 wf	n't	n't	 	 	 	 
 wf	respond	respond	 	 	 	 
 wf	to	to	 	 	 	 
+d003.s011.s009	shareholders	shareholder	N	股东	股东	bn:00070914n	True
 wf	.	.	 	 	 	 
 wf	Exxon-Mobil	exxon-mobil	 	 	 	 
 wf	and	and	 	 	 	 
@@ -2084,12 +2150,13 @@ wf	American	american
 d003.s012.s000	companies	company	N	公司	公司	bn:00021286n	True
 wf	that	that	 	 	 	 
 wf	reached	reach	 	 	 	 
-d003.s012.s001	deals	deal	N	交易	交易	bn:00008568n	True
+d003.s012.s001	deals	deal	N	协议	协议	bn:00008568n	False
 wf	with	with	 	 	 	 
 wf	the	the	 	 	 	 
-d003.s012.s002	ministry	ministry	N	外交部	外交部	bn:00055180n	True
+d003.s012.s002	ministry	ministry	N	该部	该部	bn:00055180n	False
 wf	.	.	 	 	 	 
 wf	Major	major	 	 	 	 
+d003.s013.s000	U.S.	u.s.	N	Chevron)	Chevron)	bn:00003341n	False
 d003.s013.s001	firms	firm	N	公司	公司	bn:00014160n	True
 wf	such	such	 	 	 	 
 wf	as	as	 	 	 	 
@@ -2110,7 +2177,7 @@ wf	and	and
 wf	have	have	 	 	 	 
 wf	provided	provide	 	 	 	 
 wf	technical	technical	 	 	 	 
-d003.s013.s003	advice	advice	N	联系	联系	bn:00001592n	False
+d003.s013.s003	advice	advice	N	建议	建议	bn:00001592n	False
 wf	in	in	 	 	 	 
 wf	recent	recent	 	 	 	 
 wf	,	,	 	 	 	 
@@ -2141,6 +2208,7 @@ wf	China	china
 wf	National	national	 	 	 	 
 wf	Petroleum	petroleum	 	 	 	 
 wf	Corporation	corporation	 	 	 	 
+d003.s015.s000	bid	bid	N	竞标	竞标	bn:00010262n	False
 wf	on	on	 	 	 	 
 wf	more	more	 	 	 	 
 d003.s015.s001	contracts	contract	N	合同	合同	bn:00022227n	True
@@ -2167,7 +2235,6 @@ wf	that	that
 d003.s016.s000	China	china	N	中国	中国	bn:00016756n	True
 wf	is	be	 	 	 	 
 wf	on	on	 	 	 	 
-d003.s016.s001	track	track	N	正轨	正轨	bn:00023288n	False
 wf	to	to	 	 	 	 
 wf	become	become	 	 	 	 
 wf	a	a	 	 	 	 
@@ -2177,6 +2244,7 @@ wf	as	as
 wf	well	well	 	 	 	 
 wf	as	as	 	 	 	 
 wf	technological	technological	 	 	 	 
+d003.s016.s002	power	power	N	强国	强国	bn:00041585n	False
 wf	,	,	 	 	 	 
 wf	Oil	oil	 	 	 	 
 wf	Ministry	ministry	 	 	 	 
@@ -2212,7 +2280,7 @@ wf	pre-selected	pre-selected
 wf	to	to	 	 	 	 
 wf	submit	submit	 	 	 	 
 wf	made	make	 	 	 	 
-d003.s018.s002	offers	offer	N	报价	报价	bn:00058679n	False
+d003.s018.s002	offers	offer	N	出价	出价	bn:00058679n	False
 wf	that	that	 	 	 	 
 wf	were	be	 	 	 	 
 wf	then	then	 	 	 	 
@@ -2221,7 +2289,7 @@ wf	to	to
 wf	the	the	 	 	 	 
 wf	per	per	 	 	 	 
 d003.s018.s003	barrel	barrel	N	桶	桶	bn:00008694n	True
-d003.s018.s004	fee	fee	N	价格	价格	bn:00033939n	False
+d003.s018.s004	fee	fee	N	费用	费用	bn:00033939n	False
 wf	the	the	 	 	 	 
 d003.s018.s005	ministry	ministry	N	该部	该部	bn:00055180n	False
 wf	was	be	 	 	 	 
@@ -2230,19 +2298,19 @@ wf	to	to
 wf	pay	pay	 	 	 	 
 wf	for	for	 	 	 	 
 wf	boosting	boost	 	 	 	 
-d003.s018.s006	output	output	N	产出	产出	bn:00059788n	True
+d003.s018.s006	output	output	N	产量	产量	bn:00059788n	True
 wf	above	above	 	 	 	 
 wf	current	current	 	 	 	 
 d003.s018.s007	levels	level	N	水平	水平	bn:00025965n	True
 wf	at	at	 	 	 	 
 wf	each	each	 	 	 	 
-d003.s018.s008	field	field	N	领域	领域	bn:00034265n	True
+d003.s018.s008	field	field	N	油田	油田	bn:00034265n	False
 wf	.	.	 	 	 	 
 wf	US	us	 	 	 	 
 d004.s000.s000	banks	bank	N	银行	银行	bn:00008364n	True
 wf	repay	repay	 	 	 	 
 d004.s000.s001	state	state	N	国家	国家	bn:00074010n	True
-d004.s000.s002	support	support	N	支助	支助	bn:00007799n	False
+d004.s000.s002	support	support	N	支持	支持	bn:00007799n	True
 wf	The	the	 	 	 	 
 wf	crisis-hit	crisis-hit	 	 	 	 
 d004.s001.s000	US	us	N	美国	美国	bn:00003341n	True
@@ -2254,10 +2322,9 @@ wf	free	free
 wf	from	from	 	 	 	 
 wf	their	they	 	 	 	 
 d004.s001.s002	state	state	N	国家	国家	bn:00074010n	True
-d004.s001.s003	shackles	shackle	N	枷锁	枷锁	bn:00011975n	False
 wf	.	.	 	 	 	 
 wf	On	on	 	 	 	 
-d004.s002.s000	Wednesday	wednesday	N	星期三	星期三	bn:00054897n	True
+d004.s002.s000	Wednesday	wednesday	N	周三	周三	bn:00054897n	True
 wf	Bank	bank	 	 	 	 
 wf	of	of	 	 	 	 
 wf	America	america	 	 	 	 
@@ -2290,7 +2357,10 @@ wf	And	and
 wf	,	,	 	 	 	 
 wf	according	accord	 	 	 	 
 wf	to	to	 	 	 	 
+d004.s003.s000	reports	report	N	报道	报道	bn:00000739n	True
 wf	from	from	 	 	 	 
+d004.s003.s001	US	us	N	美国	美国	bn:00003341n	True
+d004.s003.s002	broadcaster	broadcaster	N	公司	公司	bn:00013240n	False
 wf	CNBC	cnbc	 	 	 	 
 wf	,	,	 	 	 	 
 wf	Citigroup	citigroup	 	 	 	 
@@ -2318,7 +2388,7 @@ wf	going	go
 wf	hand-in-hand	hand-in-hand	 	 	 	 
 wf	with	with	 	 	 	 
 wf	the	the	 	 	 	 
-d004.s004.s002	acceptance	acceptance	N	实行	实行	bn:00000649n	False
+d004.s004.s002	acceptance	acceptance	N	接受	接受	bn:00000649n	False
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
 d004.s004.s003	money	money	N	资金	资金	bn:00055644n	False
@@ -2355,13 +2425,13 @@ wf	.	.
 wf	The	the	 	 	 	 
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
-d004.s006.s001	amount	amount	N	部分	部分	bn:00003601n	False
+d004.s006.s001	amount	amount	N	金额	金额	bn:00003601n	False
 wf	was	be	 	 	 	 
 wf	taken	take	 	 	 	 
 wf	from	from	 	 	 	 
 wf	its	its	 	 	 	 
 wf	own	own	 	 	 	 
-d004.s006.s002	kitty	kitty	N	猫咪	猫咪	bn:00047831n	True
+d004.s006.s002	kitty	kitty	N	猫	猫	bn:00047831n	False
 wf	,	,	 	 	 	 
 wf	which	which	 	 	 	 
 wf	was	be	 	 	 	 
@@ -2369,7 +2439,10 @@ wf	well	well
 wf	filled	fill	 	 	 	 
 wf	through	through	 	 	 	 
 wf	the	the	 	 	 	 
+d004.s006.s003	sale	sale	N	出售	出售	bn:00068915n	False
 wf	of	of	 	 	 	 
+d004.s006.s004	business	business	N	业务	业务	bn:00014136n	True
+d004.s006.s005	units	unit	N	部门	部门	bn:00079107n	False
 wf	.	.	 	 	 	 
 d004.s007.s000	Bank	bank	N	银行	银行	bn:00008364n	True
 wf	head	head	 	 	 	 
@@ -2402,10 +2475,11 @@ d004.s008.s000	bank	bank	N	银行	银行	bn:00008364n	True
 wf	overstretched	overstretch	 	 	 	 
 wf	at	at	 	 	 	 
 wf	the	the	 	 	 	 
+d004.s008.s001	height	height	N	严重	严重	bn:00000942n	False
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
 wf	financial	financial	 	 	 	 
-d004.s008.s002	crisis	crisis	N	美林	美林	bn:00023844n	False
+d004.s008.s002	crisis	crisis	N	危机	危机	bn:00023844n	True
 wf	by	by	 	 	 	 
 wf	taking	take	 	 	 	 
 wf	over	over	 	 	 	 
@@ -2437,7 +2511,7 @@ d004.s009.s002	state	state	N	国家	国家	bn:00074010n	True
 wf	.	.	 	 	 	 
 wf	Already	already	 	 	 	 
 wf	on	on	 	 	 	 
-d004.s010.s000	Thursday	thursday	N	星期四	星期四	bn:00076744n	True
+d004.s010.s000	Thursday	thursday	N	周四	周四	bn:00076744n	True
 wf	,	,	 	 	 	 
 wf	the	the	 	 	 	 
 d004.s010.s001	US	us	N	美国	美国	bn:00003341n	True
@@ -2447,8 +2521,7 @@ wf	able	able
 wf	to	to	 	 	 	 
 wf	announce	announce	 	 	 	 
 wf	a	a	 	 	 	 
-d004.s010.s003	capital	capital	N	资本	资本	bn:00015496n	True
-d004.s010.s004	increase	increase	N	增长	增长	bn:00046356n	False
+d004.s010.s003	capital	capital	N	增资	增资	bn:00015496n	True
 wf	of	of	 	 	 	 
 wf	some	some	 	 	 	 
 wf	USD	usd	 	 	 	 
@@ -2458,7 +2531,9 @@ wf	,	,
 wf	reported	report	 	 	 	 
 wf	CNBC	cnbc	 	 	 	 
 wf	with	with	 	 	 	 
+d004.s010.s005	reference	reference	N	援引	援引	bn:00000939n	False
 wf	to	to	 	 	 	 
+d004.s010.s006	circles	circle	N	圈子	圈子	bn:00008279n	True
 wf	.	.	 	 	 	 
 wf	A	a	 	 	 	 
 wf	Citigroup	citigroup	 	 	 	 
@@ -2480,11 +2555,12 @@ wf	had	have
 wf	already	already	 	 	 	 
 wf	repaid	repay	 	 	 	 
 wf	their	they	 	 	 	 
-d004.s012.s000	support	support	N	支持	支持	bn:00007799n	True
+d004.s012.s000	support	support	N	6月份	6月份	bn:00007799n	False
 wf	in	in	 	 	 	 
-d004.s012.s001	June	june	N	六月	六月	bn:00048592n	True
+d004.s012.s001	June	june	N	6月份	6月份	bn:00048592n	False
 wf	.	.	 	 	 	 
 wf	Cheshire	cheshire	 	 	 	 
+d005.s000.s000	Appeal	appeal	N	上诉	上诉	bn:00005019n	True
 wf	Will	will	 	 	 	 
 wf	Point	point	 	 	 	 
 wf	to	to	 	 	 	 
@@ -2498,7 +2574,7 @@ wf	away	away
 wf	in	in	 	 	 	 
 wf	the	the	 	 	 	 
 d005.s001.s001	courtroom	courtroom	N	法庭	法庭	bn:00023302n	False
-d005.s001.s002	rows	row	N	排	排	bn:00068424n	False
+d005.s001.s002	rows	row	N	法庭	法庭	bn:00068424n	False
 wf	.	.	 	 	 	 
 wf	Minute	minute	 	 	 	 
 wf	by	by	 	 	 	 
@@ -2526,24 +2602,30 @@ wf	more	more
 wf	than	than	 	 	 	 
 wf	140,000	140,000	 	 	 	 
 wf	Twitter	twitter	 	 	 	 
-d005.s003.s002	messages	message	N	讯息	讯息	bn:00054523n	True
+d005.s003.s002	messages	message	N	消息	消息	bn:00054523n	True
 wf	about	about	 	 	 	 
 wf	the	the	 	 	 	 
+d005.s003.s003	trial	trial	N	审判	审判	bn:00078198n	False
 wf	that	that	 	 	 	 
 wf	dealt	deal	 	 	 	 
 wf	with	with	 	 	 	 
+d005.s003.s004	rape	rape	N	强奸	强奸	bn:00006469n	False
 wf	and	and	 	 	 	 
+d005.s003.s005	children	child	N	儿童	儿童	bn:00018345n	True
 wf	tied	tie	 	 	 	 
 wf	to	to	 	 	 	 
 wf	their	they	 	 	 	 
+d005.s003.s006	beds	bed	N	床	床	bn:00009472n	True
 wf	in	in	 	 	 	 
 wf	a	a	 	 	 	 
+d005.s003.s007	house	house	N	房子	房子	bn:00044994n	True
 wf	that	that	 	 	 	 
 wf	was	be	 	 	 	 
 wf	set	set	 	 	 	 
 wf	ablaze	ablaze	 	 	 	 
 wf	.	.	 	 	 	 
 wf	On	on	 	 	 	 
+d005.s004.s000	Thursday	thursday	N	周四	周四	bn:00076744n	True
 wf	,	,	 	 	 	 
 wf	the	the	 	 	 	 
 wf	widely	widely	 	 	 	 
@@ -2559,6 +2641,7 @@ wf	convicted	convict
 wf	of	of	 	 	 	 
 wf	killing	kill	 	 	 	 
 wf	three	three	 	 	 	 
+d005.s004.s002	members	member	N	三口	三口	bn:00034004n	False
 wf	of	of	 	 	 	 
 wf	a	a	 	 	 	 
 wf	Cheshire	cheshire	 	 	 	 
@@ -2573,8 +2656,10 @@ wf	come	come
 wf	to	to	 	 	 	 
 wf	an	a	 	 	 	 
 wf	official	official	 	 	 	 
+d005.s004.s004	end	end	N	结束	结束	bn:00030719n	False
 wf	with	with	 	 	 	 
 wf	the	the	 	 	 	 
+d005.s004.s005	judge	judge	N	法官	法官	bn:00048488n	True
 wf	's	's	 	 	 	 
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
@@ -2584,6 +2669,7 @@ wf	voted	vote
 wf	for	for	 	 	 	 
 wf	by	by	 	 	 	 
 wf	the	the	 	 	 	 
+d005.s004.s007	jury	jury	N	陪审团	陪审团	bn:00048658n	True
 wf	.	.	 	 	 	 
 wf	But	but	 	 	 	 
 d005.s005.s000	lawyers	lawyer	N	律师	律师	bn:00007051n	True
@@ -2593,17 +2679,20 @@ wf	Hayes	haye
 wf	have	have	 	 	 	 
 wf	already	already	 	 	 	 
 wf	made	make	 	 	 	 
+d005.s005.s001	court	court	N	法庭	法庭	bn:00023301n	True
 d005.s005.s002	filings	filing	N	文件	文件	bn:00034444n	False
 wf	that	that	 	 	 	 
 wf	sketch	sketch	 	 	 	 
 wf	out	out	 	 	 	 
+d005.s005.s003	appeals	appeal	N	上诉	上诉	bn:00005019n	True
+d005.s005.s004	arguments	argument	N	论点	论点	bn:00005600n	True
 wf	that	that	 	 	 	 
 wf	are	be	 	 	 	 
 wf	likely	likely	 	 	 	 
 wf	to	to	 	 	 	 
 wf	occupy	occupy	 	 	 	 
 wf	the	the	 	 	 	 
-d005.s005.s005	courts	court	N	法院	法院	bn:00023301n	True
+d005.s005.s005	courts	court	N	法庭	法庭	bn:00023301n	True
 wf	for	for	 	 	 	 
 wf	.	.	 	 	 	 
 wf	One	one	 	 	 	 
@@ -2615,8 +2704,10 @@ wf	is	be
 wf	that	that	 	 	 	 
 wf	the	the	 	 	 	 
 wf	intense	intense	 	 	 	 
+d005.s006.s000	reporting	reporting	N	报道	报道	bn:00023362n	False
 wf	on	on	 	 	 	 
 wf	the	the	 	 	 	 
+d005.s006.s001	trial	trial	N	审判	审判	bn:00078198n	False
 wf	-	-	 	 	 	 
 wf	including	include	 	 	 	 
 wf	mainstream	mainstream	 	 	 	 
@@ -2644,14 +2735,16 @@ wf	inflammatory	inflammatory
 d005.s006.s006	details	detail	N	细节	细节	bn:00026622n	False
 wf	that	that	 	 	 	 
 wf	the	the	 	 	 	 
+d005.s006.s007	jury	jury	N	陪审团	陪审团	bn:00048658n	True
 wf	was	be	 	 	 	 
 wf	improperly	improperly	 	 	 	 
 wf	swayed	sway	 	 	 	 
 wf	by	by	 	 	 	 
 wf	public	public	 	 	 	 
+d005.s006.s008	passions	passion	N	激情	激情	bn:00060907n	True
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
-d005.s007.s000	claim	claim	N	申诉	申诉	bn:00019404n	False
+d005.s007.s000	claim	claim	N	说法	说法	bn:00019404n	False
 wf	could	could	 	 	 	 
 wf	force	force	 	 	 	 
 d005.s007.s001	appeals	appeal	N	上诉	上诉	bn:00005019n	True
@@ -2667,7 +2760,7 @@ wf	new	new
 wf	technology	technology	 	 	 	 
 wf	requires	require	 	 	 	 
 wf	new	new	 	 	 	 
-d005.s007.s004	courtroom	courtroom	N	审判室	审判室	bn:00023302n	False
+d005.s007.s004	courtroom	courtroom	N	法庭	法庭	bn:00023302n	False
 d005.s007.s005	rules	rule	N	规则	规则	bn:00064192n	True
 wf	.	.	 	 	 	 
 wf	``	``	 	 	 	 
@@ -2688,7 +2781,7 @@ wf	real	real
 d005.s008.s001	danger	danger	N	危险	危险	bn:00025170n	True
 wf	that	that	 	 	 	 
 wf	the	the	 	 	 	 
-d005.s008.s002	inclusion	inclusion	N	采用	采用	bn:00046310n	False
+d005.s008.s002	inclusion	inclusion	N	使用	使用	bn:00046310n	False
 wf	of	of	 	 	 	 
 wf	new	new	 	 	 	 
 wf	technology	technology	 	 	 	 
@@ -2713,7 +2806,7 @@ wf	Mr.	mr.
 wf	Hayes	haye	 	 	 	 
 wf	's	's	 	 	 	 
 wf	chief	chief	 	 	 	 
-d005.s008.s006	defense lawyer	defense_lawyer	N	律师	律师	bn:00025890n	False
+d005.s008.s006	defense lawyer	defense_lawyer	N	·乌尔曼	·乌尔曼	bn:00025890n	False
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
 d005.s009.s000	trial judge	trial_judge	N	审判	审判	bn:00078207n	False
@@ -2722,19 +2815,22 @@ wf	Jon	jon
 wf	C.	c.	 	 	 	 
 wf	Blue	blue	 	 	 	 
 wf	of	of	 	 	 	 
-d005.s009.s001	State	state	N	(州	(州	bn:00064914n	False
-d005.s009.s002	Superior Court	superior_court	N	高级	高级	bn:00075262n	False
+d005.s009.s001	State	state	N	州	州	bn:00064914n	True
+d005.s009.s002	Superior Court	superior_court	N	乔恩·	乔恩·	bn:00075262n	False
 wf	,	,	 	 	 	 
 wf	tersely	tersely	 	 	 	 
 wf	rejected	reject	 	 	 	 
 wf	the	the	 	 	 	 
+d005.s009.s003	claims	claim	N	说法	说法	bn:00019404n	False
 wf	in	in	 	 	 	 
 wf	a	a	 	 	 	 
+d005.s009.s004	ruling	ruling	N	裁决	裁决	bn:00059171n	True
 wf	last	last	 	 	 	 
 wf	,	,	 	 	 	 
 wf	saying	say	 	 	 	 
 wf	that	that	 	 	 	 
 wf	the	the	 	 	 	 
+d005.s009.s006	news media	news_media	N	新闻	新闻	bn:00048459n	False
 wf	were	be	 	 	 	 
 wf	``	``	 	 	 	 
 wf	carefully	carefully	 	 	 	 
@@ -2745,10 +2841,13 @@ wf	that	that
 wf	there	there	 	 	 	 
 wf	was	be	 	 	 	 
 wf	no	no	 	 	 	 
+d005.s009.s007	evidence	evidence	N	证据	证据	bn:00032047n	True
 wf	the	the	 	 	 	 
+d005.s009.s008	jury	jury	N	陪审团	陪审团	bn:00048658n	True
 wf	was	be	 	 	 	 
 wf	driven	drive	 	 	 	 
 wf	by	by	 	 	 	 
+d005.s009.s009	passion	passion	N	激情	激情	bn:00060907n	True
 wf	.	.	 	 	 	 
 wf	But	but	 	 	 	 
 wf	that	that	 	 	 	 
@@ -2765,11 +2864,11 @@ d005.s010.s001	issue	issue	N	问题	问题	bn:00047688n	True
 wf	.	.	 	 	 	 
 wf	For	for	 	 	 	 
 wf	,	,	 	 	 	 
-d005.s011.s001	appeals courts	appeals_court	N	上诉	上诉	bn:00005022n	False
+d005.s011.s001	appeals courts	appeals_court	N	法院	法院	bn:00005022n	False
 wf	have	have	 	 	 	 
 wf	recognized	recognize	 	 	 	 
 wf	that	that	 	 	 	 
-d005.s011.s002	coverage	coverage	N	报导	报导	bn:00023362n	False
+d005.s011.s002	coverage	coverage	N	报道	报道	bn:00023362n	False
 wf	of	of	 	 	 	 
 wf	notorious	notorious	 	 	 	 
 d005.s011.s003	cases	case	N	案件	案件	bn:00016403n	True
@@ -2788,14 +2887,13 @@ wf	1966	1966
 d005.s012.s000	ruling	ruling	N	裁决	裁决	bn:00059171n	True
 wf	,	,	 	 	 	 
 wf	the	the	 	 	 	 
-d005.s012.s001	United States Supreme Court	united_states_supreme_court	N	法院	法院	bn:00075359n	False
+d005.s012.s001	United States Supreme Court	united_states_supreme_court	N	最高	最高	bn:00075359n	False
 wf	overturned	overturn	 	 	 	 
 wf	the	the	 	 	 	 
-d005.s012.s002	conviction	conviction	N	定罪	定罪	bn:00021628n	False
 wf	of	of	 	 	 	 
 wf	a	a	 	 	 	 
 d005.s012.s003	Cleveland	cleveland	N	克利夫兰	克利夫兰	bn:00019742n	True
-d005.s012.s004	osteopath	osteopath	N	骨科病者	骨科病者	bn:00059674n	False
+d005.s012.s004	osteopath	osteopath	N	骨科	骨科	bn:00059674n	False
 wf	,	,	 	 	 	 
 wf	Dr.	dr.	 	 	 	 
 wf	Sam	sam	 	 	 	 
@@ -2811,6 +2909,7 @@ wf	,	,
 wf	saying	say	 	 	 	 
 wf	in	in	 	 	 	 
 wf	its	its	 	 	 	 
+d005.s012.s007	decision	decision	N	定罪	定罪	bn:00021584n	False
 wf	,	,	 	 	 	 
 wf	Sheppard	sheppard	 	 	 	 
 wf	v.	v.	 	 	 	 
@@ -2821,11 +2920,15 @@ wf	there	there
 wf	was	be	 	 	 	 
 wf	a	a	 	 	 	 
 wf	``	``	 	 	 	 
+d005.s012.s008	carnival	carnival	N	狂欢节	狂欢节	bn:00016140n	True
+d005.s012.s009	atmosphere	atmosphere	N	气氛	气氛	bn:00003263n	True
 wf	at	at	 	 	 	 
+d005.s012.s010	trial	trial	N	审判	审判	bn:00078198n	False
 wf	''	''	 	 	 	 
 wf	because	because	 	 	 	 
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
+d005.s012.s011	news media	news_media	N	媒体	媒体	bn:00048459n	False
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
 d005.s013.s000	crime	crime	N	罪行	罪行	bn:00023807n	True
@@ -2897,8 +3000,10 @@ wf	is	be
 wf	a	a	 	 	 	 
 wf	general	general	 	 	 	 
 wf	for	for	 	 	 	 
+d005.s015.s001	concern	concern	N	担心	担心	bn:00016013n	False
 wf	about	about	 	 	 	 
 wf	the	the	 	 	 	 
+d005.s015.s002	impact	impact	N	影响	影响	bn:00046065n	False
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
 wf	new	new	 	 	 	 
@@ -2906,6 +3011,7 @@ wf	media	media
 wf	''	''	 	 	 	 
 wf	in	in	 	 	 	 
 wf	high-profile	high-profile	 	 	 	 
+d005.s015.s003	trials	trial	N	审判	审判	bn:00078198n	False
 wf	,	,	 	 	 	 
 wf	said	say	 	 	 	 
 wf	John	john	 	 	 	 
@@ -2921,9 +3027,12 @@ d005.s015.s004	professor	professor	N	教授	教授	bn:00064601n	True
 wf	who	who	 	 	 	 
 wf	studied	study	 	 	 	 
 wf	the	the	 	 	 	 
+d005.s015.s005	Connecticut	connecticut	N	康涅狄格州	康涅狄格州	bn:00021904n	True
+d005.s015.s006	death penalty	death_penalty	N	死刑	死刑	bn:00015656n	False
 wf	and	and	 	 	 	 
 wf	wrote	write	 	 	 	 
 wf	a	a	 	 	 	 
+d005.s015.s007	report	report	N	报告	报告	bn:00067181n	True
 wf	that	that	 	 	 	 
 wf	said	say	 	 	 	 
 wf	it	it	 	 	 	 
@@ -2946,9 +3055,9 @@ d005.s016.s003	idea	idea	N	想法	想法	bn:00045800n	False
 wf	that	that	 	 	 	 
 wf	limiting	limit	 	 	 	 
 wf	instant	instant	 	 	 	 
-d005.s016.s004	communication	communication	N	通讯	通讯	bn:00021221n	False
+d005.s016.s004	communication	communication	N	沟通	沟通	bn:00021221n	False
 wf	from	from	 	 	 	 
-d005.s016.s005	courtrooms	courtroom	N	审判室	审判室	bn:00023302n	False
+d005.s016.s005	courtrooms	courtroom	N	法庭	法庭	bn:00023302n	False
 wf	might	might	 	 	 	 
 wf	make	make	 	 	 	 
 d005.s016.s006	trials	trial	N	审判	审判	bn:00078198n	False
@@ -2978,9 +3087,10 @@ wf	for	for
 wf	,	,	 	 	 	 
 wf	delaying	delay	 	 	 	 
 wf	an	a	 	 	 	 
+d005.s017.s003	execution	execution	N	执行	执行	bn:00015656n	False
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
-d005.s018.s000	defense lawyers	defense_lawyer	N	律师	律师	bn:00025890n	False
+d005.s018.s000	defense lawyers	defense_lawyer	N	辩护	辩护	bn:00025890n	False
 wf	also	also	 	 	 	 
 wf	claim	claim	 	 	 	 
 wf	,	,	 	 	 	 
@@ -2994,7 +3104,7 @@ wf	have	have
 wf	been	be	 	 	 	 
 wf	prejudiced	prejudice	 	 	 	 
 wf	when	when	 	 	 	 
-d005.s018.s002	Judge	judge	N	法官	法官	bn:00048488n	True
+d005.s018.s002	Judge	judge	N	布鲁法官	布鲁法官	bn:00048488n	False
 wf	Blue	blue	 	 	 	 
 wf	declined	decline	 	 	 	 
 wf	to	to	 	 	 	 
@@ -3107,7 +3217,7 @@ wf	sequestered	sequester
 wf	.	.	 	 	 	 
 wf	But	but	 	 	 	 
 wf	their	they	 	 	 	 
-d005.s022.s000	arguments	argument	N	论调	论调	bn:00005600n	True
+d005.s022.s000	arguments	argument	N	论点	论点	bn:00005600n	True
 wf	about	about	 	 	 	 
 wf	the	the	 	 	 	 
 d005.s022.s001	effect	effect	N	影响	影响	bn:00021961n	True
@@ -3122,7 +3232,7 @@ wf	may	may
 wf	draw	draw	 	 	 	 
 wf	the	the	 	 	 	 
 wf	most	most	 	 	 	 
-d005.s022.s004	interest	interest	N	关注	关注	bn:00047077n	True
+d005.s022.s004	interest	interest	N	兴趣	兴趣	bn:00047077n	True
 wf	.	.	 	 	 	 
 wf	They	they	 	 	 	 
 wf	noted	note	 	 	 	 
@@ -3136,7 +3246,7 @@ wf	filed	file
 wf	last	last	 	 	 	 
 wf	that	that	 	 	 	 
 wf	the	the	 	 	 	 
-d005.s023.s003	case	case	N	案件	案件	bn:00016403n	True
+d005.s023.s003	case	case	N	该案	该案	bn:00016403n	False
 wf	dominated	dominate	 	 	 	 
 wf	the	the	 	 	 	 
 d005.s023.s004	news	news	N	新闻	新闻	bn:00057546n	True
@@ -3148,14 +3258,12 @@ wf	discussed	discuss
 wf	during	during	 	 	 	 
 wf	the	the	 	 	 	 
 d005.s023.s006	election	election	N	竞选	竞选	bn:00030113n	False
-d005.s023.s007	campaign	campaign	N	竞选	竞选	bn:00015050n	False
 wf	by	by	 	 	 	 
 d005.s023.s008	candidates	candidate	N	候选人	候选人	bn:00015056n	True
 wf	for	for	 	 	 	 
 wf	governor	governor	 	 	 	 
 wf	and	and	 	 	 	 
 wf	the	the	 	 	 	 
-d005.s023.s009	United States Senate	united_states_senate	N	参议院	参议院	bn:00070459n	False
 wf	.	.	 	 	 	 
 wf	They	they	 	 	 	 
 wf	argued	argue	 	 	 	 
@@ -3188,7 +3296,7 @@ d005.s025.s003	courthouse	courthouse	N	法院	法院	bn:00023326n	False
 wf	,	,	 	 	 	 
 wf	''	''	 	 	 	 
 wf	the	the	 	 	 	 
-d005.s025.s004	lawyers	lawyer	N	律师	律师	bn:00007051n	True
+d005.s025.s004	lawyers	lawyer	N	律师们	律师们	bn:00007051n	False
 wf	wrote	write	 	 	 	 
 wf	,	,	 	 	 	 
 wf	``	``	 	 	 	 
@@ -3206,16 +3314,16 @@ wf	statewide	statewide
 wf	.	.	 	 	 	 
 wf	''	''	 	 	 	 
 wf	Their	they	 	 	 	 
-d005.s026.s000	focus	focus	N	焦点	焦点	bn:00017153n	True
+d005.s026.s000	focus	focus	N	关注	关注	bn:00017153n	False
 wf	on	on	 	 	 	 
 wf	the	the	 	 	 	 
 wf	Twitter	twitter	 	 	 	 
-d005.s026.s001	coverage	coverage	N	报导	报导	bn:00023362n	False
+d005.s026.s001	coverage	coverage	N	报道	报道	bn:00023362n	False
 wf	is	be	 	 	 	 
 wf	controversial	controversial	 	 	 	 
 wf	.	.	 	 	 	 
 wf	In	in	 	 	 	 
-d005.s027.s000	interviews	interview	N	访谈	访谈	bn:00047238n	False
+d005.s027.s000	interviews	interview	N	采访	采访	bn:00047238n	False
 wf	,	,	 	 	 	 
 wf	some	some	 	 	 	 
 d005.s027.s001	journalists	journalist	N	记者	记者	bn:00048461n	True
@@ -3228,27 +3336,30 @@ wf	was	be
 wf	more	more	 	 	 	 
 wf	incendiary	incendiary	 	 	 	 
 wf	than	than	 	 	 	 
-d005.s027.s004	reports	report	N	报导	报导	bn:00000739n	True
+d005.s027.s004	reports	report	N	报道	报道	bn:00000739n	True
 wf	delivered	deliver	 	 	 	 
 wf	more	more	 	 	 	 
 wf	slowly	slowly	 	 	 	 
 wf	was	be	 	 	 	 
 wf	a	a	 	 	 	 
 wf	Luddite	luddite	 	 	 	 
-d005.s027.s005	view	view	N	认为	认为	bn:00061746n	False
+d005.s027.s005	view	view	N	观点	观点	bn:00061746n	False
 wf	that	that	 	 	 	 
 wf	would	would	 	 	 	 
 wf	make	make	 	 	 	 
 wf	poor	poor	 	 	 	 
+d005.s027.s006	court	court	N	法院	法院	bn:00023301n	True
+d005.s027.s007	policy	policy	N	政策	政策	bn:00063330n	True
 wf	governing	govern	 	 	 	 
+d005.s027.s008	coverage	coverage	N	报道	报道	bn:00023362n	False
 wf	of	of	 	 	 	 
 wf	future	future	 	 	 	 
+d005.s027.s009	trials	trial	N	审判	审判	bn:00078198n	False
 wf	.	.	 	 	 	 
 wf	But	but	 	 	 	 
 wf	some	some	 	 	 	 
 d005.s028.s000	lawyers	lawyer	N	律师	律师	bn:00007051n	True
 wf	said	say	 	 	 	 
-d005.s028.s001	appeals courts	appeals_court	N	上诉	上诉	bn:00005022n	False
 wf	were	be	 	 	 	 
 wf	often	often	 	 	 	 
 wf	attracted	attract	 	 	 	 
@@ -3268,23 +3379,24 @@ wf	.	.
 wf	Mr.	mr.	 	 	 	 
 wf	Hayes	haye	 	 	 	 
 wf	's	's	 	 	 	 
-d005.s029.s000	lawyers	lawyer	N	律师们	律师们	bn:00007051n	False
+d005.s029.s000	lawyers	lawyer	N	律师	律师	bn:00007051n	True
 wf	are	be	 	 	 	 
 wf	pressing	press	 	 	 	 
 wf	that	that	 	 	 	 
-d005.s029.s001	claim	claim	N	要求	要求	bn:00019404n	False
+d005.s029.s001	claim	claim	N	质疑	质疑	bn:00019404n	False
 wf	.	.	 	 	 	 
 wf	In	in	 	 	 	 
 wf	their	they	 	 	 	 
+d005.s030.s000	filing	filing	N	文件	文件	bn:00034444n	False
 wf	,	,	 	 	 	 
 wf	they	they	 	 	 	 
 wf	referred	refer	 	 	 	 
 wf	to	to	 	 	 	 
 wf	the	the	 	 	 	 
-d005.s030.s001	Supreme Court	supreme_court	N	法院	法院	bn:00075359n	False
+d005.s030.s001	Supreme Court	supreme_court	N	最高	最高	bn:00075359n	False
 wf	's	's	 	 	 	 
 wf	1966	1966	 	 	 	 
-d005.s030.s002	decision	decision	N	裁决	裁决	bn:00021584n	False
+d005.s030.s002	decision	decision	N	决定	决定	bn:00021584n	True
 wf	overturning	overturn	 	 	 	 
 wf	Dr.	dr.	 	 	 	 
 wf	Sheppard	sheppard	 	 	 	 
@@ -3293,7 +3405,8 @@ d005.s030.s003	conviction	conviction	N	定罪	定罪	bn:00021628n	False
 wf	because	because	 	 	 	 
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
-d005.s030.s004	trial	trial	N	定罪	定罪	bn:00078198n	False
+d005.s030.s004	trial	trial	N	审判	审判	bn:00078198n	False
+d005.s030.s005	coverage	coverage	N	报道	报道	bn:00023362n	False
 wf	and	and	 	 	 	 
 wf	made	make	 	 	 	 
 wf	it	it	 	 	 	 
@@ -3307,10 +3420,11 @@ wf	new	new
 wf	media	media	 	 	 	 
 wf	required	require	 	 	 	 
 wf	new	new	 	 	 	 
+d005.s030.s006	rules	rule	N	规则	规则	bn:00064192n	True
 wf	.	.	 	 	 	 
 wf	``	``	 	 	 	 
 wf	This	this	 	 	 	 
-d005.s031.s000	case	case	N	案例	案例	bn:00016403n	True
+d005.s031.s000	case	case	N	案子	案子	bn:00016403n	True
 wf	,	,	 	 	 	 
 wf	''	''	 	 	 	 
 wf	they	they	 	 	 	 
@@ -3330,9 +3444,9 @@ wf	.	.
 wf	''	''	 	 	 	 
 d006.s000.s000	Sport	sport	N	体育	体育	bn:00006759n	False
 wf	and	and	 	 	 	 
-d006.s000.s001	fraud	fraud	N	欺诈法	欺诈法	bn:00036292n	False
-d006.s000.s002	law	law	N	欺诈法	欺诈法	bn:00048655n	False
-d006.s001.s000	Tricks	trick	N	诡计	诡计	bn:00033750n	True
+d006.s000.s001	fraud	fraud	N	体育	体育	bn:00036292n	False
+d006.s000.s002	law	law	N	诈法	诈法	bn:00048655n	False
+d006.s001.s000	Tricks	trick	N	伎俩	伎俩	bn:00033750n	True
 wf	such	such	 	 	 	 
 wf	as	as	 	 	 	 
 wf	those	those	 	 	 	 
@@ -3344,22 +3458,25 @@ wf	before	before
 wf	the	the	 	 	 	 
 wf	Ajax	ajax	 	 	 	 
 wf	demonstrate	demonstrate	 	 	 	 
+d006.s001.s001	wittiness	wittiness	N	机智	机智	bn:00045199n	False
 wf	but	but	 	 	 	 
 wf	not	not	 	 	 	 
 wf	the	the	 	 	 	 
+d006.s001.s002	will	will	N	意愿	意愿	bn:00081224n	False
 wf	to	to	 	 	 	 
 wf	get	get	 	 	 	 
 wf	remove	remove	 	 	 	 
 wf	of	of	 	 	 	 
 wf	a	a	 	 	 	 
+d006.s001.s003	sanction	sanction	N	制裁	制裁	bn:00069122n	False
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
-d006.s002.s000	expulsion	expulsion	N	驱逐令	驱逐令	bn:00030015n	True
+d006.s002.s000	expulsion	expulsion	N	开除	开除	bn:00030015n	False
 wf	presumably	presumably	 	 	 	 
 wf	forged	forge	 	 	 	 
 wf	by	by	 	 	 	 
 wf	two	two	 	 	 	 
-d006.s002.s001	players	player	N	人	人	bn:00060799n	False
+d006.s002.s001	players	player	N	球员	球员	bn:00060799n	True
 wf	of	of	 	 	 	 
 wf	Real	real	 	 	 	 
 wf	Madrid	madrid	 	 	 	 
@@ -3389,12 +3506,14 @@ wf	has	have
 wf	caused	cause	 	 	 	 
 wf	rivers	river	 	 	 	 
 wf	of	of	 	 	 	 
+d006.s002.s003	ink	ink	N	墨水	墨水	bn:00046794n	True
 wf	to	to	 	 	 	 
 wf	be	be	 	 	 	 
 wf	written	write	 	 	 	 
 wf	about	about	 	 	 	 
 wf	if	if	 	 	 	 
 wf	such	such	 	 	 	 
+d006.s002.s004	behavior	behavior	N	行为	行为	bn:00009654n	True
 wf	is	be	 	 	 	 
 wf	or	or	 	 	 	 
 wf	is	be	 	 	 	 
@@ -3404,7 +3523,7 @@ wf	and	and
 wf	if	if	 	 	 	 
 wf	,	,	 	 	 	 
 wf	both	both	 	 	 	 
-d006.s002.s005	players	player	N	人	人	bn:00060799n	False
+d006.s002.s005	players	player	N	球员	球员	bn:00060799n	True
 wf	should	should	 	 	 	 
 wf	be	be	 	 	 	 
 wf	sanctioned	sanction	 	 	 	 
@@ -3447,7 +3566,6 @@ wf	show	show
 wf	the	the	 	 	 	 
 wf	second	second	 	 	 	 
 wf	yellow	yellow	 	 	 	 
-d006.s003.s007	card	card	N	卡片	卡片	bn:00015917n	True
 wf	to	to	 	 	 	 
 wf	both	both	 	 	 	 
 wf	of	of	 	 	 	 
@@ -3462,8 +3580,10 @@ wf	Madrid	madrid
 wf	will	will	 	 	 	 
 wf	finish	finish	 	 	 	 
 wf	as	as	 	 	 	 
+d006.s004.s001	leader	leader	N	领导者	领导者	bn:00050371n	True
 wf	of	of	 	 	 	 
 wf	its	its	 	 	 	 
+d006.s004.s002	group	group	N	小组	小组	bn:00041942n	True
 wf	,	,	 	 	 	 
 wf	both	both	 	 	 	 
 d006.s004.s003	players	player	N	球员	球员	bn:00060799n	True
@@ -3477,7 +3597,7 @@ wf	the	the
 wf	next	next	 	 	 	 
 d006.s004.s005	game	game	N	比赛	比赛	bn:00037181n	False
 wf	of	of	 	 	 	 
-d006.s004.s006	league	league	N	联盟	联盟	bn:00021722n	False
+d006.s004.s006	league	league	N	联赛	联赛	bn:00021722n	True
 wf	,	,	 	 	 	 
 wf	against	against	 	 	 	 
 wf	Auxerre	auxerre	 	 	 	 
@@ -3491,7 +3611,7 @@ wf	get	get
 wf	rid	rid	 	 	 	 
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
-d006.s004.s007	cards	card	N	卡片	卡片	bn:00015917n	True
+d006.s004.s007	cards	card	N	卡牌	卡牌	bn:00015917n	False
 wf	the	the	 	 	 	 
 wf	following	following	 	 	 	 
 d006.s004.s008	phase	phase	N	阶段	阶段	bn:00061898n	True
@@ -3523,16 +3643,16 @@ wf	and	and
 wf	with	with	 	 	 	 
 wf	different	different	 	 	 	 
 wf	economic	economic	 	 	 	 
+d006.s005.s005	amounts	amount	N	Mourinho	Mourinho	bn:00003601n	False
 wf	the	the	 	 	 	 
 wf	implied	implied	 	 	 	 
-d006.s005.s006	players	player	N	Mourinho)	Mourinho)	bn:00060799n	False
+d006.s005.s006	players	player	N	球员	球员	bn:00060799n	True
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
 d006.s006.s000	provocation	provocation	N	挑衅	挑衅	bn:00046294n	True
 wf	of	of	 	 	 	 
 wf	a	a	 	 	 	 
 wf	yellow	yellow	 	 	 	 
-d006.s006.s001	card	card	N	黄卡	黄卡	bn:00015917n	False
 wf	in	in	 	 	 	 
 wf	similar	similar	 	 	 	 
 d006.s006.s002	circumstances	circumstance	N	情况	情况	bn:00019219n	False
@@ -3567,6 +3687,7 @@ wf	,	,
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
 wf	unwritten	unwritten	 	 	 	 
+d006.s007.s001	rules	rule	N	规则	规则	bn:00066933n	True
 wf	,	,	 	 	 	 
 wf	but	but	 	 	 	 
 wf	followed	follow	 	 	 	 
@@ -3578,7 +3699,7 @@ wf	.	.
 d006.s008.s000	Part	part	N	部分	部分	bn:00021395n	True
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
-d006.s008.s001	debate	debate	N	辩论	辩论	bn:00005601n	True
+d006.s008.s001	debate	debate	N	争论	争论	bn:00005601n	True
 wf	arisen	arise	 	 	 	 
 wf	in	in	 	 	 	 
 wf	the	the	 	 	 	 
@@ -3588,7 +3709,6 @@ wf	is	be
 wf	caused	cause	 	 	 	 
 wf	by	by	 	 	 	 
 wf	the	the	 	 	 	 
-d006.s008.s003	fact	fact	N	在于	在于	bn:00032654n	False
 wf	that	that	 	 	 	 
 wf	has	have	 	 	 	 
 wf	been	be	 	 	 	 
@@ -3605,10 +3725,10 @@ wf	(	(
 wf	that	that	 	 	 	 
 wf	in	in	 	 	 	 
 wf	its	its	 	 	 	 
-d006.s008.s006	hymn	hymn	N	赞美	赞美	bn:00004527n	False
+d006.s008.s006	hymn	hymn	N	赞美诗	赞美诗	bn:00004527n	False
 wf	presumes	presume	 	 	 	 
 wf	of	of	 	 	 	 
-d006.s008.s007	nobility	nobility	N	高尚	高尚	bn:00041354n	False
+d006.s008.s007	nobility	nobility	N	贵族	贵族	bn:00041354n	True
 wf	and	and	 	 	 	 
 d006.s008.s008	honor	honor	N	荣誉	荣誉	bn:00044654n	True
 wf	,	,	 	 	 	 
@@ -3640,11 +3760,12 @@ wf	more	more
 wf	to	to	 	 	 	 
 wf	his	he	 	 	 	 
 wf	expanded	expanded	 	 	 	 
+d006.s008.s012	history	history	N	历史	历史	bn:00044269n	True
 wf	of	of	 	 	 	 
 wf	histrionic	histrionic	 	 	 	 
 wf	and	and	 	 	 	 
 wf	provoking	provoking	 	 	 	 
-d006.s008.s013	technician	technician	N	戏剧化	戏剧化	bn:00076339n	False
+d006.s008.s013	technician	technician	N	人员	人员	bn:00076339n	False
 wf	.	.	 	 	 	 
 wf	Anyway	anyway	 	 	 	 
 wf	,	,	 	 	 	 
@@ -3667,7 +3788,7 @@ wf	the	the
 d006.s009.s003	principles	principle	N	原则	原则	bn:00064077n	True
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
-d006.s009.s004	sport	sport	N	体育	体育	bn:00006759n	False
+d006.s009.s004	sport	sport	N	运动	运动	bn:00006759n	False
 wf	,	,	 	 	 	 
 wf	that	that	 	 	 	 
 wf	is	be	 	 	 	 
@@ -3677,6 +3798,7 @@ wf	,	,
 wf	if	if	 	 	 	 
 wf	with	with	 	 	 	 
 wf	these	these	 	 	 	 
+d006.s009.s005	actions	action	N	行为	行为	bn:00001127n	True
 wf	is	be	 	 	 	 
 wf	committed	commit	 	 	 	 
 wf	;	;	 	 	 	 
@@ -3687,8 +3809,11 @@ wf	,	,
 wf	they	they	 	 	 	 
 wf	are	be	 	 	 	 
 wf	respectful	respectful	 	 	 	 
+d006.s009.s007	actions	action	N	行为	行为	bn:00001127n	True
 wf	with	with	 	 	 	 
 wf	the	the	 	 	 	 
+d006.s009.s008	sport	sport	N	体育	体育	bn:00006759n	False
+d006.s009.s009	regulation	regulation	N	法规	法规	bn:00059436n	False
 wf	,	,	 	 	 	 
 wf	but	but	 	 	 	 
 wf	they	they	 	 	 	 
@@ -3696,14 +3821,15 @@ wf	seem	seem
 wf	to	to	 	 	 	 
 wf	elude	elude	 	 	 	 
 wf	its	its	 	 	 	 
+d006.s009.s010	sense	sense	N	意义	意义	bn:00021164n	True
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
-d006.s010.s000	matter	matter	N	事件	事件	bn:00047690n	False
+d006.s010.s000	matter	matter	N	此事	此事	bn:00047690n	False
 wf	examines	examine	 	 	 	 
 wf	the	the	 	 	 	 
 d006.s010.s001	type	type	N	类型	类型	bn:00078798n	True
 wf	of	of	 	 	 	 
-d006.s010.s002	damage	damage	N	伤害	伤害	bn:00025080n	False
+d006.s010.s002	damage	damage	N	损害	损害	bn:00025080n	False
 wf	that	that	 	 	 	 
 wf	is	be	 	 	 	 
 wf	brought	bring	 	 	 	 
@@ -3723,7 +3849,7 @@ d006.s011.s002	spirit	spirit	N	精神	精神	bn:00033960n	True
 wf	is	be	 	 	 	 
 wf	the	the	 	 	 	 
 wf	physical	physical	 	 	 	 
-d006.s011.s003	integrity	integrity	N	安全	安全	bn:00047017n	False
+d006.s011.s003	integrity	integrity	N	完整性	完整性	bn:00047017n	True
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
 wf	opposite	opposite	 	 	 	 
@@ -3732,7 +3858,7 @@ wf	,	,
 wf	that	that	 	 	 	 
 wf	with	with	 	 	 	 
 wf	these	these	 	 	 	 
-d006.s011.s006	actions	action	N	行动	行动	bn:00001127n	True
+d006.s011.s006	actions	action	N	动作	动作	bn:00001127n	True
 wf	was	be	 	 	 	 
 wf	n't	n't	 	 	 	 
 wf	put	put	 	 	 	 
@@ -3748,7 +3874,7 @@ wf	there	there
 wf	was	be	 	 	 	 
 wf	no	no	 	 	 	 
 wf	violent	violent	 	 	 	 
-d006.s011.s008	game	game	N	游戏	游戏	bn:00037181n	True
+d006.s011.s008	game	game	N	比赛	比赛	bn:00037181n	False
 wf	.	.	 	 	 	 
 wf	Another	another	 	 	 	 
 wf	of	of	 	 	 	 
@@ -3768,16 +3894,18 @@ wf	to	to
 wf	avoid	avoid	 	 	 	 
 wf	that	that	 	 	 	 
 wf	the	the	 	 	 	 
-d006.s012.s001	team	team	N	团队	团队	bn:00073699n	True
+d006.s012.s001	team	team	N	球队	球队	bn:00073699n	False
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
 d006.s012.s002	lawbreaker	lawbreaker	N	违法者	违法者	bn:00050275n	False
+d006.s012.s003	players	player	N	违法者	违法者	bn:00060799n	False
 wf	takes	take	 	 	 	 
+d006.s012.s004	advantage	advantage	N	利用	利用	bn:00001561n	False
 wf	unjustly	unjustly	 	 	 	 
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
 wf	opposite	opposite	 	 	 	 
-d006.s012.s005	team	team	N	团队	团队	bn:00073699n	True
+d006.s012.s005	team	team	N	球队	球队	bn:00073699n	False
 wf	,	,	 	 	 	 
 wf	which	which	 	 	 	 
 wf	did	do	 	 	 	 
@@ -3789,9 +3917,10 @@ wf	However	however
 wf	,	,	 	 	 	 
 wf	the	the	 	 	 	 
 wf	paradoxical	paradoxical	 	 	 	 
+d006.s013.s000	thing	thing	N	处	处	bn:00076925n	False
 wf	about	about	 	 	 	 
 wf	the	the	 	 	 	 
-d006.s013.s001	action	action	N	行动	行动	bn:00001127n	True
+d006.s013.s001	action	action	N	行为	行为	bn:00001127n	True
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
 d006.s013.s002	players	player	N	球员	球员	bn:00060799n	True
@@ -3828,10 +3957,11 @@ wf	try	try
 wf	to	to	 	 	 	 
 wf	avoid	avoid	 	 	 	 
 wf	the	the	 	 	 	 
+d006.s013.s006	sanction	sanction	N	制裁	制裁	bn:00069122n	False
 wf	,	,	 	 	 	 
 wf	but	but	 	 	 	 
 wf	their	they	 	 	 	 
-d006.s013.s007	action	action	N	行动	行动	bn:00001127n	True
+d006.s013.s007	action	action	N	行为	行为	bn:00001127n	True
 wf	was	be	 	 	 	 
 wf	most	most	 	 	 	 
 wf	evident	evident	 	 	 	 
@@ -3853,19 +3983,20 @@ wf	the	the
 d006.s014.s000	sanction	sanction	N	制裁	制裁	bn:00069122n	False
 wf	with	with	 	 	 	 
 wf	no	no	 	 	 	 
+d006.s014.s001	complaints	complaint	N	投诉	投诉	bn:00021348n	False
 wf	.	.	 	 	 	 
 wf	Another	another	 	 	 	 
 d006.s015.s000	question	question	N	问题	问题	bn:00043267n	True
 wf	is	be	 	 	 	 
 wf	what	what	 	 	 	 
 wf	of	of	 	 	 	 
-d006.s015.s002	advantage	advantage	N	好处	好处	bn:00001561n	True
+d006.s015.s002	advantage	advantage	N	优势	优势	bn:00001561n	True
 wf	the	the	 	 	 	 
-d006.s015.s003	violators	violator	N	违反者	违反者	bn:00050275n	False
+d006.s015.s003	violators	violator	N	违规者	违规者	bn:00050275n	False
 wf	obtained	obtain	 	 	 	 
 wf	in	in	 	 	 	 
 wf	the	the	 	 	 	 
-d006.s015.s004	actions	action	N	行动	行动	bn:00001127n	True
+d006.s015.s004	actions	action	N	行为	行为	bn:00001127n	True
 wf	deliberately	deliberately	 	 	 	 
 wf	carried	carry	 	 	 	 
 wf	out	out	 	 	 	 
@@ -3889,7 +4020,7 @@ wf	nor	nor
 wf	is	be	 	 	 	 
 wf	an	a	 	 	 	 
 wf	obtained	obtain	 	 	 	 
-d006.s016.s002	benefit	benefit	N	好处	好处	bn:00009905n	True
+d006.s016.s002	benefit	benefit	N	利益	利益	bn:00009905n	True
 wf	in	in	 	 	 	 
 wf	the	the	 	 	 	 
 wf	same	same	 	 	 	 
@@ -3946,7 +4077,7 @@ wf	in	in
 wf	the	the	 	 	 	 
 wf	that	that	 	 	 	 
 wf	the	the	 	 	 	 
-d006.s018.s002	players	player	N	参赛者	参赛者	bn:00060799n	False
+d006.s018.s002	players	player	N	玩家	玩家	bn:00060799n	True
 wf	will	will	 	 	 	 
 wf	begin	begin	 	 	 	 
 wf	the	the	 	 	 	 
@@ -3956,14 +4087,16 @@ wf	of	of
 wf	the	the	 	 	 	 
 d006.s018.s004	Championship	championship	N	锦标赛	锦标赛	bn:00017615n	True
 wf	without	without	 	 	 	 
+d006.s018.s005	cards	card	N	卡牌	卡牌	bn:00015917n	False
 wf	that	that	 	 	 	 
 wf	could	could	 	 	 	 
 wf	threaten	threaten	 	 	 	 
 wf	their	they	 	 	 	 
-d006.s018.s006	participation	participation	N	参赛者	参赛者	bn:00030844n	False
+d006.s018.s006	participation	participation	N	参与	参与	bn:00030844n	False
 wf	in	in	 	 	 	 
 wf	a	a	 	 	 	 
 wf	future	future	 	 	 	 
+d006.s018.s007	game	game	N	游戏	游戏	bn:00037181n	True
 wf	.	.	 	 	 	 
 wf	But	but	 	 	 	 
 wf	it	it	 	 	 	 
@@ -3971,29 +4104,30 @@ wf	is	be
 wf	about	about	 	 	 	 
 wf	a	a	 	 	 	 
 wf	long	long	 	 	 	 
+d006.s019.s001	advantage	advantage	N	优势	优势	bn:00001561n	True
 wf	,	,	 	 	 	 
 wf	with	with	 	 	 	 
 wf	a	a	 	 	 	 
 wf	certain	certain	 	 	 	 
+d006.s019.s002	degree	degree	N	程度	程度	bn:00025966n	True
 wf	of	of	 	 	 	 
-d006.s019.s003	indetermination	indetermination	N	制裁	制裁	bn:00046391n	False
+d006.s019.s003	indetermination	indetermination	N	不确定性	不确定性	bn:00046391n	False
 wf	,	,	 	 	 	 
 wf	because	because	 	 	 	 
 wf	the	the	 	 	 	 
+d006.s019.s004	team	team	N	团队	团队	bn:00073699n	True
 wf	can	can	 	 	 	 
 wf	be	be	 	 	 	 
 wf	eliminated	eliminate	 	 	 	 
 wf	first	first	 	 	 	 
 wf	of	of	 	 	 	 
-d006.s019.s005	change	change	N	使用	使用	bn:00003125n	False
 wf	,	,	 	 	 	 
 wf	and	and	 	 	 	 
 wf	in	in	 	 	 	 
 wf	with	with	 	 	 	 
 wf	this	this	 	 	 	 
-d006.s019.s007	action	action	N	行动	行动	bn:00001127n	True
 wf	the	the	 	 	 	 
-d006.s019.s008	players	player	N	球员	球员	bn:00060799n	True
+d006.s019.s008	players	player	N	玩家	玩家	bn:00060799n	True
 wf	fulfil	fulfil	 	 	 	 
 wf	a	a	 	 	 	 
 d006.s019.s009	sanction	sanction	N	制裁	制裁	bn:00069122n	False
@@ -4004,16 +4138,17 @@ wf	to	to
 wf	the	the	 	 	 	 
 wf	second	second	 	 	 	 
 wf	of	of	 	 	 	 
-d006.s019.s012	cards	card	N	卡片	卡片	bn:00015917n	True
+d006.s019.s012	cards	card	N	卡牌	卡牌	bn:00015917n	False
 wf	,	,	 	 	 	 
 wf	in	in	 	 	 	 
 wf	which	which	 	 	 	 
 wf	the	the	 	 	 	 
-d006.s019.s013	suspension	suspension	N	暂停	暂停	bn:00075455n	False
+d006.s019.s013	suspension	suspension	N	停牌	停牌	bn:00075455n	False
 wf	by	by	 	 	 	 
-d006.s019.s014	card	card	N	卡片	卡片	bn:00015917n	True
-d006.s019.s015	accumulation	accumulation	N	卡片	卡片	bn:00000772n	False
+d006.s019.s014	card	card	N	卡牌	卡牌	bn:00015917n	False
+d006.s019.s015	accumulation	accumulation	N	积累	积累	bn:00000772n	True
 wf	takes	take	 	 	 	 
+d006.s019.s016	place	place	N	进行	进行	bn:00051035n	False
 wf	with	with	 	 	 	 
 wf	one	one	 	 	 	 
 wf	less	less	 	 	 	 
@@ -4027,7 +4162,7 @@ wf	that	that
 wf	,	,	 	 	 	 
 wf	by	by	 	 	 	 
 wf	passing	pass	 	 	 	 
-d006.s020.s000	rounds	round	N	轮	轮	bn:00024724n	False
+d006.s020.s000	rounds	round	N	传球	传球	bn:00024724n	False
 wf	,	,	 	 	 	 
 wf	it	it	 	 	 	 
 wf	is	be	 	 	 	 
@@ -4055,7 +4190,6 @@ d006.s021.s002	part	part	N	一部分	一部分	bn:00021395n	True
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
 wf	strategic	strategic	 	 	 	 
-d006.s021.s003	decisions	decision	N	决定	决定	bn:00021584n	True
 wf	that	that	 	 	 	 
 wf	favor	favor	 	 	 	 
 wf	taking	take	 	 	 	 
@@ -4079,6 +4213,7 @@ wf	order	order
 wf	to	to	 	 	 	 
 wf	avoid	avoid	 	 	 	 
 wf	the	the	 	 	 	 
+d006.s022.s002	application	application	N	应用	应用	bn:00005092n	True
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
 d006.s022.s003	sanction	sanction	N	制裁	制裁	bn:00069122n	False
@@ -4089,7 +4224,7 @@ wf	have	have
 wf	been	be	 	 	 	 
 wf	a	a	 	 	 	 
 wf	clear	clear	 	 	 	 
-d006.s022.s004	case	case	N	案件	案件	bn:00016401n	True
+d006.s022.s004	case	case	N	案例	案例	bn:00016401n	True
 wf	of	of	 	 	 	 
 d006.s022.s005	legal fraud	legal_fraud	N	欺诈	欺诈	bn:00022078n	False
 wf	)	)	 	 	 	 
@@ -4106,7 +4241,6 @@ wf	They	they
 wf	made	make	 	 	 	 
 wf	a	a	 	 	 	 
 wf	strategic	strategic	 	 	 	 
-d006.s023.s000	decision	decision	N	决定	决定	bn:00021584n	True
 wf	without	without	 	 	 	 
 wf	avoiding	avoid	 	 	 	 
 wf	the	the	 	 	 	 
@@ -4126,14 +4260,16 @@ wf	diffuse	diffuse
 wf	,	,	 	 	 	 
 wf	in	in	 	 	 	 
 wf	this	this	 	 	 	 
+d006.s024.s004	occasion	occasion	N	场合	场合	bn:00048587n	True
 wf	I	I	 	 	 	 
 wf	believe	believe	 	 	 	 
 wf	it	it	 	 	 	 
 wf	was	be	 	 	 	 
 wf	a	a	 	 	 	 
 wf	clear	clear	 	 	 	 
+d006.s024.s005	case	case	N	案例	案例	bn:00016401n	True
 wf	of	of	 	 	 	 
-d006.s024.s006	wittiness	wittiness	N	智慧	智慧	bn:00045199n	False
+d006.s024.s006	wittiness	wittiness	N	机智	机智	bn:00045199n	False
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
 d006.s025.s000	controversy	controversy	N	争议	争议	bn:00005599n	True
@@ -4152,9 +4288,12 @@ wf	two	two
 wf	auto	auto	 	 	 	 
 wf	and	and	 	 	 	 
 wf	the	the	 	 	 	 
+d006.s025.s003	way	way	N	方式	方式	bn:00033729n	True
 wf	the	the	 	 	 	 
+d006.s025.s004	transmission	transmission	N	传达	传达	bn:00078024n	True
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
+d006.s025.s005	directive	directive	N	指令	指令	bn:00027363n	False
 wf	was	be	 	 	 	 
 wf	carried	carry	 	 	 	 
 wf	out	out	 	 	 	 
@@ -4171,10 +4310,10 @@ wf	the	the
 d006.s026.s001	principles	principle	N	原则	原则	bn:00064077n	True
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
-d006.s026.s002	sport	sport	N	体育	体育	bn:00006759n	False
+d006.s026.s002	sport	sport	N	运动	运动	bn:00006759n	False
 wf	by	by	 	 	 	 
 wf	these	these	 	 	 	 
-d006.s026.s003	actions	action	N	行动	行动	bn:00001127n	True
+d006.s026.s003	actions	action	N	行为	行为	bn:00001127n	True
 wf	is	be	 	 	 	 
 wf	not	not	 	 	 	 
 wf	as	as	 	 	 	 
@@ -4184,12 +4323,12 @@ wf	as	as
 wf	aesthetic	aesthetic	 	 	 	 
 wf	.	.	 	 	 	 
 wf	Arsenic-tolerant	arsenic-tolerant	 	 	 	 
-d007.s000.s000	microbe	microbe	N	生物	生物	bn:00013701n	False
+d007.s000.s000	microbe	microbe	N	微生物	微生物	bn:00013701n	False
 wf	raises	raise	 	 	 	 
 d007.s000.s001	possibility	possibility	N	可能性	可能性	bn:00063739n	True
 wf	of	of	 	 	 	 
 wf	new	new	 	 	 	 
-d007.s000.s002	types	type	N	出现	出现	bn:00078798n	False
+d007.s000.s002	types	type	N	地方	地方	bn:00078798n	False
 wf	of	of	 	 	 	 
 wf	life	life	 	 	 	 
 wf	on	on	 	 	 	 
@@ -4211,12 +4350,14 @@ wf	as	as
 wf	one	one	 	 	 	 
 wf	of	of	 	 	 	 
 wf	its	its	 	 	 	 
-d007.s001.s003	nutrients	nutrient	N	养分之一	养分之一	bn:00035649n	False
+d007.s001.s003	nutrients	nutrient	N	营养素	营养素	bn:00035649n	True
 wf	widens	widen	 	 	 	 
 wf	the	the	 	 	 	 
+d007.s001.s004	scope	scope	N	范围	范围	bn:00003268n	True
 wf	for	for	 	 	 	 
 wf	finding	find	 	 	 	 
 wf	new	new	 	 	 	 
+d007.s001.s005	forms	form	N	形式	形式	bn:00035911n	True
 wf	of	of	 	 	 	 
 wf	life	life	 	 	 	 
 wf	on	on	 	 	 	 
@@ -4226,7 +4367,7 @@ wf	possibly	possibly
 wf	beyond	beyond	 	 	 	 
 wf	.	.	 	 	 	 
 wf	While	while	 	 	 	 
-d007.s002.s000	researchers	researcher	N	研究者	研究者	bn:00047356n	True
+d007.s002.s000	researchers	researcher	N	研究	研究	bn:00047356n	False
 wf	discovered	discover	 	 	 	 
 wf	the	the	 	 	 	 
 wf	unusual	unusual	 	 	 	 
@@ -4241,7 +4382,7 @@ wf	shows	show
 wf	that	that	 	 	 	 
 d007.s002.s003	life	life	N	生命	生命	bn:00051054n	True
 wf	has	have	 	 	 	 
-d007.s002.s004	possibilities	possibility	N	可能	可能	bn:00063739n	True
+d007.s002.s004	possibilities	possibility	N	可能性	可能性	bn:00063739n	True
 wf	beyond	beyond	 	 	 	 
 wf	the	the	 	 	 	 
 wf	major	major	 	 	 	 
@@ -4266,8 +4407,9 @@ wf	can	can
 wf	grow	grow	 	 	 	 
 wf	with	with	 	 	 	 
 wf	either	either	 	 	 	 
-d007.s004.s000	phosphorus	phosphorus	N	砷来	砷来	bn:00006845n	False
+d007.s004.s000	phosphorus	phosphorus	N	磷	磷	bn:00006845n	True
 wf	or	or	 	 	 	 
+d007.s004.s001	arsenic	arsenic	N	砷一起	砷一起	bn:00005917n	False
 wf	.	.	 	 	 	 
 wf	''	''	 	 	 	 
 wf	``	``	 	 	 	 
@@ -4284,11 +4426,13 @@ wf	short	short
 wf	of	of	 	 	 	 
 wf	being	be	 	 	 	 
 wf	some	some	 	 	 	 
+d007.s005.s000	form	form	N	形式	形式	bn:00035907n	True
 wf	of	of	 	 	 	 
 wf	truly	truly	 	 	 	 
 wf	`	`	 	 	 	 
 wf	alien	alien	 	 	 	 
 wf	'	'	 	 	 	 
+d007.s005.s001	life	life	N	生活	生活	bn:00051054n	True
 wf	,	,	 	 	 	 
 wf	''	''	 	 	 	 
 wf	commented	comment	 	 	 	 
@@ -4305,17 +4449,21 @@ wf	a	a
 wf	co-author	co-author	 	 	 	 
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
+d007.s005.s002	report	report	N	报告	报告	bn:00067181n	True
 wf	appearing	appear	 	 	 	 
 wf	in	in	 	 	 	 
+d007.s005.s003	Thursday	thursday	N	周四	周四	bn:00076744n	True
 wf	's	's	 	 	 	 
 wf	online	online	 	 	 	 
+d007.s005.s004	edition	edition	N	在线版	在线版	bn:00029770n	False
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
+d007.s005.s005	journal	journal	N	杂志	杂志	bn:00048453n	False
 wf	Science	science	 	 	 	 
 wf	.	.	 	 	 	 
 wf	Six	six	 	 	 	 
 wf	major	major	 	 	 	 
-d007.s006.s000	elements	element	N	要素	要素	bn:00018105n	False
+d007.s006.s000	elements	element	N	元素	元素	bn:00018105n	True
 wf	have	have	 	 	 	 
 wf	long	long	 	 	 	 
 wf	been	be	 	 	 	 
@@ -4332,12 +4480,13 @@ d007.s006.s004	nitrogen	nitrogen	N	氮	氮	bn:00006901n	True
 wf	,	,	 	 	 	 
 d007.s006.s005	oxygen	oxygen	N	氧	氧	bn:00006912n	True
 wf	,	,	 	 	 	 
+d007.s006.s006	phosphorus	phosphorus	N	磷和硫	磷和硫	bn:00006845n	False
 wf	and	and	 	 	 	 
 d007.s006.s007	sulfur	sulfur	N	磷和硫	磷和硫	bn:00006846n	False
 wf	.	.	 	 	 	 
 wf	But	but	 	 	 	 
 wf	the	the	 	 	 	 
-d007.s007.s000	researchers	researcher	N	研究者	研究者	bn:00047356n	True
+d007.s007.s000	researchers	researcher	N	人员	人员	bn:00047356n	False
 wf	found	find	 	 	 	 
 wf	that	that	 	 	 	 
 wf	the	the	 	 	 	 
@@ -4348,7 +4497,6 @@ wf	in	in
 wf	Mono	mono	 	 	 	 
 wf	Lake	lake	 	 	 	 
 wf	,	,	 	 	 	 
-d007.s007.s002	Calif.	calif.	N	卡利夫	卡利夫	bn:00014403n	False
 wf	,	,	 	 	 	 
 wf	is	be	 	 	 	 
 wf	able	able	 	 	 	 
@@ -4358,9 +4506,9 @@ wf	to	to
 wf	grow	grow	 	 	 	 
 wf	after	after	 	 	 	 
 wf	substituting	substitute	 	 	 	 
-d007.s007.s003	arsenic	arsenic	N	替磷	替磷	bn:00005917n	False
+d007.s007.s003	arsenic	arsenic	N	磷后	磷后	bn:00005917n	False
 wf	for	for	 	 	 	 
-d007.s007.s004	phosphorus	phosphorus	N	卡利夫	卡利夫	bn:00006845n	False
+d007.s007.s004	phosphorus	phosphorus	N	磷后	磷后	bn:00006845n	False
 wf	.	.	 	 	 	 
 wf	``	``	 	 	 	 
 wf	It	it	 	 	 	 
@@ -4386,17 +4534,21 @@ wf	a	a
 wf	co-author	co-author	 	 	 	 
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
+d007.s008.s000	report	report	N	报告	报告	bn:00067181n	True
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
+d007.s009.s000	find	find	N	发现	发现	bn:00012940n	False
 wf	is	be	 	 	 	 
 wf	important	important	 	 	 	 
 wf	in	in	 	 	 	 
 wf	the	the	 	 	 	 
+d007.s009.s001	search	search	N	寻找	寻找	bn:00045243n	False
 wf	for	for	 	 	 	 
 d007.s009.s002	life	life	N	生命	生命	bn:00051054n	True
 wf	beyond	beyond	 	 	 	 
+d007.s009.s003	Earth	earth	N	地球	地球	bn:00029424n	False
 wf	because	because	 	 	 	 
-d007.s009.s004	researchers	researcher	N	研究者	研究者	bn:00047356n	True
+d007.s009.s004	researchers	researcher	N	研究	研究	bn:00047356n	False
 wf	need	need	 	 	 	 
 wf	to	to	 	 	 	 
 wf	be	be	 	 	 	 
@@ -4408,6 +4560,7 @@ wf	,	,
 wf	to	to	 	 	 	 
 wf	know	know	 	 	 	 
 wf	what	what	 	 	 	 
+d007.s009.s006	life	life	N	生命	生命	bn:00051054n	True
 wf	looks	look	 	 	 	 
 wf	like	like	 	 	 	 
 wf	,	,	 	 	 	 
@@ -4426,8 +4579,10 @@ wf	.	.
 wf	However	however	 	 	 	 
 wf	,	,	 	 	 	 
 wf	the	the	 	 	 	 
+d007.s011.s000	announcement	announcement	N	宣布	宣布	bn:00004352n	False
 wf	of	of	 	 	 	 
 wf	a	a	 	 	 	 
+d007.s011.s001	news conference	news_conference	N	新闻	新闻	bn:00057552n	False
 wf	to	to	 	 	 	 
 wf	discuss	discuss	 	 	 	 
 wf	it	it	 	 	 	 
@@ -4436,20 +4591,23 @@ wf	which	which
 wf	did	do	 	 	 	 
 wf	not	not	 	 	 	 
 wf	disclose	disclose	 	 	 	 
+d007.s011.s002	details	detail	N	细节	细节	bn:00026622n	False
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
 wf	,	,	 	 	 	 
 wf	generated	generate	 	 	 	 
 wf	widespread	widespread	 	 	 	 
+d007.s011.s004	speculation	speculation	N	猜测	猜测	bn:00021869n	False
 wf	on	on	 	 	 	 
 wf	the	the	 	 	 	 
 d007.s011.s005	Internet	internet	N	互联网	互联网	bn:00024712n	True
 wf	that	that	 	 	 	 
 wf	the	the	 	 	 	 
-d007.s011.s006	report	report	N	报告会	报告会	bn:00067181n	False
+d007.s011.s006	report	report	N	报告	报告	bn:00067181n	True
 wf	would	would	 	 	 	 
 wf	disclose	disclose	 	 	 	 
 wf	the	the	 	 	 	 
+d007.s011.s007	discovery	discovery	N	发现	发现	bn:00027529n	False
 wf	of	of	 	 	 	 
 wf	extraterrestrial	extraterrestrial	 	 	 	 
 wf	life	life	 	 	 	 
@@ -4478,12 +4636,14 @@ wf	other	other
 d007.s013.s003	elements	element	N	元素	元素	bn:00018105n	True
 wf	to	to	 	 	 	 
 wf	drive	drive	 	 	 	 
+d007.s013.s004	biochemistry	biochemistry	N	化学	化学	bn:00010518n	False
 wf	and	and	 	 	 	 
 wf	that	that	 	 	 	 
 wf	the	the	 	 	 	 
 wf	`	`	 	 	 	 
 wf	standard	standard	 	 	 	 
 wf	'	'	 	 	 	 
+d007.s013.s005	set	set	N	集合	集合	bn:00070696n	True
 wf	of	of	 	 	 	 
 d007.s013.s006	elements	element	N	元素	元素	bn:00018105n	True
 wf	we	we	 	 	 	 
@@ -4513,12 +4673,12 @@ d007.s013.s010	Sciences	science	N	科学	科学	bn:00069670n	True
 wf	Research	research	 	 	 	 
 wf	Institute	institute	 	 	 	 
 wf	,	,	 	 	 	 
-d007.s013.s011	Open University	open_university	N	开放	开放	bn:00059087n	False
 wf	,	,	 	 	 	 
 wf	in	in	 	 	 	 
 wf	Milton	milton	 	 	 	 
 wf	Keynes	keyne	 	 	 	 
 wf	,	,	 	 	 	 
+d007.s013.s012	United Kingdom	united_kingdom	N	凯恩斯	凯恩斯	bn:00013173n	False
 wf	.	.	 	 	 	 
 wf	Cockell	cockell	 	 	 	 
 wf	was	be	 	 	 	 
@@ -4531,13 +4691,14 @@ d007.s014.s002	team	team	N	团队	团队	bn:00073699n	True
 wf	.	.	 	 	 	 
 wf	``	``	 	 	 	 
 wf	This	this	 	 	 	 
+d007.s015.s000	work	work	N	工作	工作	bn:00062309n	True
 wf	is	be	 	 	 	 
 wf	novel	novel	 	 	 	 
 wf	because	because	 	 	 	 
 wf	it	it	 	 	 	 
 wf	shows	show	 	 	 	 
 wf	the	the	 	 	 	 
-d007.s015.s001	substitution	substitution	N	取代	取代	bn:00061666n	True
+d007.s015.s001	substitution	substitution	N	替代	替代	bn:00061666n	False
 wf	of	of	 	 	 	 
 wf	one	one	 	 	 	 
 d007.s015.s002	element	element	N	元素	元素	bn:00018105n	True
@@ -4545,7 +4706,7 @@ wf	for	for
 wf	another	another	 	 	 	 
 wf	in	in	 	 	 	 
 wf	fundamental	fundamental	 	 	 	 
-d007.s015.s003	biochemistry	biochemistry	N	生化	生化	bn:00010518n	True
+d007.s015.s003	biochemistry	biochemistry	N	生物	生物	bn:00010518n	False
 wf	and	and	 	 	 	 
 wf	biochemical	biochemical	 	 	 	 
 d007.s015.s004	structure	structure	N	结构	结构	bn:00074759n	True
@@ -4566,7 +4727,7 @@ wf	Wolfe-Simon	wolfe-simon
 wf	of	of	 	 	 	 
 d007.s017.s000	NASA	nasa	N	美国	美国	bn:00056879n	False
 wf	's	's	 	 	 	 
-d007.s017.s001	Astrobiology	astrobiology	N	生物学	生物学	bn:00006642n	False
+d007.s017.s001	Astrobiology	astrobiology	N	天体	天体	bn:00006642n	False
 d007.s017.s002	Institute	institute	N	研究所	研究所	bn:00046952n	False
 wf	,	,	 	 	 	 
 wf	who	who	 	 	 	 
@@ -4581,9 +4742,12 @@ wf	because	because
 wf	it	it	 	 	 	 
 wf	has	have	 	 	 	 
 wf	high	high	 	 	 	 
+d007.s017.s004	arsenic	arsenic	N	砷含量	砷含量	bn:00005917n	False
+d007.s017.s005	levels	level	N	砷含量	砷含量	bn:00025965n	False
 wf	.	.	 	 	 	 
+d007.s018.s000	Arsenic	arsenic	N	砷和磷	砷和磷	bn:00005917n	False
 wf	and	and	 	 	 	 
-d007.s018.s001	phosphorus	phosphorus	N	微生物	微生物	bn:00006845n	False
+d007.s018.s001	phosphorus	phosphorus	N	砷和磷	砷和磷	bn:00006845n	False
 wf	are	be	 	 	 	 
 wf	chemically	chemically	 	 	 	 
 wf	similar	similar	 	 	 	 
@@ -4608,7 +4772,7 @@ wf	the	the
 wf	other	other	 	 	 	 
 wf	.	.	 	 	 	 
 wf	``	``	 	 	 	 
-d007.s019.s000	Arsenic	arsenic	N	砷	砷	bn:00005917n	True
+d007.s019.s000	Arsenic	arsenic	N	砷是	砷是	bn:00005917n	False
 wf	is	be	 	 	 	 
 wf	toxic	toxic	 	 	 	 
 wf	mainly	mainly	 	 	 	 
@@ -4629,10 +4793,10 @@ wf	``	``
 wf	As	as	 	 	 	 
 wf	a	a	 	 	 	 
 wf	,	,	 	 	 	 
-d007.s020.s001	organisms	organism	N	生物体	生物体	bn:00009677n	True
+d007.s020.s001	organisms	organism	N	生物	生物	bn:00009677n	True
 wf	have	have	 	 	 	 
 wf	a	a	 	 	 	 
-d007.s020.s002	hard time	hard_time	N	难	难	bn:00042951n	False
+d007.s020.s002	hard time	hard_time	N	区分	区分	bn:00042951n	False
 wf	telling	tell	 	 	 	 
 wf	these	these	 	 	 	 
 d007.s020.s003	elements	element	N	元素	元素	bn:00018105n	True
@@ -4670,7 +4834,7 @@ wf	works	work
 wf	of	of	 	 	 	 
 wf	our	we	 	 	 	 
 wf	biochemical	biochemical	 	 	 	 
-d007.s021.s002	machinery	machinery	N	机械	机械	bn:00052571n	True
+d007.s021.s002	machinery	machinery	N	机器	机器	bn:00052571n	False
 wf	,	,	 	 	 	 
 wf	''	''	 	 	 	 
 wf	explained	explain	 	 	 	 
@@ -4691,6 +4855,7 @@ wf	to	to
 wf	increasing	increase	 	 	 	 
 d007.s022.s002	concentrations	concentration	N	浓度	浓度	bn:00021538n	True
 wf	of	of	 	 	 	 
+d007.s022.s003	arsenic	arsenic	N	砷	砷	bn:00005917n	True
 wf	,	,	 	 	 	 
 wf	which	which	 	 	 	 
 wf	it	it	 	 	 	 
@@ -4717,14 +4882,14 @@ wf	it	it
 wf	can	can	 	 	 	 
 wf	live	live	 	 	 	 
 wf	with	with	 	 	 	 
-d007.s023.s002	arsenic	arsenic	N	砷一起	砷一起	bn:00005917n	False
+d007.s023.s002	arsenic	arsenic	N	砷	砷	bn:00005917n	True
 wf	instead	instead	 	 	 	 
 wf	raises	raise	 	 	 	 
 wf	the	the	 	 	 	 
 d007.s023.s003	possibility	possibility	N	可能性	可能性	bn:00063739n	True
 wf	that	that	 	 	 	 
 wf	a	a	 	 	 	 
-d007.s023.s004	life form	life_form	N	生命	生命	bn:00051067n	False
+d007.s023.s004	life form	life_form	N	形式	形式	bn:00051067n	False
 wf	using	use	 	 	 	 
 d007.s023.s005	arsenic	arsenic	N	砷	砷	bn:00005917n	True
 wf	could	could	 	 	 	 
@@ -4738,10 +4903,11 @@ d007.s023.s006	Earth	earth	N	地球	地球	bn:00029424n	False
 wf	or	or	 	 	 	 
 wf	on	on	 	 	 	 
 wf	another	another	 	 	 	 
-d007.s023.s007	planet	planet	N	行星	行星	bn:00062777n	True
+d007.s023.s007	planet	planet	N	星球	星球	bn:00062777n	False
 wf	or	or	 	 	 	 
 d007.s023.s008	moon	moon	N	月球	月球	bn:00055813n	False
 wf	where	where	 	 	 	 
+d007.s023.s009	arsenic	arsenic	N	砷	砷	bn:00005917n	True
 wf	is	be	 	 	 	 
 wf	more	more	 	 	 	 
 wf	common	common	 	 	 	 
@@ -4762,11 +4928,14 @@ wf	Florida	florida
 wf	,	,	 	 	 	 
 wf	said	say	 	 	 	 
 wf	the	the	 	 	 	 
+d007.s024.s002	idea	idea	N	想法	想法	bn:00045800n	False
 wf	that	that	 	 	 	 
+d007.s024.s003	arsenic	arsenic	N	砷	砷	bn:00005917n	True
 wf	could	could	 	 	 	 
 wf	be	be	 	 	 	 
 wf	substituted	substitute	 	 	 	 
 wf	for	for	 	 	 	 
+d007.s024.s004	phosphorus	phosphorus	N	磷	磷	bn:00006845n	True
 wf	is	be	 	 	 	 
 wf	n't	n't	 	 	 	 
 wf	new	new	 	 	 	 
@@ -4776,6 +4945,7 @@ wf	there	there
 wf	has	have	 	 	 	 
 wf	never	never	 	 	 	 
 wf	been	be	 	 	 	 
+d007.s024.s005	example	example	N	例子	例子	bn:00016401n	True
 wf	where	where	 	 	 	 
 wf	it	it	 	 	 	 
 wf	was	be	 	 	 	 
@@ -4783,6 +4953,7 @@ wf	shown	show
 wf	to	to	 	 	 	 
 wf	work	work	 	 	 	 
 wf	.	.	 	 	 	 
+d007.s025.s000	Arsenic	arsenic	N	砷	砷	bn:00005917n	True
 wf	was	be	 	 	 	 
 wf	more	more	 	 	 	 
 wf	common	common	 	 	 	 
@@ -4795,7 +4966,7 @@ wf	she	she
 wf	said	say	 	 	 	 
 wf	,	,	 	 	 	 
 wf	so	so	 	 	 	 
-d007.s025.s003	researchers	researcher	N	研究者	研究者	bn:00047356n	True
+d007.s025.s003	researchers	researcher	N	人员	人员	bn:00047356n	False
 wf	have	have	 	 	 	 
 wf	speculated	speculate	 	 	 	 
 wf	that	that	 	 	 	 
@@ -4816,15 +4987,19 @@ wf	there	there
 wf	could	could	 	 	 	 
 wf	be	be	 	 	 	 
 wf	other	other	 	 	 	 
+d007.s026.s000	ways	way	N	方式	方式	bn:00001965n	True
 wf	to	to	 	 	 	 
 wf	form	form	 	 	 	 
+d007.s026.s001	life	life	N	生命	生命	bn:00051054n	True
 wf	,	,	 	 	 	 
 wf	not	not	 	 	 	 
 wf	just	just	 	 	 	 
 wf	how	how	 	 	 	 
+d007.s026.s002	life	life	N	生命	生命	bn:00051054n	True
 wf	formed	form	 	 	 	 
 wf	on	on	 	 	 	 
 wf	early	early	 	 	 	 
+d007.s026.s003	Earth	earth	N	地球	地球	bn:00029424n	False
 wf	,	,	 	 	 	 
 wf	''	''	 	 	 	 
 wf	said	say	 	 	 	 
@@ -4833,24 +5008,24 @@ wf	,	,
 wf	who	who	 	 	 	 
 wf	was	be	 	 	 	 
 wf	not	not	 	 	 	 
+d007.s026.s004	part	part	N	一员	一员	bn:00021395n	False
 wf	of	of	 	 	 	 
 wf	Wolfe-Simon	wolfe-simon	 	 	 	 
 wf	's	's	 	 	 	 
 d007.s026.s005	research	research	N	研究	研究	bn:00067280n	True
-d007.s026.s006	team	team	N	团队	团队	bn:00073699n	True
+d007.s026.s006	team	team	N	小组	小组	bn:00073699n	False
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
 d007.s027.s000	research	research	N	研究	研究	bn:00067280n	True
 wf	was	be	 	 	 	 
 wf	supported	support	 	 	 	 
 wf	by	by	 	 	 	 
-d007.s027.s001	NASA	nasa	N	美国	美国	bn:00056879n	False
 wf	,	,	 	 	 	 
 wf	the	the	 	 	 	 
 d007.s027.s002	Department of Energy	department_of_energy	N	能源部	能源部	bn:00026317n	False
 wf	and	and	 	 	 	 
 wf	the	the	 	 	 	 
-d007.s027.s003	National Institutes of Health	national_institutes_of_health	N	研究所	研究所	bn:00056932n	False
+d007.s027.s003	National Institutes of Health	national_institutes_of_health	N	研究院	研究院	bn:00056932n	False
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
 wf	democratic	democratic	 	 	 	 
@@ -4905,7 +5080,7 @@ wf	of	of
 wf	the	the	 	 	 	 
 wf	latest	latest	 	 	 	 
 wf	Latinobarómetro	latinobarómetro	 	 	 	 
-d008.s004.s001	poll	poll	N	测验	测验	bn:00015387n	False
+d008.s004.s001	poll	poll	N	调查	调查	bn:00015387n	True
 wf	taken	take	 	 	 	 
 wf	in	in	 	 	 	 
 wf	18	18	 	 	 	 
@@ -4919,7 +5094,7 @@ wf	Economist	economist
 wf	.	.	 	 	 	 
 wf	Because	because	 	 	 	 
 wf	the	the	 	 	 	 
-d008.s005.s000	poll	poll	N	测验	测验	bn:00015387n	False
+d008.s005.s000	poll	poll	N	调查	调查	bn:00015387n	True
 wf	has	have	 	 	 	 
 wf	been	be	 	 	 	 
 wf	taken	take	 	 	 	 
@@ -4934,11 +5109,11 @@ wf	in	in
 d008.s005.s002	attitude	attitude	N	态度	态度	bn:00007047n	True
 wf	across	across	 	 	 	 
 wf	the	the	 	 	 	 
-d008.s005.s003	region	region	N	区域	区域	bn:00066884n	True
+d008.s005.s003	region	region	N	地区	地区	bn:00066884n	True
 wf	.	.	 	 	 	 
 wf	Two	two	 	 	 	 
 wf	related	related	 	 	 	 
-d008.s006.s000	things	thing	N	问题	问题	bn:00076918n	False
+d008.s006.s000	things	thing	N	事情	事情	bn:00076918n	True
 wf	stand	stand	 	 	 	 
 wf	out	out	 	 	 	 
 wf	in	in	 	 	 	 
@@ -4948,7 +5123,7 @@ wf	of	of
 wf	this	this	 	 	 	 
 d008.s006.s002	year	year	N	9月	9月	bn:00078738n	False
 wf	's	's	 	 	 	 
-d008.s006.s003	poll	poll	N	测验	测验	bn:00015387n	False
+d008.s006.s003	poll	poll	N	调查	调查	bn:00015387n	True
 wf	,	,	 	 	 	 
 wf	taken	take	 	 	 	 
 wf	in	in	 	 	 	 
@@ -4964,10 +5139,9 @@ d008.s007.s000	Latin America	latin_america	N	拉丁美洲	拉丁美洲	bn:000501
 wf	's	's	 	 	 	 
 wf	fairly	fairly	 	 	 	 
 wf	sunny	sunny	 	 	 	 
-d008.s007.s001	mood	mood	N	心情	心情	bn:00019781n	True
+d008.s007.s001	mood	mood	N	气氛	气氛	bn:00019781n	True
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
-d008.s008.s000	second	second	N	第二	第二	bn:00070104n	True
 wf	is	be	 	 	 	 
 wf	the	the	 	 	 	 
 wf	increasing	increase	 	 	 	 
@@ -4998,7 +5172,7 @@ wf	of	of
 d008.s009.s003	South America	south_america	N	南美洲	南美洲	bn:00072966n	False
 wf	(	(	 	 	 	 
 wf	see	see	 	 	 	 
-d008.s009.s004	table	table	N	表1	表1	bn:00075812n	False
+d008.s009.s004	table	table	N	见表	见表	bn:00075812n	False
 wf	1	1	 	 	 	 
 wf	)	)	 	 	 	 
 wf	.	.	 	 	 	 
@@ -5016,14 +5190,13 @@ wf	a	a
 wf	since	since	 	 	 	 
 wf	2002	2002	 	 	 	 
 wf	,	,	 	 	 	 
-d008.s010.s004	support	support	N	支持	支持	bn:00075331n	True
+d008.s010.s004	support	support	N	支持率	支持率	bn:00075331n	True
 wf	for	for	 	 	 	 
 d008.s010.s005	democracy	democracy	N	民主	民主	bn:00021207n	True
 wf	has	have	 	 	 	 
 wf	risen	rise	 	 	 	 
 wf	from	from	 	 	 	 
 wf	a	a	 	 	 	 
-d008.s010.s006	low	low	N	低	低	bn:00052148n	True
 wf	of	of	 	 	 	 
 wf	40	40	 	 	 	 
 wf	%	%	 	 	 	 
@@ -5052,8 +5225,9 @@ wf	a	a
 wf	big	big	 	 	 	 
 d008.s011.s002	drop	drop	N	下降	下降	bn:00027260n	False
 wf	in	in	 	 	 	 
-d008.s011.s003	output	output	N	产出	产出	bn:00059790n	True
+d008.s011.s003	output	output	N	产量	产量	bn:00059790n	True
 wf	last	last	 	 	 	 
+d008.s011.s004	year	year	N	该国	该国	bn:00078738n	False
 wf	.	.	 	 	 	 
 wf	But	but	 	 	 	 
 wf	only	only	 	 	 	 
@@ -5064,10 +5238,10 @@ d008.s012.s001	respondents	respondent	N	受访者	受访者	bn:00004456n	True
 wf	in	in	 	 	 	 
 d008.s012.s002	Mexico	mexico	N	墨西哥	墨西哥	bn:00054693n	True
 wf	and	and	 	 	 	 
-d008.s012.s003	Brazil	brazil	N	巴西(	巴西(	bn:00012786n	False
+d008.s012.s003	Brazil	brazil	N	巴西	巴西	bn:00012786n	True
 wf	,	,	 	 	 	 
 wf	the	the	 	 	 	 
-d008.s012.s004	region	region	N	区域	区域	bn:00060767n	True
+d008.s012.s004	region	region	N	地区	地区	bn:00060767n	True
 wf	's	's	 	 	 	 
 wf	two	two	 	 	 	 
 wf	most	most	 	 	 	 
@@ -5076,14 +5250,17 @@ d008.s012.s005	countries	country	N	国家	国家	bn:00023236n	True
 wf	,	,	 	 	 	 
 wf	are	be	 	 	 	 
 wf	convinced	convinced	 	 	 	 
+d008.s012.s006	democrats	democrat	N	民主党	民主党	bn:00026149n	False
 wf	,	,	 	 	 	 
 wf	which	which	 	 	 	 
 wf	drags	drag	 	 	 	 
 wf	down	down	 	 	 	 
 wf	the	the	 	 	 	 
 wf	regional	regional	 	 	 	 
+d008.s012.s007	average	average	N	平均	平均	bn:00007449n	True
 wf	(	(	 	 	 	 
 wf	see	see	 	 	 	 
+d008.s012.s008	chart	chart	N	图	图	bn:00017904n	True
 wf	2	2	 	 	 	 
 wf	)	)	 	 	 	 
 wf	.	.	 	 	 	 
@@ -5101,12 +5278,12 @@ wf	satisfied	satisfy
 wf	with	with	 	 	 	 
 wf	how	how	 	 	 	 
 wf	their	they	 	 	 	 
-d008.s013.s002	country	country	N	本国	本国	bn:00023236n	False
+d008.s013.s002	country	country	N	国家	国家	bn:00023236n	True
 wf	's	's	 	 	 	 
 d008.s013.s003	democracy	democracy	N	民主	民主	bn:00021207n	True
 wf	works	work	 	 	 	 
 wf	in	in	 	 	 	 
-d008.s013.s004	practice	practice	N	实际	实际	bn:00061054n	True
+d008.s013.s004	practice	practice	N	实践	实践	bn:00061054n	True
 wf	,	,	 	 	 	 
 wf	the	the	 	 	 	 
 wf	same	same	 	 	 	 
@@ -5116,7 +5293,7 @@ d008.s013.s006	year	year	N	2001年	2001年	bn:00078738n	False
 wf	but	but	 	 	 	 
 wf	a	a	 	 	 	 
 wf	big	big	 	 	 	 
-d008.s013.s007	increase	increase	N	上升	上升	bn:00046356n	False
+d008.s013.s007	increase	increase	N	增加	增加	bn:00046356n	False
 wf	on	on	 	 	 	 
 wf	the	the	 	 	 	 
 wf	25	25	 	 	 	 
@@ -5124,7 +5301,7 @@ wf	%	%
 wf	in	in	 	 	 	 
 wf	2001	2001	 	 	 	 
 wf	(	(	 	 	 	 
-d008.s013.s008	chart	chart	N	(图	(图	bn:00017904n	False
+d008.s013.s008	chart	chart	N	图	图	bn:00017904n	True
 wf	3	3	 	 	 	 
 wf	)	)	 	 	 	 
 wf	.	.	 	 	 	 
@@ -5137,7 +5314,7 @@ wf	had	have
 d008.s014.s000	confidence	confidence	N	信心	信心	bn:00021743n	True
 wf	in	in	 	 	 	 
 wf	their	they	 	 	 	 
-d008.s014.s001	country	country	N	本国	本国	bn:00023236n	False
+d008.s014.s001	country	country	N	国家	国家	bn:00023236n	True
 wf	's	's	 	 	 	 
 d008.s014.s002	Congress	congress	N	国会	国会	bn:00021846n	True
 wf	and	and	 	 	 	 
@@ -5154,6 +5331,7 @@ wf	last	last
 d008.s014.s004	year	year	N	2003年	2003年	bn:00078738n	False
 wf	in	in	 	 	 	 
 wf	both	both	 	 	 	 
+d008.s014.s005	cases	case	N	情况	情况	bn:00016401n	False
 wf	but	but	 	 	 	 
 wf	up	up	 	 	 	 
 wf	sharply	sharply	 	 	 	 
@@ -5171,7 +5349,6 @@ wf	.	.
 wf	A	a	 	 	 	 
 wf	ago	ago	 	 	 	 
 wf	economic	economic	 	 	 	 
-d008.s015.s001	woes	woe	N	灾难	灾难	bn:00075069n	False
 wf	in	in	 	 	 	 
 d008.s015.s002	Latin America	latin_america	N	拉丁美洲	拉丁美洲	bn:00050165n	False
 wf	undermined	undermine	 	 	 	 
@@ -5206,7 +5383,7 @@ wf	have	have
 wf	enjoyed	enjoy	 	 	 	 
 wf	a	a	 	 	 	 
 wf	strong	strong	 	 	 	 
-d008.s016.s003	recovery	recovery	N	衰退	衰退	bn:00066597n	False
+d008.s016.s003	recovery	recovery	N	复苏	复苏	bn:00066597n	False
 wf	.	.	 	 	 	 
 wf	In	in	 	 	 	 
 wf	,	,	 	 	 	 
@@ -5260,7 +5437,7 @@ d008.s019.s000	mood	mood	N	情绪	情绪	bn:00019781n	True
 wf	varies	vary	 	 	 	 
 wf	widely	widely	 	 	 	 
 wf	from	from	 	 	 	 
-d008.s019.s001	country	country	N	因国	因国	bn:00023236n	False
+d008.s019.s001	country	country	N	各国	各国	bn:00023236n	False
 wf	to	to	 	 	 	 
 wf	(	(	 	 	 	 
 wf	see	see	 	 	 	 
@@ -5275,7 +5452,7 @@ wf	economic	economic
 d008.s020.s001	performance	performance	N	表现	表现	bn:00036838n	True
 wf	and	and	 	 	 	 
 wf	the	the	 	 	 	 
-d008.s020.s002	popularity	popularity	N	离任	离任	bn:00063592n	False
+d008.s020.s002	popularity	popularity	N	程度	程度	bn:00063592n	False
 wf	of	of	 	 	 	 
 wf	its	its	 	 	 	 
 wf	outgoing	outgoing	 	 	 	 
@@ -5293,8 +5470,9 @@ wf	in	in
 wf	a	a	 	 	 	 
 wf	widely	widely	 	 	 	 
 wf	shared	share	 	 	 	 
+d008.s020.s004	sense	sense	N	感上	感上	bn:00070497n	False
 wf	of	of	 	 	 	 
-d008.s020.s005	progress	progress	N	欢迎	欢迎	bn:00001557n	False
+d008.s020.s005	progress	progress	N	进步	进步	bn:00001557n	True
 wf	.	.	 	 	 	 
 wf	That	that	 	 	 	 
 wf	is	be	 	 	 	 
@@ -5322,7 +5500,7 @@ wf	the	the
 wf	second	second	 	 	 	 
 wf	since	since	 	 	 	 
 wf	the	the	 	 	 	 
-d008.s022.s001	polls	poll	N	民调	民调	bn:00015387n	False
+d008.s022.s001	polls	poll	N	调查	调查	bn:00015387n	True
 wf	began	begin	 	 	 	 
 wf	,	,	 	 	 	 
 wf	more	more	 	 	 	 
@@ -5331,6 +5509,7 @@ wf	across	across
 d008.s022.s003	Latin America	latin_america	N	拉丁美洲	拉丁美洲	bn:00050165n	False
 wf	as	as	 	 	 	 
 wf	a	a	 	 	 	 
+d008.s022.s004	whole	whole	N	整个	整个	bn:00081136n	True
 wf	cite	cite	 	 	 	 
 d008.s022.s005	crime	crime	N	犯罪	犯罪	bn:00023807n	True
 wf	,	,	 	 	 	 
@@ -5348,7 +5527,7 @@ wf	their	they
 d008.s022.s008	country	country	N	国家	国家	bn:00023236n	True
 wf	(	(	 	 	 	 
 wf	see	see	 	 	 	 
-d008.s022.s009	chart	chart	N	图	图	bn:00017904n	True
+d008.s022.s009	chart	chart	N	见图	见图	bn:00017904n	False
 wf	5	5	 	 	 	 
 wf	)	)	 	 	 	 
 wf	.	.	 	 	 	 
@@ -5412,7 +5591,7 @@ wf	of	of
 d008.s024.s004	respondents	respondent	N	受访者	受访者	bn:00004456n	True
 wf	across	across	 	 	 	 
 wf	the	the	 	 	 	 
-d008.s024.s005	region	region	N	区域	区域	bn:00060767n	True
+d008.s024.s005	region	region	N	地区	地区	bn:00060767n	True
 wf	say	say	 	 	 	 
 wf	that	that	 	 	 	 
 wf	is	be	 	 	 	 
@@ -5442,12 +5621,12 @@ d008.s025.s000	market economy	market_economy	N	市场	市场	bn:00036346n	False
 wf	is	be	 	 	 	 
 wf	the	the	 	 	 	 
 wf	only	only	 	 	 	 
-d008.s025.s001	system	system	N	制度	制度	bn:00075761n	True
+d008.s025.s001	system	system	N	体系	体系	bn:00075761n	True
 wf	that	that	 	 	 	 
 wf	will	will	 	 	 	 
 wf	make	make	 	 	 	 
 wf	their	they	 	 	 	 
-d008.s025.s002	country	country	N	本国	本国	bn:00023236n	False
+d008.s025.s002	country	country	N	国家	国家	bn:00023236n	True
 wf	developed	develop	 	 	 	 
 wf	,	,	 	 	 	 
 wf	up	up	 	 	 	 
@@ -5543,30 +5722,33 @@ wf	)	)
 wf	.	.	 	 	 	 
 wf	But	but	 	 	 	 
 wf	the	the	 	 	 	 
+d008.s028.s000	United States	united_states	N	地区	地区	bn:00003341n	False
 wf	is	be	 	 	 	 
 wf	seen	see	 	 	 	 
 wf	as	as	 	 	 	 
 wf	the	the	 	 	 	 
 wf	most	most	 	 	 	 
 wf	influential	influential	 	 	 	 
-d008.s028.s001	country	country	N	共和国	共和国	bn:00023236n	False
+d008.s028.s001	country	country	N	国家	国家	bn:00023236n	True
 wf	by	by	 	 	 	 
+d008.s028.s002	respondents	respondent	N	受访者	受访者	bn:00004456n	True
 wf	in	in	 	 	 	 
-d008.s028.s003	Mexico	mexico	N	多米尼加	多米尼加	bn:00054693n	False
+d008.s028.s003	Mexico	mexico	N	墨西哥	墨西哥	bn:00054693n	True
 wf	and	and	 	 	 	 
 wf	much	much	 	 	 	 
 wf	of	of	 	 	 	 
+d008.s028.s004	Central America	central_america	N	中美洲	中美洲	bn:00017172n	False
 wf	,	,	 	 	 	 
 wf	whereas	whereas	 	 	 	 
 d008.s028.s005	Venezuela	venezuela	N	委内瑞拉	委内瑞拉	bn:00067239n	True
 wf	enjoys	enjoy	 	 	 	 
 wf	that	that	 	 	 	 
-d008.s028.s006	distinction	distinction	N	区别	区别	bn:00027765n	False
+d008.s028.s006	distinction	distinction	N	优势	优势	bn:00027765n	False
 wf	in	in	 	 	 	 
 d008.s028.s007	Ecuador	ecuador	N	厄瓜多尔	厄瓜多尔	bn:00029708n	True
 wf	,	,	 	 	 	 
 wf	the	the	 	 	 	 
-d008.s028.s008	Dominican Republic	dominican_republic	N	多米尼加	多米尼加	bn:00028188n	False
+d008.s028.s008	Dominican Republic	dominican_republic	N	共和国	共和国	bn:00028188n	False
 wf	and	and	 	 	 	 
 d008.s028.s009	Nicaragua	nicaragua	N	尼加拉瓜	尼加拉瓜	bn:00057614n	True
 wf	.	.	 	 	 	 
@@ -5575,14 +5757,15 @@ wf	and	and
 wf	Thomas	thoma	 	 	 	 
 wf	dine	dine	 	 	 	 
 wf	with	with	 	 	 	 
-d009.s000.s000	healthcare	healthcare	N	保健法	保健法	bn:00043361n	False
-d009.s000.s001	law	law	N	保健法	保健法	bn:00050249n	False
+d009.s000.s000	healthcare	healthcare	N	医疗	医疗	bn:00043361n	False
+d009.s000.s001	law	law	N	法律	法律	bn:00050249n	True
 d009.s000.s002	challengers	challenger	N	挑战者	挑战者	bn:00017562n	True
 wf	as	as	 	 	 	 
-d009.s000.s003	court	court	N	法院	法院	bn:00023301n	True
+d009.s000.s003	court	court	N	法庭	法庭	bn:00023301n	True
 wf	takes	take	 	 	 	 
 d009.s000.s004	case	case	N	案件	案件	bn:00016403n	True
 wf	The	the	 	 	 	 
+d009.s001.s000	day	day	N	天	天	bn:00025417n	True
 wf	the	the	 	 	 	 
 d009.s001.s001	Supreme Court	supreme_court	N	法院	法院	bn:00075359n	False
 wf	gathered	gather	 	 	 	 
@@ -5594,23 +5777,25 @@ wf	consider	consider
 wf	the	the	 	 	 	 
 wf	politically	politically	 	 	 	 
 wf	divisive	divisive	 	 	 	 
+d009.s001.s002	question	question	N	问题	问题	bn:00043267n	True
 wf	of	of	 	 	 	 
 wf	whether	whether	 	 	 	 
 wf	it	it	 	 	 	 
 wf	would	would	 	 	 	 
 wf	hear	hear	 	 	 	 
 wf	a	a	 	 	 	 
+d009.s001.s003	challenge	challenge	N	质疑	质疑	bn:00017559n	False
 wf	to	to	 	 	 	 
 wf	President	president	 	 	 	 
 wf	Obama	obama	 	 	 	 
 wf	's	's	 	 	 	 
-d009.s001.s004	healthcare	healthcare	N	赞助	赞助	bn:00043361n	False
-d009.s001.s005	law	law	N	律师	律师	bn:00050249n	False
+d009.s001.s004	healthcare	healthcare	N	保健法	保健法	bn:00043361n	False
+d009.s001.s005	law	law	N	保健法	保健法	bn:00050249n	False
 wf	,	,	 	 	 	 
 wf	two	two	 	 	 	 
 wf	of	of	 	 	 	 
 wf	its	its	 	 	 	 
-d009.s001.s006	justices	justice	N	法官	法官	bn:00048488n	False
+d009.s001.s006	justices	justice	N	大法官	大法官	bn:00048488n	False
 wf	,	,	 	 	 	 
 wf	Antonin	antonin	 	 	 	 
 wf	Scalia	scalium	 	 	 	 
@@ -5622,22 +5807,24 @@ wf	were	be
 wf	feted	fete	 	 	 	 
 wf	at	at	 	 	 	 
 wf	a	a	 	 	 	 
-d009.s001.s007	dinner	dinner	N	晚餐	晚餐	bn:00027206n	True
+d009.s001.s007	dinner	dinner	N	晚宴	晚宴	bn:00027206n	True
 wf	sponsored	sponsor	 	 	 	 
 wf	by	by	 	 	 	 
 wf	the	the	 	 	 	 
+d009.s001.s008	law firm	law_firm	N	律师	律师	bn:00050257n	False
 wf	that	that	 	 	 	 
 wf	will	will	 	 	 	 
 wf	argue	argue	 	 	 	 
 wf	the	the	 	 	 	 
+d009.s001.s009	case	case	N	案	案	bn:00016403n	True
 wf	before	before	 	 	 	 
 wf	the	the	 	 	 	 
-d009.s001.s010	high court	high_court	N	最高	最高	bn:00044064n	False
+d009.s001.s010	high court	high_court	N	法院	法院	bn:00044064n	False
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
 wf	was	be	 	 	 	 
 wf	last	last	 	 	 	 
-d009.s002.s001	Thursday	thursday	N	星期四	星期四	bn:00076744n	True
+d009.s002.s001	Thursday	thursday	N	上周四	上周四	bn:00076744n	False
 wf	,	,	 	 	 	 
 wf	when	when	 	 	 	 
 wf	all	all	 	 	 	 
@@ -5658,6 +5845,7 @@ wf	.	.
 wf	One	one	 	 	 	 
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
+d009.s003.s000	cases	case	N	案件	案件	bn:00016403n	True
 wf	at	at	 	 	 	 
 wf	was	be	 	 	 	 
 wf	a	a	 	 	 	 
@@ -5682,10 +5870,10 @@ wf	that	that
 wf	has	have	 	 	 	 
 wf	been	be	 	 	 	 
 wf	a	a	 	 	 	 
-d009.s003.s009	rallying cry	rallying_cry	N	呼声	呼声	bn:00009086n	False
+d009.s003.s009	rallying cry	rallying_cry	N	口号	口号	bn:00009086n	False
 wf	for	for	 	 	 	 
 wf	conservative	conservative	 	 	 	 
-d009.s003.s010	activists	activist	N	人士	人士	bn:00001171n	False
+d009.s003.s010	activists	activist	N	活动家	活动家	bn:00001171n	True
 wf	nationwide	nationwide	 	 	 	 
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
@@ -5707,7 +5895,7 @@ d009.s004.s003	argument	argument	N	辩论	辩论	bn:00005601n	True
 wf	is	be	 	 	 	 
 wf	expected	expect	 	 	 	 
 wf	in	in	 	 	 	 
-d009.s004.s004	March	march	N	三月份	三月份	bn:00053318n	True
+d009.s004.s004	March	march	N	3月	3月	bn:00053318n	False
 wf	,	,	 	 	 	 
 wf	and	and	 	 	 	 
 wf	the	the	 	 	 	 
@@ -5720,17 +5908,20 @@ wf	roil	roil
 wf	the	the	 	 	 	 
 wf	2012	2012	 	 	 	 
 wf	presidential	presidential	 	 	 	 
-d009.s004.s006	race	race	N	竞选	竞选	bn:00065798n	False
+d009.s004.s006	race	race	N	大选	大选	bn:00065798n	False
 wf	,	,	 	 	 	 
 wf	which	which	 	 	 	 
 wf	will	will	 	 	 	 
 wf	be	be	 	 	 	 
 wf	in	in	 	 	 	 
 wf	full	full	 	 	 	 
+d009.s004.s007	swing	swing	N	展开	展开	bn:00075589n	False
 wf	by	by	 	 	 	 
 wf	the	the	 	 	 	 
 wf	the	the	 	 	 	 
+d009.s004.s009	court	court	N	法院	法院	bn:00023301n	True
 wf	's	's	 	 	 	 
+d009.s004.s010	decision	decision	N	裁决	裁决	bn:00021584n	False
 wf	is	be	 	 	 	 
 wf	released	release	 	 	 	 
 wf	.	.	 	 	 	 
@@ -5741,11 +5932,12 @@ wf	will	will
 wf	stand	stand	 	 	 	 
 wf	before	before	 	 	 	 
 wf	the	the	 	 	 	 
+d009.s005.s001	court	court	N	法庭	法庭	bn:00023301n	True
 wf	and	and	 	 	 	 
 wf	argue	argue	 	 	 	 
 wf	that	that	 	 	 	 
 wf	the	the	 	 	 	 
-d009.s005.s002	law	law	N	政府	政府	bn:00050249n	False
+d009.s005.s002	law	law	N	法律	法律	bn:00050249n	True
 wf	should	should	 	 	 	 
 wf	be	be	 	 	 	 
 wf	thrown	throw	 	 	 	 
@@ -5830,7 +6022,7 @@ wf	Independent	independent
 wf	Business	business	 	 	 	 
 wf	.	.	 	 	 	 
 wf	Another	another	 	 	 	 
-d009.s008.s000	sponsor	sponsor	N	赞助者	赞助者	bn:00061047n	False
+d009.s008.s000	sponsor	sponsor	N	赞助商	赞助商	bn:00061047n	True
 wf	was	be	 	 	 	 
 wf	pharmaceutical	pharmaceutical	 	 	 	 
 d009.s008.s001	giant	giant	N	巨头	巨头	bn:00040387n	False
@@ -5842,10 +6034,13 @@ wf	has	have
 wf	an	a	 	 	 	 
 wf	enormous	enormous	 	 	 	 
 wf	financial	financial	 	 	 	 
+d009.s008.s002	stake	stake	N	利益	利益	bn:00047081n	False
 wf	in	in	 	 	 	 
 wf	the	the	 	 	 	 
+d009.s008.s003	outcome	outcome	N	结果	结果	bn:00034520n	True
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
+d009.s008.s004	litigation	litigation	N	诉讼	诉讼	bn:00048507n	False
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
 d009.s009.s000	dinner	dinner	N	晚宴	晚宴	bn:00027206n	True
@@ -5854,14 +6049,19 @@ wf	held	hold
 wf	at	at	 	 	 	 
 wf	a	a	 	 	 	 
 d009.s009.s001	Washington	washington	N	华盛顿	华盛顿	bn:00003365n	True
-d009.s009.s002	hotel	hotel	N	旅馆	旅馆	bn:00044967n	True
+d009.s009.s002	hotel	hotel	N	酒店	酒店	bn:00044967n	True
+d009.s009.s003	hours	hour	N	小时	小时	bn:00000127n	True
 wf	after	after	 	 	 	 
 wf	the	the	 	 	 	 
+d009.s009.s004	court	court	N	法院	法院	bn:00023301n	True
 wf	's	's	 	 	 	 
+d009.s009.s005	conference	conference	N	会议	会议	bn:00021723n	True
 wf	over	over	 	 	 	 
 wf	the	the	 	 	 	 
+d009.s009.s006	case	case	N	案	案	bn:00016403n	True
 wf	.	.	 	 	 	 
 wf	In	in	 	 	 	 
+d009.s010.s000	attendance	attendance	N	会议	会议	bn:00007013n	False
 wf	was	be	 	 	 	 
 wf	,	,	 	 	 	 
 wf	among	among	 	 	 	 
@@ -5878,7 +6078,7 @@ wf	Republican	republican
 wf	and	and	 	 	 	 
 wf	an	a	 	 	 	 
 wf	avowed	avowed	 	 	 	 
-d009.s010.s002	opponent	opponent	N	参议员	参议员	bn:00001582n	False
+d009.s010.s002	opponent	opponent	N	反对者	反对者	bn:00001582n	False
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
 wf	healthcare	healthcare	 	 	 	 
@@ -5910,11 +6110,11 @@ wf	Federalist	federalist
 wf	Society	society	 	 	 	 
 d009.s012.s001	events	event	N	活动	活动	bn:00032021n	True
 wf	for	for	 	 	 	 
+d009.s012.s002	years	year	N	多年	多年	bn:00078738n	False
 wf	.	.	 	 	 	 
 wf	And	and	 	 	 	 
 wf	it	it	 	 	 	 
 wf	's	'	 	 	 	 
-d009.s013.s000	nothing	nothing	N	什么	什么	bn:00007146n	False
 wf	that	that	 	 	 	 
 wf	runs	run	 	 	 	 
 wf	afoul	afoul	 	 	 	 
@@ -5929,11 +6129,11 @@ wf	are	be
 wf	exempt	exempt	 	 	 	 
 wf	from	from	 	 	 	 
 wf	the	the	 	 	 	 
-d009.s014.s002	Code of Conduct	code_of_conduct	N	行为	行为	bn:00020356n	False
+d009.s014.s002	Code of Conduct	code_of_conduct	N	守则	守则	bn:00020356n	False
 wf	that	that	 	 	 	 
 wf	governs	govern	 	 	 	 
 wf	the	the	 	 	 	 
-d009.s014.s003	actions	action	N	行动	行动	bn:00001127n	True
+d009.s014.s003	actions	action	N	行为	行为	bn:00001127n	True
 wf	of	of	 	 	 	 
 wf	lower	lower	 	 	 	 
 wf	federal	federal	 	 	 	 
@@ -5947,7 +6147,9 @@ wf	they	they
 wf	arguably	arguably	 	 	 	 
 wf	fell	fall	 	 	 	 
 wf	under	under	 	 	 	 
+d009.s015.s000	code	code	N	CODE	CODE	bn:00020352n	False
 wf	's	's	 	 	 	 
+d009.s015.s001	Canon	canon	N	Canon	Canon	bn:00015320n	False
 wf	4C	4c	 	 	 	 
 wf	,	,	 	 	 	 
 wf	which	which	 	 	 	 
@@ -5975,23 +6177,23 @@ wf	a	a
 d009.s015.s006	speaker	speaker	N	嘉宾	嘉宾	bn:00073170n	False
 wf	,	,	 	 	 	 
 wf	a	a	 	 	 	 
-d009.s015.s007	guest of honor	guest_of_honor	N	荣誉	荣誉	bn:00042093n	False
 wf	,	,	 	 	 	 
 wf	or	or	 	 	 	 
 wf	featured	feature	 	 	 	 
 wf	on	on	 	 	 	 
 wf	the	the	 	 	 	 
+d009.s015.s008	program	program	N	节目	节目	bn:00064648n	True
 wf	of	of	 	 	 	 
 wf	such	such	 	 	 	 
 wf	an	a	 	 	 	 
-d009.s015.s009	event	event	N	组织	组织	bn:00032021n	False
+d009.s015.s009	event	event	N	活动	活动	bn:00032021n	True
 wf	.	.	 	 	 	 
 wf	''	''	 	 	 	 
 wf	Nevertheless	nevertheless	 	 	 	 
 wf	,	,	 	 	 	 
 wf	the	the	 	 	 	 
 wf	sheer	sheer	 	 	 	 
-d009.s016.s000	proximity	proximity	N	相距	相距	bn:00064763n	False
+d009.s016.s000	proximity	proximity	N	接近	接近	bn:00064763n	False
 wf	of	of	 	 	 	 
 wf	Scalia	scalium	 	 	 	 
 wf	and	and	 	 	 	 
@@ -6003,7 +6205,7 @@ wf	the	the
 d009.s016.s001	law firms	law_firm	N	律师	律师	bn:00050257n	False
 wf	in	in	 	 	 	 
 wf	the	the	 	 	 	 
-d009.s016.s002	case	case	N	本案	本案	bn:00016403n	False
+d009.s016.s002	case	case	N	案件	案件	bn:00016403n	True
 wf	,	,	 	 	 	 
 wf	as	as	 	 	 	 
 wf	well	well	 	 	 	 
@@ -6022,10 +6224,12 @@ wf	enough	enough
 wf	to	to	 	 	 	 
 wf	alarm	alarm	 	 	 	 
 wf	ethics-in-government	ethics-in-government	 	 	 	 
+d009.s016.s005	activists	activist	N	人士	人士	bn:00001171n	False
 wf	.	.	 	 	 	 
 wf	``	``	 	 	 	 
 wf	This	this	 	 	 	 
 wf	stunning	stunning	 	 	 	 
+d009.s017.s000	breach	breach	N	违背	违背	bn:00012862n	False
 wf	of	of	 	 	 	 
 wf	and	and	 	 	 	 
 d009.s017.s002	indifference	indifference	N	守则	守则	bn:00046486n	False
@@ -6058,7 +6262,7 @@ wf	Bob	bob
 wf	Edgar	edgar	 	 	 	 
 wf	,	,	 	 	 	 
 wf	the	the	 	 	 	 
-d009.s017.s008	president	president	N	主席	主席	bn:00064233n	False
+d009.s017.s008	president	president	N	总裁	总裁	bn:00064233n	False
 wf	of	of	 	 	 	 
 wf	Common	common	 	 	 	 
 wf	Cause	cause	 	 	 	 
@@ -6073,16 +6277,16 @@ wf	dining	dine
 wf	at	at	 	 	 	 
 wf	a	a	 	 	 	 
 wf	black-tie	black-tie	 	 	 	 
-d009.s018.s001	fundraiser	fundraiser	N	筹款会	筹款会	bn:00036850n	False
+d009.s018.s001	fundraiser	fundraiser	N	活动	活动	bn:00036850n	False
 wf	with	with	 	 	 	 
-d009.s018.s002	attorneys	attorney	N	律师们	律师们	bn:00007051n	False
+d009.s018.s002	attorneys	attorney	N	律师	律师	bn:00007051n	False
 wf	who	who	 	 	 	 
 wf	have	have	 	 	 	 
 wf	pending	pend	 	 	 	 
-d009.s018.s003	cases	case	N	审案件	审案件	bn:00016403n	False
+d009.s018.s003	cases	case	N	案件	案件	bn:00016403n	True
 wf	before	before	 	 	 	 
 wf	the	the	 	 	 	 
-d009.s018.s004	court	court	N	法院	法院	bn:00023301n	True
+d009.s018.s004	court	court	N	法庭	法庭	bn:00023301n	True
 wf	.	.	 	 	 	 
 wf	''	''	 	 	 	 
 wf	Their	they	 	 	 	 
@@ -6098,7 +6302,6 @@ wf	undercuts	undercut
 wf	any	any	 	 	 	 
 d009.s019.s003	claims	claim	N	主张	主张	bn:00019404n	False
 wf	of	of	 	 	 	 
-d009.s019.s004	impartiality	impartiality	N	公正性	公正性	bn:00046077n	False
 wf	,	,	 	 	 	 
 wf	and	and	 	 	 	 
 wf	is	be	 	 	 	 
@@ -6110,7 +6313,7 @@ wf	Thomas	thoma
 wf	have	have	 	 	 	 
 wf	shown	show	 	 	 	 
 wf	little	little	 	 	 	 
-d009.s020.s000	regard	regard	N	不屑一顾	不屑一顾	bn:00007026n	False
+d009.s020.s000	regard	regard	N	关注	关注	bn:00007026n	False
 wf	for	for	 	 	 	 
 d009.s020.s001	critics	critic	N	批评者	批评者	bn:00023858n	True
 wf	who	who	 	 	 	 
@@ -6120,11 +6323,13 @@ wf	too	too
 wf	readily	readily	 	 	 	 
 wf	mix	mix	 	 	 	 
 wf	the	the	 	 	 	 
+d009.s020.s002	business	business	N	业务	业务	bn:00014139n	True
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
-d009.s020.s003	court	court	N	批评者	批评者	bn:00023301n	False
+d009.s020.s003	court	court	N	法院	法院	bn:00023301n	True
 wf	with	with	 	 	 	 
 wf	agenda-driven	agenda-driven	 	 	 	 
+d009.s020.s004	groups	group	N	团体	团体	bn:00041942n	True
 wf	such	such	 	 	 	 
 wf	as	as	 	 	 	 
 wf	the	the	 	 	 	 
@@ -6142,7 +6347,7 @@ wf	is	be
 wf	a	a	 	 	 	 
 wf	high-profile	high-profile	 	 	 	 
 wf	conservative	conservative	 	 	 	 
-d009.s021.s001	activist	activist	N	积极分子	积极分子	bn:00001171n	False
+d009.s021.s001	activist	activist	N	活动家	活动家	bn:00001171n	True
 wf	.	.	 	 	 	 
 wf	Moreover	moreover	 	 	 	 
 wf	,	,	 	 	 	 
@@ -6151,13 +6356,14 @@ wf	argue	argue
 wf	that	that	 	 	 	 
 wf	it	it	 	 	 	 
 wf	's	'	 	 	 	 
-d009.s022.s001	Justice	justice	N	法官	法官	bn:00048488n	False
+d009.s022.s001	Justice	justice	N	大法官	大法官	bn:00048488n	False
 wf	Elena	elena	 	 	 	 
 wf	Kagan	kagan	 	 	 	 
 wf	who	who	 	 	 	 
 wf	has	have	 	 	 	 
 wf	an	a	 	 	 	 
 wf	ethical	ethical	 	 	 	 
+d009.s022.s002	issue	issue	N	问题	问题	bn:00047688n	True
 wf	,	,	 	 	 	 
 wf	not	not	 	 	 	 
 wf	Scalia	scalium	 	 	 	 
@@ -6167,7 +6373,7 @@ wf	.	.
 wf	Kagan	kagan	 	 	 	 
 wf	served	serve	 	 	 	 
 wf	as	as	 	 	 	 
-d009.s023.s000	solicitor general	solicitor_general	N	政府	政府	bn:00072716n	False
+d009.s023.s000	solicitor general	solicitor_general	N	副检察长	副检察长	bn:00072716n	False
 wf	in	in	 	 	 	 
 wf	the	the	 	 	 	 
 wf	Obama	obama	 	 	 	 
@@ -6176,6 +6382,7 @@ wf	when	when
 wf	the	the	 	 	 	 
 wf	first	first	 	 	 	 
 wf	legal	legal	 	 	 	 
+d009.s023.s002	challenges	challenge	N	挑战	挑战	bn:00017559n	True
 wf	to	to	 	 	 	 
 wf	the	the	 	 	 	 
 d009.s023.s003	law	law	N	法律	法律	bn:00050249n	True
@@ -6183,8 +6390,11 @@ wf	were	be
 wf	brought	bring	 	 	 	 
 wf	at	at	 	 	 	 
 wf	the	the	 	 	 	 
+d009.s023.s004	trial court	trial_court	N	法庭	法庭	bn:00078206n	False
+d009.s023.s005	level	level	N	层面	层面	bn:00025965n	True
 wf	.	.	 	 	 	 
 wf	Her	she	 	 	 	 
+d009.s024.s000	critics	critic	N	批评者	批评者	bn:00023858n	True
 wf	have	have	 	 	 	 
 wf	pushed	push	 	 	 	 
 wf	for	for	 	 	 	 
@@ -6195,7 +6405,7 @@ wf	herself	herself
 wf	from	from	 	 	 	 
 wf	hearing	hear	 	 	 	 
 wf	the	the	 	 	 	 
-d009.s024.s001	case	case	N	案件	案件	bn:00016403n	True
+d009.s024.s001	case	case	N	案	案	bn:00016403n	True
 wf	,	,	 	 	 	 
 wf	saying	say	 	 	 	 
 wf	that	that	 	 	 	 
@@ -6250,8 +6460,9 @@ d010.s001.s002	games	game	N	比赛	比赛	bn:00037181n	False
 wf	.	.	 	 	 	 
 wf	On	on	 	 	 	 
 wf	the	the	 	 	 	 
+d010.s002.s000	side	side	N	方面	方面	bn:00071432n	True
 wf	of	of	 	 	 	 
-d010.s002.s001	Costa Rica	costa_rica	N	哥斯大黎加	哥斯大黎加	bn:00023012n	False
+d010.s002.s001	Costa Rica	costa_rica	N	哥斯达黎加	哥斯达黎加	bn:00023012n	False
 wf	only	only	 	 	 	 
 wf	one	one	 	 	 	 
 wf	of	of	 	 	 	 
@@ -6260,16 +6471,18 @@ wf	called	call
 d010.s002.s002	players	player	N	球员	球员	bn:00060799n	True
 wf	reached	reach	 	 	 	 
 wf	50	50	 	 	 	 
+d010.s002.s003	games	game	N	比赛	比赛	bn:00037181n	False
 wf	.	.	 	 	 	 
 wf	A	a	 	 	 	 
 wf	minor	minor	 	 	 	 
-d010.s003.s000	contrast	contrast	N	相比	相比	bn:00022263n	False
+d010.s003.s000	contrast	contrast	N	不同	不同	bn:00022263n	False
 wf	to	to	 	 	 	 
-d010.s003.s001	Costa Rica	costa_rica	N	哥斯达黎加	哥斯达黎加	bn:00023012n	False
+d010.s003.s001	Costa Rica	costa_rica	N	加略	加略	bn:00023012n	False
 wf	,	,	 	 	 	 
 wf	comparing	compare	 	 	 	 
 wf	the	the	 	 	 	 
 wf	22	22	 	 	 	 
+d010.s003.s002	players	player	N	球员	球员	bn:00060799n	True
 wf	called	call	 	 	 	 
 wf	by	by	 	 	 	 
 wf	both	both	 	 	 	 
@@ -6277,8 +6490,7 @@ d010.s003.s003	countries	country	N	国	国	bn:00023236n	True
 wf	for	for	 	 	 	 
 wf	the	the	 	 	 	 
 wf	friendly	friendly	 	 	 	 
-d010.s003.s004	game	game	N	比赛	比赛	bn:00037181n	False
-d010.s003.s005	today	today	N	举行	举行	bn:00077463n	False
+d010.s003.s005	today	today	N	今天	今天	bn:00077463n	True
 wf	,	,	 	 	 	 
 wf	at	at	 	 	 	 
 wf	3:05	3:05	 	 	 	 
@@ -6296,11 +6508,11 @@ wf	and	and
 wf	world	world	 	 	 	 
 wf	champions	champion	 	 	 	 
 wf	,	,	 	 	 	 
+d010.s004.s001	number one	number_one	N	冠军	冠军	bn:00034737n	False
 wf	one	one	 	 	 	 
 wf	in	in	 	 	 	 
 wf	the	the	 	 	 	 
 wf	monthly	monthly	 	 	 	 
-d010.s004.s002	top	top	N	顶	顶	bn:00000942n	True
 wf	of	of	 	 	 	 
 wf	FIFA	fifa	 	 	 	 
 wf	,	,	 	 	 	 
@@ -6312,7 +6524,7 @@ wf	of	of
 wf	Class	class	 	 	 	 
 wf	A	a	 	 	 	 
 wf	inter	inter	 	 	 	 
-d010.s004.s004	selection	selection	N	选拔	选拔	bn:00018661n	False
+d010.s004.s004	selection	selection	N	选择	选择	bn:00018661n	False
 wf	,	,	 	 	 	 
 wf	the	the	 	 	 	 
 wf	Tricolor	tricolor	 	 	 	 
@@ -6333,10 +6545,10 @@ wf	international	international
 d010.s004.s005	games	game	N	比赛	比赛	bn:00037181n	False
 wf	.	.	 	 	 	 
 wf	That	that	 	 	 	 
-d010.s005.s000	number	number	N	号码	号码	bn:00034394n	True
+d010.s005.s000	number	number	N	数字	数字	bn:00034394n	True
 wf	was	be	 	 	 	 
 wf	reached	reach	 	 	 	 
-d010.s005.s001	Friday	friday	N	星期五	星期五	bn:00036512n	True
+d010.s005.s001	Friday	friday	N	周五	周五	bn:00036512n	True
 wf	before	before	 	 	 	 
 wf	the	the	 	 	 	 
 d010.s005.s002	game	game	N	比赛	比赛	bn:00037181n	False
@@ -6356,7 +6568,7 @@ wf	playing	play
 wf	in	in	 	 	 	 
 wf	the	the	 	 	 	 
 wf	All-Star	all-star	 	 	 	 
-d010.s006.s001	League	league	N	联盟	联盟	bn:00021722n	False
+d010.s006.s001	League	league	N	联赛	联赛	bn:00021722n	True
 wf	and	and	 	 	 	 
 wf	in	in	 	 	 	 
 wf	powerful	powerful	 	 	 	 
@@ -6370,18 +6582,19 @@ d010.s006.s003	England	england	N	英格兰	英格兰	bn:00030861n	True
 wf	are	be	 	 	 	 
 wf	during	during	 	 	 	 
 wf	the	the	 	 	 	 
-d010.s006.s004	year	year	N	年	年	bn:00078738n	True
 wf	very	very	 	 	 	 
 wf	active	active	 	 	 	 
 wf	in	in	 	 	 	 
+d010.s006.s005	league	league	N	联赛	联赛	bn:00021722n	True
 wf	and	and	 	 	 	 
 wf	local	local	 	 	 	 
-d010.s006.s006	cup	cup	N	杯子	杯子	bn:00024417n	True
-d010.s006.s007	competitions	competition	N	比赛	比赛	bn:00021338n	True
+d010.s006.s006	cup	cup	N	杯赛	杯赛	bn:00024417n	False
+d010.s006.s007	competitions	competition	N	杯赛	杯赛	bn:00021338n	False
 wf	and	and	 	 	 	 
 wf	there	there	 	 	 	 
 wf	are	be	 	 	 	 
 wf	high-level	high-level	 	 	 	 
+d010.s006.s008	shocks	shock	N	冲击	冲击	bn:00011444n	True
 wf	in	in	 	 	 	 
 wf	the	the	 	 	 	 
 wf	European	european	 	 	 	 
@@ -6406,11 +6619,11 @@ wf	for	for
 wf	Euro	euro	 	 	 	 
 wf	Cup	cup	 	 	 	 
 wf	and	and	 	 	 	 
-d010.s007.s001	World Cup	world_cup	N	资格	资格	bn:00081625n	False
+d010.s007.s001	World Cup	world_cup	N	资格赛	资格赛	bn:00081625n	False
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
 wf	Ticos	tico	 	 	 	 
-d010.s008.s000	players	player	N	球员	球员	bn:00060799n	True
+d010.s008.s000	players	player	N	S球员	S球员	bn:00060799n	False
 wf	,	,	 	 	 	 
 wf	however	however	 	 	 	 
 wf	,	,	 	 	 	 
@@ -6421,7 +6634,7 @@ wf	international	international
 d010.s008.s001	experience	experience	N	经验	经验	bn:00032306n	True
 wf	in	in	 	 	 	 
 wf	an	a	 	 	 	 
-d010.s008.s002	area	area	N	国际	国际	bn:00005516n	False
+d010.s008.s002	area	area	N	领域	领域	bn:00005516n	True
 wf	such	such	 	 	 	 
 wf	as	as	 	 	 	 
 wf	CONCACAF	concacaf	 	 	 	 
@@ -6438,12 +6651,14 @@ wf	We	we
 wf	see	see	 	 	 	 
 wf	that	that	 	 	 	 
 wf	the	the	 	 	 	 
+d010.s009.s000	peak	peak	N	巅峰	巅峰	bn:00000942n	True
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
 wf	Spanish	spanish	 	 	 	 
-d010.s009.s001	selection	selection	N	决(	决(	bn:00018660n	False
+d010.s009.s001	selection	selection	N	选拔赛	选拔赛	bn:00018660n	False
 wf	is	be	 	 	 	 
 wf	the	the	 	 	 	 
+d010.s009.s002	goalkeeper	goalkeeper	N	守门员	守门员	bn:00040851n	True
 wf	Iker	iker	 	 	 	 
 wf	Casillas	casilla	 	 	 	 
 wf	,	,	 	 	 	 
@@ -6451,7 +6666,7 @@ wf	who	who
 wf	last	last	 	 	 	 
 d010.s009.s003	Saturday	saturday	N	上周六	上周六	bn:00068696n	False
 wf	against	against	 	 	 	 
-d010.s009.s004	England	england	N	英格兰	英格兰	bn:00030861n	True
+d010.s009.s004	England	england	N	阵英格兰	阵英格兰	bn:00030861n	False
 wf	(	(	 	 	 	 
 d010.s009.s005	game	game	N	比赛	比赛	bn:00037181n	False
 wf	lost	lose	 	 	 	 
@@ -6462,11 +6677,11 @@ d010.s009.s006	London	london	N	伦敦	伦敦	bn:00013179n	True
 wf	)	)	 	 	 	 
 wf	equaled	equal	 	 	 	 
 wf	the	the	 	 	 	 
-d010.s009.s007	record	record	N	记录	记录	bn:00066577n	True
+d010.s009.s007	record	record	N	纪录	纪录	bn:00066577n	False
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
 wf	ex	ex	 	 	 	 
-d010.s009.s008	goalkeeper	goalkeeper	N	守门员	守门员	bn:00040851n	True
+d010.s009.s008	goalkeeper	goalkeeper	N	门员	门员	bn:00040851n	False
 wf	Andoni	andonus	 	 	 	 
 wf	Zubizarreta	zubizarreta	 	 	 	 
 wf	,	,	 	 	 	 
@@ -6478,6 +6693,7 @@ wf	.	.
 wf	Casillas	casilla	 	 	 	 
 wf	will	will	 	 	 	 
 wf	play	play	 	 	 	 
+d010.s010.s000	today	today	N	今天	今天	bn:00077463n	True
 wf	against	against	 	 	 	 
 wf	the	the	 	 	 	 
 wf	Tricolor	tricolor	 	 	 	 
@@ -6522,7 +6738,7 @@ d010.s012.s001	player	player	N	球员	球员	bn:00060799n	True
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
 wf	Iberian	iberian	 	 	 	 
-d010.s012.s002	team	team	N	团队	团队	bn:00073699n	True
+d010.s012.s002	team	team	N	伊比利亚队	伊比利亚队	bn:00073699n	False
 wf	,	,	 	 	 	 
 wf	Zubizarreta	zubizarreta	 	 	 	 
 wf	with	with	 	 	 	 
@@ -6530,7 +6746,6 @@ wf	126	126
 d010.s012.s003	matches	match	N	比赛	比赛	bn:00053772n	True
 wf	and	and	 	 	 	 
 wf	Schalke	schalke	 	 	 	 
-d010.s012.s004	striker	striker	N	罢工者	罢工者	bn:00074678n	False
 wf	Raul	raul	 	 	 	 
 wf	Gonzalez	gonzalez	 	 	 	 
 wf	with	with	 	 	 	 
@@ -6540,7 +6755,6 @@ wf	Almost	almost
 wf	near	near	 	 	 	 
 wf	the	the	 	 	 	 
 wf	centennial	centennial	 	 	 	 
-d010.s013.s000	number	number	N	数字	数字	bn:00034394n	True
 wf	is	be	 	 	 	 
 wf	Carles	carle	 	 	 	 
 wf	Puyol	puyol	 	 	 	 
@@ -6594,7 +6808,7 @@ wf	.	.
 wf	On	on	 	 	 	 
 wf	Costa	costa	 	 	 	 
 wf	Rican	rican	 	 	 	 
-d010.s015.s000	side	side	N	左翼	左翼	bn:00071432n	False
+d010.s015.s000	side	side	N	哥斯达黎加一侧	哥斯达黎加一侧	bn:00071432n	False
 wf	,	,	 	 	 	 
 wf	and	and	 	 	 	 
 wf	close	close	 	 	 	 
@@ -6613,6 +6827,7 @@ wf	48	48
 d010.s015.s001	matches	match	N	比赛	比赛	bn:00053772n	True
 wf	and	and	 	 	 	 
 wf	the	the	 	 	 	 
+d010.s015.s002	striker	striker	N	前锋布莱恩·鲁伊斯	前锋布莱恩·鲁伊斯	bn:00074678n	False
 wf	Bryan	bryan	 	 	 	 
 wf	Ruiz	ruiz	 	 	 	 
 wf	,	,	 	 	 	 
@@ -6704,7 +6919,7 @@ wf	with	with
 wf	less	less	 	 	 	 
 wf	than	than	 	 	 	 
 wf	30	30	 	 	 	 
-d010.s019.s001	presences	presence	N	包括	包括	bn:00064204n	False
+d010.s019.s001	presences	presence	N	范围	范围	bn:00064204n	False
 wf	,	,	 	 	 	 
 wf	there	there	 	 	 	 
 wf	are	be	 	 	 	 
@@ -6749,7 +6964,7 @@ wf	Alba	alba
 wf	two	two	 	 	 	 
 wf	,	,	 	 	 	 
 wf	in	in	 	 	 	 
-d010.s021.s001	Costa Rica	costa_rica	N	哥斯达黎加	哥斯达黎加	bn:00023012n	False
+d010.s021.s001	Costa Rica	costa_rica	N	Alba	Alba	bn:00023012n	False
 wf	Victor	victor	 	 	 	 
 wf	Bolivar	bolivar	 	 	 	 
 wf	has	have	 	 	 	 
@@ -6767,7 +6982,7 @@ wf	yet	yet
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
 wf	leading	lead	 	 	 	 
-d010.s022.s000	scorer	scorer	N	得分者	得分者	bn:00069759n	False
+d010.s022.s000	scorer	scorer	N	得分手	得分手	bn:00069759n	False
 wf	of	of	 	 	 	 
 wf	Spain	spain	 	 	 	 
 wf	is	be	 	 	 	 
@@ -6777,7 +6992,7 @@ wf	is	be
 wf	,	,	 	 	 	 
 wf	with	with	 	 	 	 
 wf	50	50	 	 	 	 
-d010.s022.s001	goals	goal	N	目标	目标	bn:00040847n	True
+d010.s022.s001	goals	goal	N	进球	进球	bn:00040847n	True
 wf	,	,	 	 	 	 
 wf	followed	follow	 	 	 	 
 wf	by	by	 	 	 	 
@@ -6798,7 +7013,7 @@ wf	one	one
 wf	that	that	 	 	 	 
 wf	registers	register	 	 	 	 
 wf	more	more	 	 	 	 
-d010.s023.s000	points	point	N	点	点	bn:00063218n	True
+d010.s023.s000	points	point	N	积分	积分	bn:00063218n	False
 wf	,	,	 	 	 	 
 wf	two	two	 	 	 	 
 wf	more	more	 	 	 	 
@@ -6820,12 +7035,12 @@ wf	a	a
 d011.s000.s001	burden	burden	N	负担	负担	bn:00013941n	True
 wf	or	or	 	 	 	 
 wf	an	a	 	 	 	 
-d011.s000.s002	opportunity	opportunity	N	机会	机会	bn:00017621n	True
+d011.s000.s002	opportunity	opportunity	N	机遇	机遇	bn:00017621n	True
 wf	for	for	 	 	 	 
 wf	the	the	 	 	 	 
 d011.s000.s003	economy	economy	N	经济	经济	bn:00029678n	True
 wf	?	?	 	 	 	 
-d011.s001.s000	Immigration	immigration	N	移民	移民	bn:00046021n	False
+d011.s001.s000	Immigration	immigration	N	尼古拉·萨科齐	尼古拉·萨科齐	bn:00046021n	False
 d011.s001.s001	policy	policy	N	政策	政策	bn:00063330n	True
 wf	under	under	 	 	 	 
 wf	Nicolas	nicola	 	 	 	 
@@ -6843,15 +7058,16 @@ wf	,	,
 wf	legal	legal	 	 	 	 
 wf	and	and	 	 	 	 
 wf	administrative	administrative	 	 	 	 
-d011.s001.s005	services	service	N	部门	部门	bn:00070651n	False
+d011.s001.s005	services	service	N	服务	服务	bn:00070651n	True
 wf	subjected	subject	 	 	 	 
 wf	to	to	 	 	 	 
 wf	a	a	 	 	 	 
 d011.s001.s006	policy	policy	N	政策	政策	bn:00063330n	True
 wf	of	of	 	 	 	 
-d011.s001.s007	numbers	number	N	数量	数量	bn:00034394n	False
+d011.s001.s007	numbers	number	N	数字	数字	bn:00034394n	True
 wf	and	and	 	 	 	 
 wf	the	the	 	 	 	 
+d011.s001.s008	compatibility	compatibility	N	兼容性	兼容性	bn:00021322n	True
 wf	of	of	 	 	 	 
 wf	that	that	 	 	 	 
 d011.s001.s009	policy	policy	N	政策	政策	bn:00063330n	True
@@ -6908,7 +7124,7 @@ wf	need	need
 wf	foreign	foreign	 	 	 	 
 d011.s002.s003	talent	talent	N	人才	人才	bn:00075959n	True
 wf	,	,	 	 	 	 
-d011.s002.s004	bricklayers	bricklayer	N	砖匠	砖匠	bn:00013057n	False
+d011.s002.s004	bricklayers	bricklayer	N	瓦工	瓦工	bn:00013057n	False
 wf	and	and	 	 	 	 
 d011.s002.s005	waiters	waiter	N	服务员	服务员	bn:00070648n	True
 wf	.	.	 	 	 	 
@@ -6937,12 +7153,13 @@ wf	the	the
 d011.s004.s003	Right	right	N	右派	右派	bn:00067810n	True
 wf	on	on	 	 	 	 
 wf	this	this	 	 	 	 
-d011.s004.s004	subject	subject	N	议题	议题	bn:00074900n	True
+d011.s004.s004	subject	subject	N	问题	问题	bn:00074900n	False
 wf	.	.	 	 	 	 
 wf	On	on	 	 	 	 
 wf	the	the	 	 	 	 
 wf	,	,	 	 	 	 
 wf	the	the	 	 	 	 
+d011.s005.s001	tone	tone	N	基调	基调	bn:00033960n	False
 wf	was	be	 	 	 	 
 wf	set	set	 	 	 	 
 wf	by	by	 	 	 	 
@@ -6956,7 +7173,7 @@ wf	1976	1976
 wf	that	that	 	 	 	 
 wf	``	``	 	 	 	 
 wf	900,000	900,000	 	 	 	 
-d011.s005.s002	unemployed	unemployed	N	人口	人口	bn:00079043n	False
+d011.s005.s002	unemployed	unemployed	N	失业者	失业者	bn:00079043n	False
 wf	would	would	 	 	 	 
 wf	not	not	 	 	 	 
 wf	become	become	 	 	 	 
@@ -6976,6 +7193,7 @@ wf	''	''
 wf	and	and	 	 	 	 
 wf	on	on	 	 	 	 
 wf	the	the	 	 	 	 
+d011.s005.s006	Left	left	N	左翼	左翼	bn:00050522n	False
 wf	by	by	 	 	 	 
 wf	Michel	michel	 	 	 	 
 wf	Rocard	rocard	 	 	 	 
@@ -6990,14 +7208,14 @@ wf	not	not
 wf	accommodate	accommodate	 	 	 	 
 wf	all	all	 	 	 	 
 wf	the	the	 	 	 	 
-d011.s005.s008	world	world	N	全世界	全世界	bn:00029424n	False
+d011.s005.s008	world	world	N	世界	世界	bn:00029424n	True
 wf	's	's	 	 	 	 
 d011.s005.s009	misery	misery	N	苦难	苦难	bn:00055292n	False
 wf	.	.	 	 	 	 
 wf	''	''	 	 	 	 
 wf	The	the	 	 	 	 
 wf	only	only	 	 	 	 
-d011.s006.s000	difference	difference	N	区别	区别	bn:00027022n	True
+d011.s006.s000	difference	difference	N	区别是	区别是	bn:00027022n	False
 wf	,	,	 	 	 	 
 wf	the	the	 	 	 	 
 d011.s006.s001	degree	degree	N	程度	程度	bn:00025965n	True
@@ -7007,14 +7225,15 @@ wf	In	in
 wf	2005	2005	 	 	 	 
 wf	,	,	 	 	 	 
 wf	the	the	 	 	 	 
-d011.s007.s000	fear	fear	N	害怕	害怕	bn:00016013n	False
+d011.s007.s000	fear	fear	N	恐惧	恐惧	bn:00016013n	True
 wf	of	of	 	 	 	 
-d011.s007.s001	invasion	invasion	N	人群	人群	bn:00030707n	False
+d011.s007.s001	invasion	invasion	N	入侵	入侵	bn:00030707n	False
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
 wf	national	national	 	 	 	 
 d011.s007.s002	territory	territory	N	领土	领土	bn:00072653n	True
 wf	by	by	 	 	 	 
+d011.s007.s003	hordes	horde	N	大批	大批	bn:00044758n	False
 wf	of	of	 	 	 	 
 wf	Polish	polish	 	 	 	 
 d011.s007.s004	plumbers	plumber	N	管工	管工	bn:00062576n	True
@@ -7027,6 +7246,7 @@ d011.s007.s005	Left	left	N	左翼	左翼	bn:00050522n	False
 wf	and	and	 	 	 	 
 wf	on	on	 	 	 	 
 wf	the	the	 	 	 	 
+d011.s007.s006	Right	right	N	对	对	bn:00067810n	True
 wf	.	.	 	 	 	 
 wf	Both	both	 	 	 	 
 wf	see	see	 	 	 	 
@@ -7059,17 +7279,17 @@ wf	deigns	deign
 wf	to	to	 	 	 	 
 wf	grant	grant	 	 	 	 
 wf	to	to	 	 	 	 
+d011.s009.s003	immigrants	immigrant	N	移民	移民	bn:00046019n	True
 wf	.	.	 	 	 	 
 wf	In	in	 	 	 	 
 wf	his	he	 	 	 	 
-d011.s010.s000	program	program	N	节目	节目	bn:00062759n	True
+d011.s010.s000	program	program	N	计划	计划	bn:00062759n	True
 wf	,	,	 	 	 	 
 wf	François	françois	 	 	 	 
 wf	Hollande	hollande	 	 	 	 
 wf	confines	confines	 	 	 	 
 wf	himself	himself	 	 	 	 
 wf	to	to	 	 	 	 
-d011.s010.s001	banalities	banality	N	平庸主义	平庸主义	bn:00008267n	False
 wf	,	,	 	 	 	 
 wf	saying	say	 	 	 	 
 wf	that	that	 	 	 	 
@@ -7077,7 +7297,7 @@ wf	co-development	co-development
 wf	would	would	 	 	 	 
 wf	allow	allow	 	 	 	 
 wf	our	we	 	 	 	 
-d011.s010.s002	immigration	immigration	N	共同	共同	bn:00046021n	False
+d011.s010.s002	immigration	immigration	N	自己	自己	bn:00046021n	False
 d011.s010.s003	problem	problem	N	问题	问题	bn:00048242n	True
 wf	to	to	 	 	 	 
 wf	be	be	 	 	 	 
@@ -7085,7 +7305,7 @@ wf	solved	solve
 wf	.	.	 	 	 	 
 wf	''	''	 	 	 	 
 wf	This	this	 	 	 	 
-d011.s011.s000	notion	notion	N	概念	概念	bn:00009717n	False
+d011.s011.s000	notion	notion	N	观念	观念	bn:00009717n	True
 wf	of	of	 	 	 	 
 d011.s011.s001	immigration	immigration	N	移民	移民	bn:00046021n	False
 wf	being	be	 	 	 	 
@@ -7099,7 +7319,7 @@ wf	may	may
 wf	be	be	 	 	 	 
 wf	an	a	 	 	 	 
 wf	electoral	electoral	 	 	 	 
-d011.s011.s004	asset	asset	N	选举	选举	bn:00006504n	False
+d011.s011.s004	asset	asset	N	资产	资产	bn:00006504n	False
 wf	,	,	 	 	 	 
 wf	but	but	 	 	 	 
 wf	it	it	 	 	 	 
@@ -7127,18 +7347,23 @@ wf	summarising	summarise
 wf	the	the	 	 	 	 
 wf	most	most	 	 	 	 
 wf	recent	recent	 	 	 	 
+d011.s012.s002	knowledge	knowledge	N	知识	知识	bn:00020452n	True
 wf	of	of	 	 	 	 
-d011.s012.s003	immigration	immigration	N	杰弗里·卡梅伦(	杰弗里·卡梅伦(	bn:00046021n	False
+d011.s012.s003	immigration	immigration	N	移民	移民	bn:00046021n	False
 wf	(	(	 	 	 	 
 wf	Exceptional	exceptional	 	 	 	 
+d011.s012.s004	People	people	N	People	People	bn:00061450n	False
 wf	:	:	 	 	 	 
 wf	How	how	 	 	 	 
+d011.s012.s005	Migration	migration	N	Migration	Migration	bn:00054907n	False
 wf	Shaped	shaped	 	 	 	 
 wf	Our	our	 	 	 	 
+d011.s012.s006	World	world	N	World	World	bn:00028141n	False
 wf	and	and	 	 	 	 
 wf	Will	will	 	 	 	 
 wf	Define	define	 	 	 	 
 wf	Our	our	 	 	 	 
+d011.s012.s007	Future	future	N	Future	Future	bn:00036941n	False
 wf	,	,	 	 	 	 
 wf	mai	mai	 	 	 	 
 wf	2011	2011	 	 	 	 
@@ -7155,18 +7380,27 @@ wf	,	,
 wf	there	there	 	 	 	 
 wf	is	be	 	 	 	 
 wf	wide	wide	 	 	 	 
+d011.s012.s008	consensus	consensus	N	共识	共识	bn:00021958n	True
 wf	among	among	 	 	 	 
+d011.s012.s009	specialists	specialist	N	专家们	专家们	bn:00073206n	False
 wf	on	on	 	 	 	 
 wf	the	the	 	 	 	 
 wf	positive	positive	 	 	 	 
+d011.s012.s010	impact	impact	N	影响	影响	bn:00046065n	False
 wf	of	of	 	 	 	 
+d011.s012.s011	migration	migration	N	移民	移民	bn:00054907n	False
 wf	on	on	 	 	 	 
+d011.s012.s013	economic growth	economic_growth	N	增长	增长	bn:00029670n	False
 wf	,	,	 	 	 	 
+d011.s012.s014	wages	wage	N	工资	工资	bn:00029416n	False
 wf	and	and	 	 	 	 
+d011.s012.s015	employment	employment	N	就业	就业	bn:00030616n	True
 wf	in	in	 	 	 	 
+d011.s012.s016	countries	country	N	国家	国家	bn:00023236n	True
 wf	,	,	 	 	 	 
 wf	which	which	 	 	 	 
 wf	admit	admit	 	 	 	 
+d011.s012.s017	immigrants	immigrant	N	移民	移民	bn:00046019n	True
 wf	.	.	 	 	 	 
 wf	Restraining	restraining	 	 	 	 
 d011.s013.s000	immigration	immigration	N	移民	移民	bn:00046021n	False
@@ -7176,9 +7410,9 @@ wf	anaemic	anaemic
 d011.s013.s001	growth	growth	N	增长	增长	bn:00041979n	False
 wf	and	and	 	 	 	 
 wf	harms	harm	 	 	 	 
-d011.s013.s002	employment	employment	N	经济	经济	bn:00030616n	False
+d011.s013.s002	employment	employment	N	就业	就业	bn:00030616n	True
 wf	.	.	 	 	 	 
-d011.s014.s000	Fears	fear	N	担心	担心	bn:00033854n	False
+d011.s014.s000	Fears	fear	N	担忧	担忧	bn:00033854n	False
 wf	about	about	 	 	 	 
 wf	the	the	 	 	 	 
 d011.s014.s001	impact	impact	N	影响	影响	bn:00046065n	False
@@ -7188,7 +7422,7 @@ wf	are	be
 wf	based	base	 	 	 	 
 wf	on	on	 	 	 	 
 wf	the	the	 	 	 	 
-d011.s014.s003	notion	notion	N	概念	概念	bn:00009717n	False
+d011.s014.s003	notion	notion	N	观念	观念	bn:00009717n	True
 wf	that	that	 	 	 	 
 wf	they	they	 	 	 	 
 wf	are	be	 	 	 	 
@@ -7223,11 +7457,11 @@ wf	to	to
 wf	,	,	 	 	 	 
 wf	rather	rather	 	 	 	 
 wf	than	than	 	 	 	 
-d011.s015.s003	replacements	replacement	N	非取代	非取代	bn:00003129n	False
+d011.s015.s003	replacements	replacement	N	替代	替代	bn:00003129n	False
 wf	of	of	 	 	 	 
 wf	,	,	 	 	 	 
 wf	local	local	 	 	 	 
-d011.s015.s004	labor	labor	N	劳工	劳工	bn:00049570n	True
+d011.s015.s004	labor	labor	N	劳动力	劳动力	bn:00049570n	True
 wf	,	,	 	 	 	 
 wf	exercising	exercise	 	 	 	 
 d011.s015.s005	trades	trade	N	行业	行业	bn:00023496n	True
@@ -7239,7 +7473,7 @@ wf	a	a
 d011.s015.s006	shortage	shortage	N	短缺	短缺	bn:00025916n	True
 wf	of	of	 	 	 	 
 wf	local	local	 	 	 	 
-d011.s015.s007	labor	labor	N	劳工	劳工	bn:00049570n	True
+d011.s015.s007	labor	labor	N	劳动力	劳动力	bn:00049570n	True
 wf	.	.	 	 	 	 
 wf	Unskilled	unskilled	 	 	 	 
 d011.s016.s000	immigrants	immigrant	N	移民	移民	bn:00046019n	True
@@ -7268,7 +7502,7 @@ wf	is	be
 wf	not	not	 	 	 	 
 wf	linked	link	 	 	 	 
 wf	to	to	 	 	 	 
-d011.s016.s006	offers	offer	N	提供	提供	bn:00058679n	False
+d011.s016.s006	offers	offer	N	机会	机会	bn:00058679n	False
 wf	of	of	 	 	 	 
 d011.s016.s007	employment	employment	N	就业	就业	bn:00030616n	True
 wf	.	.	 	 	 	 
@@ -7282,7 +7516,7 @@ wf	the	the
 wf	same	same	 	 	 	 
 wf	as	as	 	 	 	 
 wf	a	a	 	 	 	 
-d011.s018.s001	surgeon	surgeon	N	当地人	当地人	bn:00059122n	False
+d011.s018.s001	surgeon	surgeon	N	医生	医生	bn:00059122n	False
 wf	would	would	 	 	 	 
 wf	find	find	 	 	 	 
 wf	it	it	 	 	 	 
@@ -7291,9 +7525,12 @@ wf	to	to
 wf	work	work	 	 	 	 
 wf	in	in	 	 	 	 
 wf	a	a	 	 	 	 
+d011.s018.s002	country	country	N	国家	国家	bn:00023236n	True
 wf	with	with	 	 	 	 
 wf	a	a	 	 	 	 
+d011.s018.s003	shortage	shortage	N	短缺	短缺	bn:00025916n	True
 wf	of	of	 	 	 	 
+d011.s018.s004	anaesthetists	anaesthetist	N	麻醉师	麻醉师	bn:00003755n	True
 wf	,	,	 	 	 	 
 wf	the	the	 	 	 	 
 d011.s018.s005	complementarities	complementarity	N	互补性	互补性	bn:00021359n	False
@@ -7316,7 +7553,7 @@ wf	positive	positive
 d011.s018.s009	effect	effect	N	影响	影响	bn:00021961n	True
 wf	on	on	 	 	 	 
 wf	the	the	 	 	 	 
-d011.s018.s010	pay	pay	N	工资	工资	bn:00029416n	True
+d011.s018.s010	pay	pay	N	薪酬	薪酬	bn:00029416n	True
 wf	of	of	 	 	 	 
 wf	locals	local	 	 	 	 
 wf	.	.	 	 	 	 
@@ -7326,14 +7563,14 @@ wf	has	have
 wf	calculated	calculate	 	 	 	 
 wf	that	that	 	 	 	 
 wf	a	a	 	 	 	 
-d011.s019.s000	rise	rise	N	移民	移民	bn:00067923n	False
+d011.s019.s000	rise	rise	N	迁移	迁移	bn:00067923n	False
 wf	of	of	 	 	 	 
 wf	1	1	 	 	 	 
 wf	%	%	 	 	 	 
 wf	in	in	 	 	 	 
 wf	the	the	 	 	 	 
 wf	migratory	migratory	 	 	 	 
-d011.s019.s001	flow	flow	N	流动	流动	bn:00035374n	False
+d011.s019.s001	flow	flow	N	流量	流量	bn:00035374n	True
 wf	causes	cause	 	 	 	 
 wf	an	a	 	 	 	 
 d011.s019.s002	increase	increase	N	增加	增加	bn:00046356n	False
@@ -7369,7 +7606,7 @@ wf	of	of
 d011.s020.s004	ideas	idea	N	思想	思想	bn:00045800n	True
 wf	and	and	 	 	 	 
 wf	to	to	 	 	 	 
-d011.s020.s005	economic growth	economic_growth	N	经济	经济	bn:00029670n	False
+d011.s020.s005	economic growth	economic_growth	N	增长	增长	bn:00029670n	False
 wf	(	(	 	 	 	 
 wf	a	a	 	 	 	 
 wf	large	large	 	 	 	 
@@ -7379,10 +7616,10 @@ d011.s020.s007	immigrants	immigrant	N	移民	移民	bn:00046019n	True
 wf	are	be	 	 	 	 
 wf	among	among	 	 	 	 
 d011.s020.s009	Nobel prize	nobel_prize	N	诺贝尔奖	诺贝尔奖	bn:00057832n	False
-d011.s020.s010	winners	winner	N	得主	得主	bn:00079944n	True
+d011.s020.s010	winners	winner	N	获得者	获得者	bn:00079944n	False
 wf	,	,	 	 	 	 
 wf	whilst	whilst	 	 	 	 
-d011.s020.s011	Google	google	N	Google	Google	bn:00041092n	False
+d011.s020.s011	Google	google	N	谷歌	谷歌	bn:00041092n	True
 wf	,	,	 	 	 	 
 wf	Intel	intel	 	 	 	 
 wf	,	,	 	 	 	 
@@ -7390,7 +7627,7 @@ wf	Paypal	paypal
 wf	,	,	 	 	 	 
 wf	eBay	ebay	 	 	 	 
 wf	and	and	 	 	 	 
-d011.s020.s012	Yahoo	yahoo	N	Yahoo	Yahoo	bn:00081801n	False
+d011.s020.s012	Yahoo	yahoo	N	雅虎	雅虎	bn:00081801n	True
 wf	were	be	 	 	 	 
 wf	all	all	 	 	 	 
 wf	founded	found	 	 	 	 
@@ -7403,7 +7640,7 @@ wf	also	also
 wf	net	net	 	 	 	 
 d011.s021.s001	contributors	contributor	N	贡献者	贡献者	bn:00022274n	True
 wf	to	to	 	 	 	 
-d011.s021.s002	social systems	social_system	N	制度	制度	bn:00072539n	False
+d011.s021.s002	social systems	social_system	N	系统	系统	bn:00072539n	False
 wf	,	,	 	 	 	 
 wf	averaging	average	 	 	 	 
 wf	1	1	 	 	 	 
@@ -7416,7 +7653,7 @@ wf	of	of
 d011.s021.s004	European countries	european_country	N	国家	国家	bn:00031903n	False
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
-d011.s022.s000	World	world	N	国际	国际	bn:00029424n	False
+d011.s022.s000	World	world	N	世界	世界	bn:00029424n	True
 d011.s022.s001	Labor	labor	N	劳工	劳工	bn:00049570n	True
 d011.s022.s002	Organisation	organisation	N	组织	组织	bn:00001423n	False
 wf	estimates	estimate	 	 	 	 
@@ -7430,7 +7667,6 @@ d011.s022.s005	immigrant	immigrant	N	移民	移民	bn:00046019n	True
 wf	arriving	arrive	 	 	 	 
 wf	at	at	 	 	 	 
 wf	the	the	 	 	 	 
-d011.s022.s006	age	age	N	30岁	30岁	bn:00001936n	False
 wf	of	of	 	 	 	 
 wf	30	30	 	 	 	 
 wf	,	,	 	 	 	 
@@ -7438,7 +7674,7 @@ wf	will	will
 wf	make	make	 	 	 	 
 wf	a	a	 	 	 	 
 wf	net	net	 	 	 	 
-d011.s022.s007	contribution	contribution	N	收入	收入	bn:00022269n	False
+d011.s022.s007	contribution	contribution	N	贡献	贡献	bn:00022269n	True
 wf	(	(	 	 	 	 
 wf	less	less	 	 	 	 
 d011.s022.s009	expenditure	expenditure	N	支出	支出	bn:00032300n	True
@@ -7468,9 +7704,9 @@ wf	to	to
 wf	look	look	 	 	 	 
 wf	for	for	 	 	 	 
 wf	missing	miss	 	 	 	 
-d011.s023.s002	points	point	N	增长点	增长点	bn:00047730n	False
+d011.s023.s002	points	point	N	成长点	成长点	bn:00047730n	False
 wf	of	of	 	 	 	 
-d011.s023.s003	growth	growth	N	增长点	增长点	bn:00041979n	False
+d011.s023.s003	growth	growth	N	成长点	成长点	bn:00041979n	False
 wf	``	``	 	 	 	 
 wf	with	with	 	 	 	 
 wf	the	the	 	 	 	 
@@ -7480,6 +7716,7 @@ wf	''	''
 wf	The	the	 	 	 	 
 wf	teeth	tooth	 	 	 	 
 wf	in	in	 	 	 	 
+d011.s024.s000	question	question	N	问题	问题	bn:00043267n	True
 wf	,	,	 	 	 	 
 wf	intended	intend	 	 	 	 
 wf	to	to	 	 	 	 
@@ -7492,7 +7729,6 @@ wf	had	have
 wf	precisely	precisely	 	 	 	 
 wf	the	the	 	 	 	 
 wf	opposite	opposite	 	 	 	 
-d011.s024.s002	effect	effect	N	效果	效果	bn:00021961n	True
 wf	.	.	 	 	 	 
 wf	Deutsche	deutsche	 	 	 	 
 wf	Bank	bank	 	 	 	 
@@ -7504,6 +7740,7 @@ wf	in	in
 wf	the	the	 	 	 	 
 d012.s000.s002	USA	usa	N	美国	美国	bn:00003341n	True
 wf	Fresh	fresh	 	 	 	 
+d012.s001.s000	trouble	trouble	N	麻烦	麻烦	bn:00064527n	True
 wf	is	be	 	 	 	 
 wf	following	follow	 	 	 	 
 wf	hard	hard	 	 	 	 
@@ -7512,11 +7749,11 @@ wf	the	the
 wf	heels	heel	 	 	 	 
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
+d012.s001.s001	uproar	uproar	N	骚动	骚动	bn:00037296n	True
 wf	around	around	 	 	 	 
 wf	Josef	josef	 	 	 	 
 wf	Ackermann	ackermann	 	 	 	 
 wf	,	,	 	 	 	 
-d012.s001.s002	CEO	ceo	N	CEO	CEO	bn:00017235n	False
 wf	of	of	 	 	 	 
 wf	Deutsche	deutsche	 	 	 	 
 wf	Bank	bank	 	 	 	 
@@ -7547,7 +7784,7 @@ wf	Deutsche	deutsche
 wf	Bank	bank	 	 	 	 
 wf	,	,	 	 	 	 
 wf	the	the	 	 	 	 
-d012.s002.s002	industry	industry	N	工业	工业	bn:00046575n	True
+d012.s002.s002	industry	industry	N	行业	行业	bn:00046575n	True
 d012.s002.s003	giant	giant	N	巨头	巨头	bn:00040387n	False
 wf	's	's	 	 	 	 
 d012.s002.s004	past	past	N	过去	过去	bn:00060928n	True
@@ -7577,7 +7814,7 @@ d012.s002.s007	Euros	euro	N	欧元	欧元	bn:00031888n	True
 wf	)	)	 	 	 	 
 wf	to	to	 	 	 	 
 wf	settle	settle	 	 	 	 
-d012.s002.s008	disputes	dispute	N	纠纷	纠纷	bn:00021769n	True
+d012.s002.s008	disputes	dispute	N	争议	争议	bn:00021769n	True
 wf	arising	arise	 	 	 	 
 wf	from	from	 	 	 	 
 wf	the	the	 	 	 	 
@@ -7585,7 +7822,7 @@ d012.s002.s009	bankruptcy	bankruptcy	N	破产	破产	bn:00008419n	True
 wf	of	of	 	 	 	 
 wf	five	five	 	 	 	 
 wf	major	major	 	 	 	 
-d012.s002.s010	credit unions	credit_union	N	信用社	信用社	bn:00023681n	False
+d012.s002.s010	credit unions	credit_union	N	合作社	合作社	bn:00023681n	False
 wf	during	during	 	 	 	 
 wf	the	the	 	 	 	 
 wf	financial	financial	 	 	 	 
@@ -7612,7 +7849,7 @@ wf	,	,
 wf	a	a	 	 	 	 
 wf	financial	financial	 	 	 	 
 wf	market	market	 	 	 	 
-d012.s004.s000	regulator	regulator	N	监管者	监管者	bn:00066938n	False
+d012.s004.s000	regulator	regulator	N	监管	监管	bn:00066938n	False
 wf	,	,	 	 	 	 
 wf	accuses	accuse	 	 	 	 
 wf	a	a	 	 	 	 
@@ -7626,7 +7863,7 @@ wf	false	false
 d012.s004.s003	promises	promise	N	承诺	承诺	bn:00064699n	False
 wf	to	to	 	 	 	 
 wf	mislead	mislead	 	 	 	 
-d012.s004.s004	credit unions	credit_union	N	信用社	信用社	bn:00023681n	False
+d012.s004.s004	credit unions	credit_union	N	合作社	合作社	bn:00023681n	False
 wf	into	into	 	 	 	 
 wf	buying	buy	 	 	 	 
 wf	the	the	 	 	 	 
@@ -7648,6 +7885,7 @@ wf	and	and
 wf	brought	bring	 	 	 	 
 wf	down	down	 	 	 	 
 wf	the	the	 	 	 	 
+d012.s005.s003	credit unions	credit_union	N	信用	信用	bn:00023681n	False
 wf	.	.	 	 	 	 
 wf	``	``	 	 	 	 
 wf	We	we	 	 	 	 
@@ -7660,8 +7898,10 @@ wf	the	the
 d012.s006.s000	issue	issue	N	问题	问题	bn:00047688n	True
 wf	without	without	 	 	 	 
 wf	the	the	 	 	 	 
+d012.s006.s001	parties	party	N	当事人	当事人	bn:00060837n	True
 wf	going	go	 	 	 	 
 wf	to	to	 	 	 	 
+d012.s006.s002	court	court	N	出庭	出庭	bn:00023301n	False
 wf	,	,	 	 	 	 
 wf	''	''	 	 	 	 
 wf	said	say	 	 	 	 
@@ -7680,7 +7920,7 @@ wf	admit	admit
 d012.s007.s001	culpability	culpability	N	有罪	有罪	bn:00011099n	False
 wf	in	in	 	 	 	 
 wf	the	the	 	 	 	 
-d012.s007.s002	settlement	settlement	N	结算	结算	bn:00070725n	False
+d012.s007.s002	settlement	settlement	N	和解	和解	bn:00070725n	True
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
 wf	same	same	 	 	 	 
@@ -7705,7 +7945,7 @@ wf	Matz	matz
 wf	,	,	 	 	 	 
 wf	welcomed	welcome	 	 	 	 
 wf	the	the	 	 	 	 
-d012.s009.s001	responsiveness	responsiveness	N	回应	回应	bn:00067371n	False
+d012.s009.s001	responsiveness	responsiveness	N	响应	响应	bn:00067371n	False
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
 wf	two	two	 	 	 	 
@@ -7756,10 +7996,9 @@ wf	the	the
 wf	first	first	 	 	 	 
 wf	of	of	 	 	 	 
 wf	their	they	 	 	 	 
-d012.s012.s001	kind	kind	N	类	类	bn:00035907n	True
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
-d012.s013.s000	regulator	regulator	N	监管者	监管者	bn:00066938n	False
+d012.s013.s000	regulator	regulator	N	监管	监管	bn:00066938n	False
 wf	had	have	 	 	 	 
 wf	also	also	 	 	 	 
 wf	approached	approach	 	 	 	 
@@ -7781,7 +8020,7 @@ wf	Goldman	goldman
 wf	Sachs	sach	 	 	 	 
 wf	in	in	 	 	 	 
 wf	the	the	 	 	 	 
-d012.s013.s002	summer	summer	N	夏季	夏季	bn:00075151n	True
+d012.s013.s002	summer	summer	N	夏天	夏天	bn:00075151n	True
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
 wf	dubious	dubious	 	 	 	 
@@ -7789,7 +8028,7 @@ wf	mortgage	mortgage
 wf	securities	security	 	 	 	 
 wf	are	be	 	 	 	 
 wf	so-called	so-called	 	 	 	 
-d012.s014.s000	mortgage-backed securities	mortgage-backed_security	N	的	的	bn:00055949n	False
+d012.s014.s000	mortgage-backed securities	mortgage-backed_security	N	证券	证券	bn:00055949n	False
 wf	.	.	 	 	 	 
 wf	They	they	 	 	 	 
 wf	are	be	 	 	 	 
@@ -7831,7 +8070,7 @@ d012.s017.s001	September	september	N	9月	9月	bn:00070537n	False
 wf	2008	2008	 	 	 	 
 wf	at	at	 	 	 	 
 wf	the	the	 	 	 	 
-d012.s017.s002	height	height	N	高峰期	高峰期	bn:00000942n	False
+d012.s017.s002	height	height	N	困境	困境	bn:00000942n	False
 wf	of	of	 	 	 	 
 wf	the	the	 	 	 	 
 wf	financial	financial	 	 	 	 
@@ -7851,13 +8090,13 @@ wf	later	later
 wf	.	.	 	 	 	 
 d012.s019.s000	Investors	investor	N	投资者	投资者	bn:00047367n	True
 wf	and	and	 	 	 	 
-d012.s019.s001	regulators	regulator	N	监管者	监管者	bn:00066938n	False
+d012.s019.s001	regulators	regulator	N	监管	监管	bn:00066938n	False
 wf	have	have	 	 	 	 
 wf	brought	bring	 	 	 	 
 wf	a	a	 	 	 	 
 wf	vast	vast	 	 	 	 
 wf	of	of	 	 	 	 
-d012.s019.s003	claims	claim	N	要求	要求	bn:00019404n	False
+d012.s019.s003	claims	claim	N	提出	提出	bn:00019404n	False
 wf	for	for	 	 	 	 
 d012.s019.s004	compensation	compensation	N	赔偿	赔偿	bn:00021329n	False
 wf	or	or	 	 	 	 
@@ -7878,7 +8117,7 @@ wf	been	be
 wf	behind	behind	 	 	 	 
 wf	the	the	 	 	 	 
 wf	largest	largest	 	 	 	 
-d012.s020.s000	wave	wave	N	波	波	bn:00080687n	True
+d012.s020.s000	wave	wave	N	浪潮	浪潮	bn:00080687n	True
 wf	of	of	 	 	 	 
 d012.s020.s001	claims	claim	N	索赔	索赔	bn:00019403n	True
 wf	.	.	 	 	 	 
@@ -7893,10 +8132,10 @@ wf	having	have
 wf	taken	take	 	 	 	 
 wf	in	in	 	 	 	 
 d012.s021.s001	US	us	N	美国	美国	bn:00003341n	True
-d012.s021.s002	lenders	lender	N	贷款人	贷款人	bn:00050659n	False
-d012.s021.s003	Fannie Mae	fannie_mae	N	Mae	Mae	bn:00033638n	False
+d012.s021.s002	lenders	lender	N	银行	银行	bn:00050659n	False
+d012.s021.s003	Fannie Mae	fannie_mae	N	Fannie	Fannie	bn:00033638n	False
 wf	and	and	 	 	 	 
-d012.s021.s004	Freddie Mac	freddie_mac	N	Mac	Mac	bn:00033911n	False
+d012.s021.s004	Freddie Mac	freddie_mac	N	Freddie	Freddie	bn:00033911n	False
 wf	on	on	 	 	 	 
 d012.s021.s005	mortgage	mortgage	N	贷款	贷款	bn:00055948n	False
 d012.s021.s006	transactions	transaction	N	交易	交易	bn:00025567n	True
@@ -7905,6 +8144,7 @@ wf	at	at
 wf	around	around	 	 	 	 
 wf	200	200	 	 	 	 
 wf	billion	billion	 	 	 	 
+d012.s021.s007	dollars	dollar	N	美元	美元	bn:00028114n	False
 wf	.	.	 	 	 	 
 wf	Deutsche	deutsche	 	 	 	 
 wf	Bank	bank	 	 	 	 
@@ -7929,7 +8169,7 @@ wf	to	to
 wf	2007	2007	 	 	 	 
 wf	.	.	 	 	 	 
 wf	The	the	 	 	 	 
-d012.s023.s000	regulator	regulator	N	监管者	监管者	bn:00066938n	False
+d012.s023.s000	regulator	regulator	N	监管	监管	bn:00066938n	False
 wf	is	be	 	 	 	 
 wf	demanding	demand	 	 	 	 
 wf	that	that	 	 	 	 
@@ -7951,23 +8191,24 @@ wf	yet	yet
 wf	specified	specify	 	 	 	 
 wf	the	the	 	 	 	 
 wf	exact	exact	 	 	 	 
+d012.s023.s004	sum	sum	N	金额	金额	bn:00003601n	True
 wf	.	.	 	 	 	 
 wf	Deutsche	deutsche	 	 	 	 
 wf	Bank	bank	 	 	 	 
 wf	has	have	 	 	 	 
 wf	rejected	reject	 	 	 	 
 wf	the	the	 	 	 	 
-d012.s024.s000	claims	claim	N	主张	主张	bn:00019404n	False
+d012.s024.s000	claims	claim	N	索赔	索赔	bn:00019404n	True
 wf	as	as	 	 	 	 
 wf	baseless	baseless	 	 	 	 
 wf	and	and	 	 	 	 
 wf	has	have	 	 	 	 
 wf	declared	declare	 	 	 	 
 wf	its	its	 	 	 	 
-d012.s024.s001	intention	intention	N	打算	打算	bn:00002178n	True
+d012.s024.s001	intention	intention	N	有意	有意	bn:00002178n	False
 wf	to	to	 	 	 	 
 wf	fend	fend	 	 	 	 
 wf	off	off	 	 	 	 
 wf	the	the	 	 	 	 
-d012.s024.s002	claims	claim	N	主张	主张	bn:00019404n	False
+d012.s024.s002	claims	claim	N	索赔	索赔	bn:00019404n	True
 wf	.	.	 	 	 	 

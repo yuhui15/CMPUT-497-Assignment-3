@@ -18,7 +18,7 @@ The command to run:
 
 cd Expandnet
 
-python3 expandnet_step1_translate.py --src_data res/data/xlwsd_se13.xml --lang_src en --lang_tgt zh --output_file expandnet_step1_translate.out.tsv
+python3 expandnet_step1_translate.py --src_data res/data/xlwsd_se13.xml --lang_src en --lang_tgt zh --mymemory_email your.email@example.com --sleep_sec 1.0
 
 python3 expandnet_step2_align.py --translation_df_file expandnet_step1_translate.out.tsv --lang_src en --lang_tgt zh --aligner dbalign --dict res/dicts/wikpan-en-zh.tsv --output_file expandnet_step2_align.out.tsv
 
