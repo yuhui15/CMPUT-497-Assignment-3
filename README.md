@@ -26,7 +26,7 @@ python3 expandnet_step3_project.py --src_data res/data/xlwsd_se13.xml --src_gold
 
 cd ..
 
-python3 ExpandNet/eval_release.py ExpandNet/res/data/se_gold_zh.tsv  expandnet_step3_project.out.tsv
+python3 ExpandNet/eval_release.py ExpandNet/res/data/se_gold_zh.tsv  ExpandNet/expandnet_step3_project.out.tsv
 
 python3 ExpandNet/eval_release.py ExpandNet/res/data/se_gold_zh.tsv LLM_zh.tsv
 ```
