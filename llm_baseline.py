@@ -260,9 +260,6 @@ def main():
             done += 1
 
     print(f"✅ Done. Wrote BN-evaluable baseline (line-by-line) to: {OUT_TSV}")
-    # （可选）如果你想把 cache 写回 JSON，可以再加一段：
-    # with open(CACHE_JSON, "w", encoding="utf-8") as f:
-    #     json.dump(cache, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
     main()
