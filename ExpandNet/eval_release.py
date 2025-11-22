@@ -5,8 +5,8 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Evaluate ExpandNet output against gold standard.")
     parser.add_argument("file_gold", type=str, help="Path to the gold standard TSV file.")
     parser.add_argument("file_eval", type=str, help="Path to the evaluation TSV file.")
-    parser.add_argument("--core_synsets", type=str, default="Expandnet/dependencies/corebnout.txt",
-                        help="Path to core synsets file (default: dependencies/corebnout.txt)")
+    parser.add_argument("--core_synsets", type=str, default="ExpandNet/dependencies/corebnout.txt",
+                        help="Path to core synsets file (default: ExpandNet/dependencies/corebnout.txt)")
     return parser.parse_args()
 
 args = parse_args()
