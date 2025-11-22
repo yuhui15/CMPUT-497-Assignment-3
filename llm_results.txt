@@ -1,6 +1,6 @@
 Gold file: ExpandNet/res/data/se_gold_zh.tsv
 Eval file: LLM_zh.tsv
-Core synsets: Expandnet/dependencies/corebnout.txt
+Core synsets: ExpandNet/dependencies/corebnout.txt
 
 Loading gold standard...
 Loading evaluation data...
