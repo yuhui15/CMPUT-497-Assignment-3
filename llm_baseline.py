@@ -163,7 +163,9 @@ def read_gloss_dict(path: str) -> Dict[str, str]:
             line = line.strip()
             if not line:
                 continue
-            inst, gloss = line.split("\t", 1)
+            parts = line.split("\t")
+            inst = parts[0]
+            gloss = parts[-1]
             gloss_map[inst] = gloss
     return gloss_map
 
