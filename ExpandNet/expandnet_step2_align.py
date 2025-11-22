@@ -9,16 +9,19 @@ def parse_args():
                       help="Source language (default: en).")
   parser.add_argument("--lang_tgt", type=str, default="fr", 
                       help="Target language (default: fr).")
-  parser.add_argument("--dict", type=str, default="wikpan-en-es.tsv",
+  parser.add_argument("--dict", type=str, default="wikpan-en-fr.tsv",
                       help="Use a dictionary with DBAlign. This argument should be a path, the string 'bn' if you are using babelnet, or can be none if you are using simalign.")
   parser.add_argument("--aligner", type=str, default="dbalign",
                       help="Aligner to use ('simalign' or 'dbalign').")
   parser.add_argument("--output_file", type=str, default="expandnet_step2_align.out.tsv",
                       help="Output file to save the file with alignments to.")
+  parser.add_argument("--join_char", type=str, default='_')
   
   return parser.parse_args()
 
 args = parse_args()
+
+JOIN_CHAR = args.join_char
 
 print(f"Languages:   {args.lang_src} -> {args.lang_tgt}")
 print(f"Aligner:     {args.aligner}")
@@ -56,6 +59,7 @@ elif args.aligner == 'dbalign':
     return(sorted(links))
 
   def align(lang_src, lang_tgt, tokens_src, tokens_tgt):
+    tokens_tgt = [a.replace(JOIN_CHAR, " ") for a in tokens_tgt]
     alignment_spans = ali.new_align(tokens_src, tokens_tgt)
     return(spans_to_links(alignment_spans))
 

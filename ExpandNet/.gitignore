@@ -1,4 +1,5 @@
 # Ning
+llms.ipynb
 .DS_Store
 res/trans/
 backup/
@@ -205,6 +206,13 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Claude Code
+#  Claude Code is an AI-powered CLI for Claude. Ignore state and configuration files.
+#  Learn more at https://code.claude.com
+.claude/
+.claudesync
+CLAUDE.md
 
 # Marimo
 marimo/_static/

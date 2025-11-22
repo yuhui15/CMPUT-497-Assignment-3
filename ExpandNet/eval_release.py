@@ -5,8 +5,8 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Evaluate ExpandNet output against gold standard.")
     parser.add_argument("file_gold", type=str, help="Path to the gold standard TSV file.")
     parser.add_argument("file_eval", type=str, help="Path to the evaluation TSV file.")
-    parser.add_argument("--core_synsets", type=str, default="ExpandNet/dependencies/corebnout.txt",
-                        help="Path to core synsets file (default: ExpandNet/dependencies/corebnout.txt)")
+    parser.add_argument("--core_synsets", type=str, default="dependencies/corebnout.txt",
+                        help="Path to core synsets file (default: dependencies/corebnout.txt)")
     return parser.parse_args()
 
 args = parse_args()
@@ -15,7 +15,7 @@ args = parse_args()
 def file_to_pairs(f):
     pairs = []
     seen = set()
-    with open(f, 'r', encoding='utf-8-sig', errors='strict') as fh:
+    with open(f, 'r') as fh:
         for i, line in enumerate(fh):
             fields = line.strip().split('\t')
             if len(fields) != 2:
@@ -28,7 +28,7 @@ def file_to_pairs(f):
 
 def file_to_set(f):
     """Read a file into a set of lines."""
-    with open(f, 'r', encoding='utf-8-sig', errors='strict') as fh:
+    with open(f, 'r') as fh:
         return set(line.strip() for line in fh if line.strip())
 
 def safe_div(n, d):
@@ -42,7 +42,7 @@ print(f"Core synsets: {args.core_synsets}\n")
 # Read in the list of synsets to cover, and their gold contents.
 print("Loading gold standard...")
 gold_bnid_to_lemmas = {}
-with open(args.file_gold, 'r', encoding='utf-8-sig', errors='strict') as f:
+with open(args.file_gold, 'r') as f:
     for line in f:
         line = line.strip()
         if not line:  # skip empty lines
