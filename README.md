@@ -28,5 +28,5 @@ cd ..
 
 python3 ExpandNet/eval_release.py ExpandNet/res/data/se_gold_zh.tsv  ExpandNet/expandnet_step3_project.out.tsv
 
-python3 ExpandNet/eval_release.py ExpandNet/res/data/se_gold_zh.tsv LLM_zh.tsv
+python3 ExpandNet/eval_release.py ExpandNet/res/data/se_gold_zh.tsv LLM_Chinese.tsv
 ```
